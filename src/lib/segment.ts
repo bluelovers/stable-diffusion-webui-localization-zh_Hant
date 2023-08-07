@@ -99,7 +99,9 @@ export function processTextSync(input: string, opts?: {
 	opts ??= {};
 	let text = opts.noSeg ? input : stringify(inited.doSegment(input));
 
-	text = (opts.toCN ? tw2cn_min : cn2tw_min)(text);
+	text = (opts.toCN ? tw2cn_min : cn2tw_min)(text, {
+		safe: false,
+	});
 
 	return text
 }
