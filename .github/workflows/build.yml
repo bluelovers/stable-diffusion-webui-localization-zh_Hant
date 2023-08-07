@@ -32,7 +32,7 @@ jobs:
     
     strategy:
       matrix:
-        node-version: [ 17 ]
+        node-version: [ node ]
     
     steps:
       - uses: actions/checkout@main
