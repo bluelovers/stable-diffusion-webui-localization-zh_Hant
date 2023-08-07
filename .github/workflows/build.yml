@@ -80,7 +80,6 @@ jobs:
           message: "build: static localizations"
           branch: main
           dir: output
-      
       - name: Push changes
         if: success()
         uses: ad-m/github-push-action@master
