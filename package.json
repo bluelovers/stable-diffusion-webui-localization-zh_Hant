@@ -75,20 +75,23 @@
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
+    "@novel-segment/sort-dict-table": "^1.0.20",
+    "@novel-segment/sort-synonym": "^1.0.16",
+    "@novel-segment/util-compare": "^1.0.19",
     "bluebird": "^3.7.2",
     "cjk-conv": "^1.2.143",
     "crlf-normalize": "^1.0.19",
     "debug-color2": "^1.3.2",
     "fs-extra": "^11.1.1",
-    "novel-segment": "^2.7.103",
-    "novel-segment-cli": "^1.1.121",
+    "novel-segment": "^2.7.104",
+    "novel-segment-cli": "^1.1.122",
     "regexp-cjk": "^3.3.110",
     "regexp-cjk-with-plugin-enabled": "^1.0.16",
     "ts-type": "^3.0.1",
     "tslib": ">=2"
   },
   "devDependencies": {
-    "@bluelovers/tsconfig": "^1.0.33",
+    "@bluelovers/tsconfig": "^1.0.34",
     "@types/bluebird": "^3.5.38",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "latest"
