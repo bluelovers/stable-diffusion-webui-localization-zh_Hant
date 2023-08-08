@@ -11,7 +11,7 @@ on:
       - '.github/**'
       - '/*.*'
       - '/.*'
-#  schedule:
+  schedule:
 ## https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#scheduled-events-schedule
 ##            ┌───────────── minute (0 - 59)
 ##            │ ┌───────────── hour (0 - 23)
@@ -24,6 +24,7 @@ on:
 ##            * * * * *
 #    - cron: '* * 1 * *'
 #    - cron: '* * 15 * *'
+    - cron: '* 12 * * 1'
 
 jobs:
   build:

@@ -8,8 +8,8 @@ import { load as loadTable } from '@novel-segment/loaders/segment/index';
 import { join } from 'path';
 import { __ROOT } from '../../test/__root';
 
-const __dict_table_txt = join(__ROOT, 'src', 'dict', 'table.txt');
-const __dict_synonym_txt = join(__ROOT, 'src', 'dict', 'synonym.txt');
+export const __dict_table_txt = join(__ROOT, 'src', 'dict', 'table.txt');
+export const __dict_synonym_txt = join(__ROOT, 'src', 'dict', 'synonym.txt');
 
 let inited: Segment;
 
@@ -27,6 +27,10 @@ export function initIdeaSegmentText()
 					},
 				}).then(async (segment) =>
 				{
+					segment
+						.loadSynonymDict('zht.synonym', false)
+					;
+
 					const db_dict = segment.getDictDatabase(EnumDictDatabase.TABLE);
 					const db_synonym = segment.getDictDatabase(EnumDictDatabase.SYNONYM);
 
