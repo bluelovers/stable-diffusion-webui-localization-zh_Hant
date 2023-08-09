@@ -445,7 +445,7 @@
   "Aspect Ratio Helper": "長寬比小幫手",
   "Aspect Ratio schedule": "縱橫比調度計劃",
   "Attempt to automatically set training parameters based on total VRAM. Still under development.": "嘗試根據總顯存自動設置訓練參數。仍在開發中。",
-  "Attention grabber": "隨機關鍵詞吸引註意力",
+  "Attention grabber": "隨機關鍵詞吸引注意力",
   "Attention Heatmap": "注意力熱度圖",
   "Attention texts for visualization. (comma separated)": "視覺化的注意文字（以逗號分隔）",
   "Audio (if provided) will *not* be transferred to the interpolated video if Slow-Mo is enabled.": "音頻 (如果提供了) 在以下選項啟用時將不會轉碼壓制進幀插值後的影片內：慢動作",
