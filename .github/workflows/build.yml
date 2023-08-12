@@ -8,7 +8,7 @@ on:
     paths-ignore:
 #      - 'test/**'
       - '.run/**'
-      - '.github/**'
+#      - '.github/**'
       - '/*.*'
       - '/.*'
   schedule:
@@ -24,7 +24,7 @@ on:
 ##            * * * * *
 #    - cron: '* * 1 * *'
 #    - cron: '* * 15 * *'
-    - cron: '* 12 * * *'
+    - cron: '0 18 * * *'
 
 jobs:
   build:
