@@ -1,5 +1,7 @@
 # stable-diffusion-webui-localization-zh_Hant
 
+[![build](https://github.com/bluelovers/stable-diffusion-webui-localization-zh_Hant/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/bluelovers/stable-diffusion-webui-localization-zh_Hant/actions/workflows/build.yml)
+
 Traditional Chinese translation extension for Stable Diffusion web UI by AUTOMATIC1111
 
 ## 合併翻譯來源
