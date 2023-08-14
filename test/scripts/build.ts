@@ -1,14 +1,20 @@
-import { outputJSON, readJSON } from 'fs-extra';
+import { outputJSON, readFile, readJSON } from 'fs-extra';
 import { join } from 'path';
 import { __ROOT, __ROOT_OUTPUT } from '../__root';
 import { initIdeaSegmentText, processTextSync } from '../../src/lib/segment';
 import { tw2cn_min } from '@lazy-cjk/zh-convert/min';
+import { parse } from 'json5'
+
+function readJSON5(path: string)
+{
+	return readFile(path).then(buf => parse(buf.toString()))
+}
 
 export default Promise.all([
 		readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
 		readJSON(join(__ROOT, 'localizations', 'zh-Hans.json')),
 		readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
-		readJSON(join(__ROOT, 'localizations', 'my.json')),
+		readJSON5(join(__ROOT, 'localizations', 'my.json5')),
 	])
 	.then(ls =>
 	{
@@ -48,15 +54,32 @@ export default Promise.all([
 
 		for (const key of Object.keys(json))
 		{
-			json[key] = processTextSync(json[key]);
+			let value = json[key];
+			let _do = true;
 
-			if (key === json[key])
+			if (typeof value === 'undefined' || value === null || key === value || typeof value !== 'string' && typeof value !== 'number')
+			{
+				_do = false;
+			}
+
+			if (_do)
+			{
+				value = processTextSync(value);
+
+				if (key === value)
+				{
+					_do = false;
+				}
+				else
+				{
+					json[key] = value;
+					json_hans[key] = tw2cn_min(value);
+				}
+			}
+
+			if (!_do)
 			{
 				delete json[key]
-			}
-			else
-			{
-				json_hans[key] = tw2cn_min(json[key]);
 			}
 		}
 

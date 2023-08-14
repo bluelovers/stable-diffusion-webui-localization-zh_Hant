@@ -1,0 +1,21 @@
+{
+  "zh_Hant Localization": "繁體中文語言包",
+  "Traditional Chinese localization (mixin zh_TW and zh_Hans)": "繁體中文語言包（合併 zh_TW 與 zh_Hans 語言包已翻譯的內容來讓介面有更多中文說明）",
+  "zh_Hant": "繁體中文",
+
+  // -------------
+  "Far clip": "遠處裁面",
+
+  // -------------
+  "realism": null,
+  "cubism": null,
+  "expressionism": null,
+  "figurativism": null,
+  "magical realism": null,
+  "nature": null,
+  "primitivism": null,
+
+  // -------------
+  "reallybigname": null,
+
+}
