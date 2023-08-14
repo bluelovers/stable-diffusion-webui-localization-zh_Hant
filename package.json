@@ -46,7 +46,7 @@
     "ci:build": "echo ci:build && yarn run ci:build:scripts && yarn run ci:build:sort && yarn run ci:build:commit",
     "ci:build:scripts": "tsx ./test/scripts/auto.ts",
     "ci:build:sort": "tsx ./test/scripts/sort-dict.ts",
-    "ci:build:commit": "git commit ./output/localizations ./localizations ./src/dict -m \"build: update localizations\" & echo ci:build:commit",
+    "ci:build:commit": "git commit ./output/localizations ./localizations ./src/dict ./output/.github/workflows/build.yml -m \"build: update localizations\" & echo ci:build:commit",
     "npm:publish": "npm publish",
     "npm:publish:bump": "yarn run version:bump && npm publish",
     "ws:fix-all": "yarn-tool fix-all  --overwriteHostedGitInfo",
