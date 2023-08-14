@@ -49,7 +49,15 @@ export default Promise.all([
 		for (const key of Object.keys(json))
 		{
 			json[key] = processTextSync(json[key]);
-			json_hans[key] = tw2cn_min(json[key]);
+
+			if (key === json[key])
+			{
+				delete json[key]
+			}
+			else
+			{
+				json_hans[key] = tw2cn_min(json[key]);
+			}
 		}
 
 		console.log(`build zh_Hant.json`);
