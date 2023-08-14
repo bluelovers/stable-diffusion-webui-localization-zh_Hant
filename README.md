@@ -2,7 +2,11 @@
 
 [![build](https://github.com/bluelovers/stable-diffusion-webui-localization-zh_Hant/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/bluelovers/stable-diffusion-webui-localization-zh_Hant/actions/workflows/build.yml)
 
+繁體中文語言包（合併 zh_TW 與 zh_Hans 語言包已翻譯的內容來讓介面有更多中文說明）
+
 Traditional Chinese translation extension for Stable Diffusion web UI by AUTOMATIC1111
+
+> 推薦搭配 [Bilingual Localization（雙語翻譯對照）](https://github.com/journey-ad/sd-webui-bilingual-localization)
 
 ## 合併翻譯來源
 
