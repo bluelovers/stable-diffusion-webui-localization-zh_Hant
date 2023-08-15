@@ -18,4 +18,6 @@
   // -------------
   "reallybigname": null,
 
+  // -------------
+  "Some settings have been moved to the settings tab. Find them in the Dynamic Prompts section.": "一些选项已经被移动至设置中，在设置里的 Dynamic Prompt 选项下可以找到"
 }
