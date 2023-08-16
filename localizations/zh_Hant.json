@@ -5335,8 +5335,8 @@
   "Custom Theme.": "自定義主題。",
   "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.": "使用各種替代模型檢查單一或多個圖像檔，類似於 deepdanbooru 的檢查。",
   "Detection Detailer": "檢測細緻化",
-  "zh_Hant Localization": "繁體中文語言包",
-  "Traditional Chinese localization (mixin zh_TW and zh_Hans)": "繁體中文語言包（合併 zh_TW 與 zh_Hans 語言包已翻譯的內容來讓介面有更多中文說明）",
+  "zh_Hant Localization": "繁體中文（zh_Hant）語言包",
+  "Traditional Chinese localization (mixin zh_TW and zh_Hans)": "繁體中文（zh_Hant）語言包（合併 zh_TW 與 zh_Hans 語言包已翻譯的內容來讓介面有更多中文說明）",
   "Lora": "LoRA",
   "replace preview": "取代預覽",
   "Nearest": "最鄰近整數縮放（Nearest）",
@@ -5701,5 +5701,6 @@
   "Plot the LoRA weight in all steps": "產生LoRA在每一個迭代步數的權重的圖表",
   "Don't use LoRA in uc if there're no subprompts": "如果沒有使用「AND」語法不要在反向提示詞中使用LoRA",
   "Error! Composable Lora install failed! Please reinstall composable_lora and restart the WebUI.": "錯誤! Composable Lora安裝發生問題。請嘗試重新安裝Composable Lora並重新啟動WebUI和終端機。",
+  "stable-diffusion-webui-localization-zh_Hant": "繁體中文（zh_Hant）語言包",
   "zh_Hant": "繁體中文"
 }
