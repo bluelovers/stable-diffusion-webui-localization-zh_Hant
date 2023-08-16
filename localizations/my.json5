@@ -26,5 +26,9 @@
   "reallybigname": null,
 
   // -------------
-  "Some settings have been moved to the settings tab. Find them in the Dynamic Prompts section.": "一些选项已经被移动至设置中，在设置里的 Dynamic Prompt 选项下可以找到"
+  "Asymmetric tiling": "非對稱平舖",
+
+  // -------------
+  "Some settings have been moved to the settings tab. Find them in the Dynamic Prompts section.": "一些选项已经被移动至设置中，在设置里的 Dynamic Prompt 选项下可以找到",
+  "Force convert half to float on interpolation (for some platforms)": "在插值时强制将半精度浮点数转换为全精度 (适用于部分平台)",
 }
