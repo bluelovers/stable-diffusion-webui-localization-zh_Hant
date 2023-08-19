@@ -1912,7 +1912,7 @@
   "Hide Non-API Components (Restarts UI)": "隐藏非 API 组件（需重启 UI）",
   "Hide samplers in user interface": "隐藏用户界面中的采样方法",
   "Hide samplers in user interface (requires restart)": "在用户界面中隐藏采样器 (需重启)",
-  "high contrast": "high contrast (高对比度)",
+  "high contrast": null,
   "Higher levels increases complexity and randomness of generated prompt": "随机等级越高, 生成的提示词越复杂和随机",
   "Highres. fix": "高分辨率修复",
   "Hips": "臀部尺寸",
