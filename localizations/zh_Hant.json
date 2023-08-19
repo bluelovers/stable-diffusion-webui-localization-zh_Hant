@@ -2438,7 +2438,6 @@
   "(lets you override the noise schedule for k-diffusion samplers; choosing Automatic disables the three parameters below)": "(覆蓋 k-diffusion 採樣方法的噪點調度器; 選擇自動會停用以下的三個參數)",
   "libraries": "庫",
   "Licenses": "授權",
-  "light": "light (照明藝術)",
   "lighten": "變亮",
   "👍 Like": "👍 喜歡",
   "Liked images": "喜歡的圖像",
