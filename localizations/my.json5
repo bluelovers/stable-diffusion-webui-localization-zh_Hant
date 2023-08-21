@@ -53,4 +53,23 @@
   // -------------
   "Some settings have been moved to the settings tab. Find them in the Dynamic Prompts section.": "一些选项已经被移动至设置中，在设置里的 Dynamic Prompt 选项下可以找到",
   "Force convert half to float on interpolation (for some platforms)": "在插值时强制将半精度浮点数转换为全精度 (适用于部分平台)",
+
+  // -------------
+  "reference_adain+attn": "reference_adain+attn (仅参考输入图 - 自适应实例规范 + 關聯)",
+  "normal_bae": "normal_bae (Bae 法线贴图提取 新)",
+  "normal_midas": "normal_midas (Midas 法线贴图提取 舊)",
+
+  // !After Detailer -------------
+  "face_yolov8n.pt": "face_yolov8n (2D / 寫實 臉)",
+  "face_yolov8n_v2.pt": "face_yolov8n (2D / 寫實 臉)",
+  "face_yolov8s.pt": "face_yolov8s (2D / 寫實 臉)",
+  "hand_yolov8n.pt": "hand_yolov8n (2D / 寫實 手)",
+  "hand_yolov8s.pt": "hand_yolov8s (2D / 寫實 手)",
+  "person_yolov8n-seg.pt": "person_yolov8n-seg (2D / 寫實 全身)",
+  "person_yolov8s-seg.pt": "person_yolov8s-seg (2D / 寫實 全身)",
+  "mediapipe_face_full": "mediapipe_face_full (寫實 臉)",
+  "mediapipe_face_short": "mediapipe_face_short (寫實 臉)",
+  "mediapipe_face_mesh": "mediapipe_face_mesh (寫實 臉)",
+  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (寫實 服裝)"
+
 }
