@@ -61,8 +61,9 @@
 
   // !After Detailer -------------
   "face_yolov8n.pt": "face_yolov8n (2D / 寫實 臉)",
-  "face_yolov8n_v2.pt": "face_yolov8n (2D / 寫實 臉)",
+  "face_yolov8n_v2.pt": "face_yolov8n_v2 (2D / 寫實 臉)",
   "face_yolov8s.pt": "face_yolov8s (2D / 寫實 臉)",
+  "face_yolov8m.pt": "face_yolov8m (2D / 寫實 臉)",
   "hand_yolov8n.pt": "hand_yolov8n (2D / 寫實 手)",
   "hand_yolov8s.pt": "hand_yolov8s (2D / 寫實 手)",
   "person_yolov8n-seg.pt": "person_yolov8n-seg (2D / 寫實 全身)",
@@ -70,6 +71,7 @@
   "mediapipe_face_full": "mediapipe_face_full (寫實 臉)",
   "mediapipe_face_short": "mediapipe_face_short (寫實 臉)",
   "mediapipe_face_mesh": "mediapipe_face_mesh (寫實 臉)",
-  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (寫實 服裝)"
+  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (寫實 服裝)",
+  "genitalia.pt": "genitalia (寫實 生殖器)",
 
 }
