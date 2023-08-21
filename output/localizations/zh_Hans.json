@@ -5834,8 +5834,9 @@
   "stable-diffusion-webui-localization-zh_Hant": "繁体中文（zh_Hant）语言包",
   "zh_Hant": "繁体中文",
   "face_yolov8n.pt": "face_yolov8n (2D / 写实 脸)",
-  "face_yolov8n_v2.pt": "face_yolov8n (2D / 写实 脸)",
+  "face_yolov8n_v2.pt": "face_yolov8n_v2 (2D / 写实 脸)",
   "face_yolov8s.pt": "face_yolov8s (2D / 写实 脸)",
+  "face_yolov8m.pt": "face_yolov8m (2D / 写实 脸)",
   "hand_yolov8n.pt": "hand_yolov8n (2D / 写实 手)",
   "hand_yolov8s.pt": "hand_yolov8s (2D / 写实 手)",
   "person_yolov8n-seg.pt": "person_yolov8n-seg (2D / 写实 全身)",
@@ -5843,5 +5844,6 @@
   "mediapipe_face_full": "mediapipe_face_full (写实 脸)",
   "mediapipe_face_short": "mediapipe_face_short (写实 脸)",
   "mediapipe_face_mesh": "mediapipe_face_mesh (写实 脸)",
-  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (写实 服装)"
+  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (写实 服装)",
+  "genitalia.pt": "genitalia (写实 生殖器)"
 }
