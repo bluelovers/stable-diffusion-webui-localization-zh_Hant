@@ -59,6 +59,8 @@
   "normal_bae": "normal_bae (Bae 法线贴图提取 新)",
   "normal_midas": "normal_midas (Midas 法线贴图提取 舊)",
 
+  "Style Fidelity (only for \"Balanced\" mode)": "风格仿真度 (仅用于 \"平衡\" 模式)",
+
   // !After Detailer -------------
   "face_yolov8n.pt": "face_yolov8n (2D / 寫實 臉)",
   "face_yolov8n_v2.pt": "face_yolov8n_v2 (2D / 寫實 臉)",
