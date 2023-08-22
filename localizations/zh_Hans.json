@@ -5833,7 +5833,7 @@
   "Error! Composable Lora install failed! Please reinstall composable_lora and restart the WebUI.": "错误! Composable Lora安装發生问题。请尝试重新安装Composable Lora并重新启动WebUI和终端机。",
   "stable-diffusion-webui-localization-zh_Hant": "繁体中文（zh_Hant）语言包",
   "zh_Hant": "繁体中文",
-  "Style Fidelity (only for \"Balanced\" mode)": "风格仿真度 (仅用於 \"平衡\" 模式)",
+  "Style Fidelity (only for \"Balanced\" mode)": "风格保真度 (仅用於 \"平衡\" 模式)",
   "face_yolov8n.pt": "face_yolov8n (2D / 写实 脸)",
   "face_yolov8n_v2.pt": "face_yolov8n_v2 (2D / 写实 脸)",
   "face_yolov8s.pt": "face_yolov8s (2D / 写实 脸)",
