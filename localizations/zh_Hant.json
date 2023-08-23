@@ -8490,7 +8490,7 @@
   "70ab5cf3 (Sat Apr 29 21:35:48 2023)": "70ab5cf3 (Sat Apr 29 21:35:48 2023)",
   "stable-diffusion-webui-localization-zh_Hant": "繁體中文（zh_Hant）語言包",
   "zh_Hant": "繁體中文",
-  "##@controlnet_control_type_filter_group##Normal": "法线图",
+  "##@.controlnet_control_type_filter_group##Normal": "法线图",
   "##txt2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
   "##img2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
   "Style Fidelity (only for \"Balanced\" mode)": "风格仿真度 (仅用于 \"平衡\" 模式)",

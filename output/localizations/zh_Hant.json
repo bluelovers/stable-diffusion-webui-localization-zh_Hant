@@ -5870,7 +5870,7 @@
   "Asymmetric tiling": "非對稱平舖",
   "stable-diffusion-webui-localization-zh_Hant": "繁體中文（zh_Hant）語言包",
   "zh_Hant": "繁體中文",
-  "##@controlnet_control_type_filter_group##Normal": "法線圖",
+  "##@.controlnet_control_type_filter_group##Normal": "法線圖",
   "##txt2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法線圖",
   "##img2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法線圖",
   "Style Fidelity (only for \"Balanced\" mode)": "風格保真度 (僅用於 \"平衡\" 模式)",
