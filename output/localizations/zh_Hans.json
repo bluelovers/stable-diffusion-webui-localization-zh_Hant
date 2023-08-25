@@ -1254,8 +1254,6 @@
   "Difference": "差分",
   "Diffuse the first frame based on an image, similar to img2img.": "基於图像生成第一帧，类似於图生图",
   "Diffusion Weights (training snapshots)": "Diffusion 权重 (训练快照)",
-  "digital": "digital (数字)",
-  "digital art": "digital art (数字艺术)",
   "Dilation factor (B)": "扩张因子 (B)",
   "Dimension lower bound": "次元下限",
   "Dimension upper bound": "次元上限",
