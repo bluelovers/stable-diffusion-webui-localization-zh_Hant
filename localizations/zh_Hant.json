@@ -1224,7 +1224,6 @@
   "Destination directory": "目標目錄",
   "Destination Directory": "目標目錄",
   "Dest Path": "目標路徑",
-  "detailed": "detailed (細節)",
   "Detailed": "詳細設定",
   "Detailed Save As": "詳細儲存為",
   "Details": "詳細設定",
@@ -4063,7 +4062,6 @@
   "scheduler type": "調度器類型",
   "Scheduler type": "調度器類型",
   "science": "科學",
-  "sci-fi": "sci-fi (科幻電影)",
   "Scoring type": "評分類型",
   "screen": "濾色",
   "Scribble": "Scribble (塗鴉)",
@@ -4857,7 +4855,6 @@
   "Unfreeze seed": "不固定種子",
   "Unfreezes model layers and allows for potentially better training, but makes increased VRAM usage more likely.": "解凍模型分層來獲得更好的訓練效果，但更有可能只是單純增加顯存的使用量。",
   "Unified Predictor-Corrector Framework for Fast Sampling of Diffusion Models": "統一的預測校正框架用於快速採樣擴散模型",
-  "uniform": "均勻",
   "Uniform noise covers the entire frame. It somewhat flattens and sharpens the video over time, but may be good for cartoonish look. This is the old default setting.": "均勻噪點覆蓋整個畫面。隨著時間的推移，它會在一定程度上使視頻變得平滑和銳利，但也許適合卡通效果。曾是舊版本的預設設定。",
   "UniPC lower order final": "UniPC 最終步採用低階取樣。",
   "UniPC order": "UniPC 低階步數",
@@ -5933,5 +5930,6 @@
   "mediapipe_face_short": "mediapipe_face_short (寫實 臉)",
   "mediapipe_face_mesh": "mediapipe_face_mesh (寫實 臉)",
   "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (寫實 服裝)",
-  "genitalia.pt": "genitalia (寫實 生殖器)"
+  "genitalia.pt": "genitalia (寫實 生殖器)",
+  "##settings_sampler-params##uniform": "均勻"
 }
