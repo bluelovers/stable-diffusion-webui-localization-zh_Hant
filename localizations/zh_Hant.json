@@ -5961,6 +5961,8 @@
   "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage": "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage",
   "sd-webui-discord-ex": "sd-webui-discord-ex",
   "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot": "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot",
+  "CivitAI Browser Plus": "CivitAI Browser Plus",
+  "This extension allows you to browse and download any model from CivitAi without leaving WebUI!": "This extension allows you to browse and download any model from CivitAi without leaving WebUI!",
   "Use grid (output to grid dir)": "使用網格（輸出到網格目錄）",
   "Prevent Empty Spot": "防止空白區域",
   "Batch Length As Row": "批次長度作為一列",
