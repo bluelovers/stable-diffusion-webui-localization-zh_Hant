@@ -87,4 +87,8 @@
   "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (寫實 服裝)",
   "genitalia.pt": "genitalia (寫實 生殖器)",
 
+  // -------------
+  "uniform": null,
+  "##settings_sampler-params##uniform": "均勻",
+
 }
