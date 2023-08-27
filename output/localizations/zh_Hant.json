@@ -5354,6 +5354,9 @@
   "Lora": "LoRA",
   "replace preview": "取代預覽",
   "Nearest": "最鄰近整數縮放（Nearest）",
+  "ESRGAN_4x": "ESRGAN_4x (寫實)",
+  "R-ESRGAN 4x+": "R-ESRGAN 4x+ (通用 銳度最高，細節更多)",
+  "R-ESRGAN 4x+ Anime6B": "R-ESRGAN 4x+ Anime6B (2D 輕微的羽化/模糊處理)",
   "Focal point edges weight": "焦點線條權重",
   "Use checkbox to enable the extension; it will be enabled or disabled when you click apply button": "勾選要啟用的擴充功能並按下套用以啟用，取消勾選則停用",
   "Use checkbox to mark the extension for update; it will be updated when you click apply button": "勾選要更新的擴充功能並按下套用以更新",
@@ -5932,5 +5935,8 @@
   "pussyV2.pt": "pussyV2 (2D / 寫實 生殖器 女)",
   "penisV2.pt": "penisV2 (2D / 寫實 生殖器 男)",
   "nipple.pt": "nipple (2D / 寫實 乳頭)",
-  "##settings_sampler-params##uniform": "均勻"
+  "##settings_sampler-params##uniform": "均勻",
+  "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 針對影片放大處理，模糊程度更高)",
+  "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (細節上更傾向於4X+ 模糊程度上也比Anime6B大一點)",
+  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 適用於厚涂插畫)"
 }
