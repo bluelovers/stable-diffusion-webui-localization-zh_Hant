@@ -49,6 +49,8 @@
   "digital art": null,
   "sci-fi": null,
   "detailed": null,
+  "octane render": null,
+  "concept art": null,
 
   // -------------
   "reallybigname": null,
@@ -88,6 +90,11 @@
   "mediapipe_face_mesh": "mediapipe_face_mesh (寫實 臉)",
   "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (寫實 服裝)",
   "genitalia.pt": "genitalia (寫實 生殖器)",
+
+  "pussyV2.pt": "pussyV2 (2D / 寫實 生殖器 女)",
+  "penisV2.pt": "penisV2 (2D / 寫實 生殖器 男)",
+
+  "nipple.pt": "nipple (2D / 寫實 乳頭)",
 
   // -------------
   "uniform": null,
