@@ -5938,5 +5938,5 @@
   "##settings_sampler-params##uniform": "均匀",
   "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 针对影片放大處理，模糊程度更高)",
   "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (细节上更倾向於4X+ 模糊程度上也比Anime6B大一点)",
-  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 适用於厚涂插画)"
+  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 适用於厚塗插画)"
 }
