@@ -100,4 +100,13 @@
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",
 
+  // -------------
+  "ESRGAN_4x": "ESRGAN_4x (寫實)",
+  "R-ESRGAN 4x+": "R-ESRGAN 4x+ (通用 锐度最高，细节更多)",
+  "R-ESRGAN 4x+ Anime6B": "R-ESRGAN 4x+ Anime6B (2D 轻微的羽化/模糊处理)",
+  "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 针对视频放大处理，模糊程度更高)",
+  "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (细节上更倾向于4X+ 模糊程度上也比Anime6B大一点)",
+  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 适用于厚涂插画)",
+
+
 }
