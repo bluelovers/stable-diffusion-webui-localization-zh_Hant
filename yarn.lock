@@ -331,10 +331,10 @@
     "@novel-segment/dict-loader-core" "^1.0.28"
     tslib ">=2"
 
-"@novel-segment/loaders@^1.0.46":
-  version "1.0.46"
-  resolved "https://registry.npmjs.org/@novel-segment/loaders/-/loaders-1.0.46.tgz#8faf5737c12e3ac2aab23dc93b08e9d64345fb59"
-  integrity sha512-38ERFcUBYOvOfOBY6CdyEjkkeU7aB9SLxna4a81NLsMcbXGId+Wh3yncnBkfZVrbrLALppRKLEA6mfinJ7gQog==
+"@novel-segment/loaders@^1.0.47":
+  version "1.0.47"
+  resolved "https://registry.npmjs.org/@novel-segment/loaders/-/loaders-1.0.47.tgz#d57ecfa49770925dd82b2b047a0e5b53557c6e33"
+  integrity sha512-Akoal+sM6B6RaDhONRREclCowbEwNrJuyM0AKnK836VsykNECIcWoAvos6iBwQbEVZLYinCVH/gMjj+hxsWK1A==
   dependencies:
     "@novel-segment/dict-loader-core" "^1.0.28"
     "@novel-segment/loader-line" "^1.0.31"
@@ -352,25 +352,25 @@
     ts-type "^3.0.1"
     tslib ">=2"
 
-"@novel-segment/sort-dict-table@^1.0.20":
-  version "1.0.20"
-  resolved "https://registry.npmjs.org/@novel-segment/sort-dict-table/-/sort-dict-table-1.0.20.tgz#dcea35c44f2eba702e34f0de2840c6c0e4427cc5"
-  integrity sha512-48EcHnhzkNsb6u/B00Ej6M64wD3mBR0WjKrL3uSYsSG0YIdJVmRneYCOnTIEBNFgNEHJh35UjNan48qwN+bxXg==
+"@novel-segment/sort-dict-table@^1.0.21":
+  version "1.0.21"
+  resolved "https://registry.npmjs.org/@novel-segment/sort-dict-table/-/sort-dict-table-1.0.21.tgz#8e1a2adae0111ce7322c49b0ad0b752e12a78ad4"
+  integrity sha512-WPpcIRSUdhGJeugMvrd/WVyIr3g3rBV78qhidn0j8KszRRvKFrSbi0kzY6NGF9rVU1qy51sMtl+L18W8KQQbGQ==
   dependencies:
     "@novel-segment/loader-line" "^1.0.31"
-    "@novel-segment/loaders" "^1.0.46"
+    "@novel-segment/loaders" "^1.0.47"
     "@novel-segment/util" "^1.0.73"
-    "@novel-segment/util-compare" "^1.0.19"
+    "@novel-segment/util-compare" "^1.0.20"
 
-"@novel-segment/sort-synonym@^1.0.16":
-  version "1.0.16"
-  resolved "https://registry.npmjs.org/@novel-segment/sort-synonym/-/sort-synonym-1.0.16.tgz#133ae3eda75baf9d30f04a35e52c1a87cdf45887"
-  integrity sha512-N5KSitqcxin9bfMwvXrdPWsRXp0/Suwt1S+sftC/zOlaUFeK1L1i2J+/Lr5qki/b6JidhTAcuf0wvlkkbQR0iQ==
+"@novel-segment/sort-synonym@^1.0.17":
+  version "1.0.17"
+  resolved "https://registry.npmjs.org/@novel-segment/sort-synonym/-/sort-synonym-1.0.17.tgz#dec976cf4fa9e9859cb05ca96f4e1fea07ad9a40"
+  integrity sha512-d4nR67gnhxsrCPFzlgJ5pFfslzpJZ7I5GTDxSAyA3hV4d7RDa4GY9jUfdDtQkcbarjzIaUT0yvvsmYBnJImxuw==
   dependencies:
     "@novel-segment/loader-line" "^1.0.31"
     "@novel-segment/types" "^1.0.11"
     "@novel-segment/util" "^1.0.73"
-    "@novel-segment/util-compare" "^1.0.19"
+    "@novel-segment/util-compare" "^1.0.20"
     array-hyper-unique "^2.1.4"
 
 "@novel-segment/stream-loader-core@^1.0.24":
@@ -391,74 +391,74 @@
     "@novel-segment/types" "^1.0.11"
     ts-type "^3.0.1"
 
-"@novel-segment/table-blacklist@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.npmjs.org/@novel-segment/table-blacklist/-/table-blacklist-1.0.12.tgz#bfc7b622d456e0266d02ed8ece867f3bbec613e6"
-  integrity sha512-FP4MrRwzEgNadrCZFzTZtDRj7G+3Jm62He+jEl+Hs51R5ERI0oKQvAKP21aDZySR877Izu4agiFMLH6N+7lCHw==
+"@novel-segment/table-blacklist@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.npmjs.org/@novel-segment/table-blacklist/-/table-blacklist-1.0.13.tgz#51e55aecd2169244400a94a85b9710fc5cec9f11"
+  integrity sha512-P/lPDPMseujCOGy0IDxextRxRJiOWC+xqlaFHQTH8BE3RpimULmlE6YcUswBPwdRiBJNg0WVJ/KN+0n5x3FgGQ==
   dependencies:
-    "@novel-segment/table-line" "^1.0.15"
+    "@novel-segment/table-line" "^1.0.16"
 
-"@novel-segment/table-core-abstract@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.npmjs.org/@novel-segment/table-core-abstract/-/table-core-abstract-1.0.15.tgz#671a1ee8f5143a33116b61841dbf85f88f60cf19"
-  integrity sha512-aPHlb5vFfx/mGeRkKla88syFrnOtLfbsZuehNZKRi8FUmJJnHrds5u6nqsl2ORj+evptekApdiH1qWQzn4CNmQ==
+"@novel-segment/table-core-abstract@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.npmjs.org/@novel-segment/table-core-abstract/-/table-core-abstract-1.0.16.tgz#ada3fa4570b62f6e7074a282e7277ceb55880d8f"
+  integrity sha512-NlKDtAmw4dQqCc2ndQWpiII0To/zm2we2VeOa5UsJx4KQT8Q36Ss8l+g3EYF0wrRFvIg53YivXsPy3MOkUsC8A==
   dependencies:
-    "@novel-segment/loaders" "^1.0.46"
+    "@novel-segment/loaders" "^1.0.47"
     "@novel-segment/types" "^1.0.11"
     lodash "^4.17.21"
     ts-type "^3.0.1"
 
-"@novel-segment/table-dict@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.npmjs.org/@novel-segment/table-dict/-/table-dict-1.0.15.tgz#bcc21d1acac9b59570561aa58772d3820a0d73fd"
-  integrity sha512-CPAN30tyVpPH5687VO1eU/15l4vNVSvCdBdZRwIZjSGGjRoDP8INuOwIFmMMAR8EafcoDRU5b7gxeMFfCrURyg==
+"@novel-segment/table-dict@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.npmjs.org/@novel-segment/table-dict/-/table-dict-1.0.16.tgz#261986a2875996ffafc189710a2b0b3339f7b5a8"
+  integrity sha512-YohOPI4v9X2PYF3eo2vkivOZeFaGzATlmoMbFAFBYwJgtjNgR8pTzuicIv1LTfba4xTBjkDbLZ8UNVwCFqmGhw==
   dependencies:
     "@lazy-cjk/zh-table-list" "^1.0.84"
-    "@novel-segment/loaders" "^1.0.46"
-    "@novel-segment/table-core-abstract" "^1.0.15"
+    "@novel-segment/loaders" "^1.0.47"
+    "@novel-segment/table-core-abstract" "^1.0.16"
 
-"@novel-segment/table-line@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.npmjs.org/@novel-segment/table-line/-/table-line-1.0.15.tgz#c670eabfebb2d3cec9c56dbb73543bdfcf133f30"
-  integrity sha512-aBdop87qLsZGTbBvKmgWGEskL37Exuv0DcQgYspeiSGBk7ZADYIq7c1mvUXMuZXCs7PMEuAVuv7FVN84CGsxJg==
+"@novel-segment/table-line@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.npmjs.org/@novel-segment/table-line/-/table-line-1.0.16.tgz#22d2fd6d334fe8bf2a312546a0c650698278e05b"
+  integrity sha512-cb0W9slOkFDYlzuWHojV7ru6P5+ck6GCwXRSv+xtF/5htJuBgPuQIVR1tV9MCW8AEF2wcTOL7Y3d+oyTHqBg/A==
   dependencies:
     "@novel-segment/loader-line" "^1.0.31"
-    "@novel-segment/table-core-abstract" "^1.0.15"
+    "@novel-segment/table-core-abstract" "^1.0.16"
     lodash "^4.17.21"
 
-"@novel-segment/table-stopword@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.npmjs.org/@novel-segment/table-stopword/-/table-stopword-1.0.12.tgz#0010226404c87b2df9d873cceb8d8bca70c630fe"
-  integrity sha512-bDp9nFQliZkvv0HSdqPO1kNeByPtFXXieqPTq8MLR+Q9QrmwofEnY+kp3HU0Dt0J5VNUcyLm+KSC8f60FWEEPQ==
+"@novel-segment/table-stopword@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.npmjs.org/@novel-segment/table-stopword/-/table-stopword-1.0.13.tgz#633aa58b18a1696a0b36da65df056fcfd7a768f9"
+  integrity sha512-vxSa1P31cGXw4jJdTWvS+/dVwfPAR7e0t3KsIekkyixfo/4FMfINFhg0DbCJ0GaQ0h+yHZbp60dj6jerA7btAg==
   dependencies:
-    "@novel-segment/table-line" "^1.0.15"
+    "@novel-segment/table-line" "^1.0.16"
 
-"@novel-segment/table-synonym-pangu@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.npmjs.org/@novel-segment/table-synonym-pangu/-/table-synonym-pangu-1.0.15.tgz#44c1f552e99e6c25f78f96ad880526c03373d409"
-  integrity sha512-/jH8PmFGaRlgkxEEeeaPSi6gy4em3AA70l5DIXUS02Auz7MSdLE/H540xu/InXrfQVs5IliScH2Izm2VJUQxbA==
+"@novel-segment/table-synonym-pangu@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.npmjs.org/@novel-segment/table-synonym-pangu/-/table-synonym-pangu-1.0.16.tgz#cd063504dd837d8d0da9c038ceba902269676a0f"
+  integrity sha512-aR/99s9K9r6tK91jPogl9ccULBTrgsxcuwPZTH0ViMViq3KHYboZa+SnmFP1MIjqcAwOUJDW/jP2wGC0qdhivg==
   dependencies:
-    "@novel-segment/table-core-abstract" "^1.0.15"
+    "@novel-segment/table-core-abstract" "^1.0.16"
 
-"@novel-segment/table-synonym@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.npmjs.org/@novel-segment/table-synonym/-/table-synonym-1.0.12.tgz#5740277cb24e3c02fa3e549c03950c4424174fbb"
-  integrity sha512-7LxPffn94ElWpcOwn2km0a6rTwgatvCcDgGjJCv7W6FKx2FIMmLdsEnqs/afRjaPE3y6tLA9vlwFgByjk82+lA==
+"@novel-segment/table-synonym@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.npmjs.org/@novel-segment/table-synonym/-/table-synonym-1.0.13.tgz#02d700a579a0bb00b1b87e45071a189b8a7ff356"
+  integrity sha512-WIO/XY/mhhLRUUyIZSvp2LG2U6NQWm/0VsHpTUKtV08d+Nyf5A2KtHOP8JefsNW8TDZPep5pQi3lA8sJPgJBSg==
   dependencies:
-    "@novel-segment/table-synonym-pangu" "^1.0.15"
+    "@novel-segment/table-synonym-pangu" "^1.0.16"
 
 "@novel-segment/types@^1.0.11":
   version "1.0.11"
   resolved "https://registry.npmjs.org/@novel-segment/types/-/types-1.0.11.tgz#318399efa348d3f65d147109935c5dffa759ee11"
   integrity sha512-C2/xo0pONcetO7x759uuq2YfhkaUVZRuxvMnZxEL7FwJXnmdrw3xztjFlYeaDSuZWJTmrfOnv7jgWTLkI+iDTA==
 
-"@novel-segment/util-compare@^1.0.19":
-  version "1.0.19"
-  resolved "https://registry.npmjs.org/@novel-segment/util-compare/-/util-compare-1.0.19.tgz#c9c3ca4949144b1907421d3c63d06dde9cdd4cf2"
-  integrity sha512-yxmpAbikdn4uRwmcguOg9ChqI3oES37vy8wXu4a46ygLRA4RWawKUFULnZuKo8b5LMYzfwJQNQbyy/WOeR91EQ==
+"@novel-segment/util-compare@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.npmjs.org/@novel-segment/util-compare/-/util-compare-1.0.20.tgz#87e82092d37cade3dc328625e4dd62f0e1ee3629"
+  integrity sha512-gr9uzyg8pw1TlgZK+Y0uRRb/pP9JDL+7l9zUVg5659AmadP1SVx4Hd0T6q68NPJ3TsB/6Q46AXdFAYAUUnqr7A==
   dependencies:
     "@novel-segment/loader-line" "^1.0.31"
-    "@novel-segment/loaders" "^1.0.46"
+    "@novel-segment/loaders" "^1.0.47"
     array-hyper-unique "^2.1.4"
     bluebird "^3.7.2"
 
@@ -583,9 +583,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*", "@types/node@latest":
-  version "20.4.9"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.4.9.tgz#c7164e0f8d3f12dfae336af0b1f7fdec8c6b204f"
-  integrity sha512-8e2HYcg7ohnTUbHk8focoklEQYvemQmu9M/f43DZVx43kHn0tE3BY/6gSDxS7k0SprtS0NHvj+L80cGLnoOUcQ==
+  version "20.5.6"
+  resolved "https://registry.npmjs.org/@types/node/-/node-20.5.6.tgz#5e9aaa86be03a09decafd61b128d6cec64a5fe40"
+  integrity sha512-Gi5wRGPbbyOTX+4Y2iULQ27oUPrefaB0PxGQJnfyWN3kvEDGM3mIB5M/gQLmitZf7A9FmLeaqxD3L1CXpm3VKQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -2237,10 +2237,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
-novel-segment-cli@^1.1.123:
-  version "1.1.123"
-  resolved "https://registry.npmjs.org/novel-segment-cli/-/novel-segment-cli-1.1.123.tgz#0dc297ad3419ca9eebf78aa4c7f18fd653a4c15e"
-  integrity sha512-Un0fbw2f1br2YwGvI1p7OGLABSnA0FB/hLoI03ofifXO8shC+lRzjc1BExJos/BBb1fgl01r9+u7Au8L92irsg==
+novel-segment-cli@^1.1.124:
+  version "1.1.124"
+  resolved "https://registry.npmjs.org/novel-segment-cli/-/novel-segment-cli-1.1.124.tgz#e16e3c415dc549b360399b547d01ddc332d3c890"
+  integrity sha512-sDBLfpKHCvOVgLk/P/Q6mIzHF1aRTXVit3UVC50wAoWVDzNtw/PRs8jSjohs+zRR8CHPibnq2SmhnhR0Wd5Leg==
   dependencies:
     "@bluelovers/fast-glob" "^3.0.4"
     "@novel-segment/types" "^1.0.11"
@@ -2255,7 +2255,7 @@ novel-segment-cli@^1.1.123:
     iconv-jschardet "^2.0.32"
     lazy-cacache "^3.0.2"
     lodash "^4.17.21"
-    novel-segment "^2.7.105"
+    novel-segment "^2.7.106"
     pkg-up "<4 >=3.1.0"
     prettyuse "^0.0.0"
     ts-type "^3.0.1"
@@ -2263,20 +2263,20 @@ novel-segment-cli@^1.1.123:
     upath2 "^3.1.19"
     yargs "^17"
 
-novel-segment@^2.7.105:
-  version "2.7.105"
-  resolved "https://registry.npmjs.org/novel-segment/-/novel-segment-2.7.105.tgz#8675f1911d258252967922c034cb9d3640e3a26c"
-  integrity sha512-GUMlCSrcpIPS7ZJhMh52/eXo6Fs/rz+aJWZ6g62lNfpHzUDjtHWCjP9QBRQQWllkhddMIDp5OHK9L0q6XH2Hig==
+novel-segment@^2.7.106:
+  version "2.7.106"
+  resolved "https://registry.npmjs.org/novel-segment/-/novel-segment-2.7.106.tgz#a165d220b36f7a92264bad277d73812f723979be"
+  integrity sha512-dMmhU9zcWqQNH44ZARL1Mcsfw2LSKsOglB2X1Jjjrlw9PM/MlBN7GZ1A5qqzanRnSCLHULWE3wHbbpRk7HK0TQ==
   dependencies:
     "@bluelovers/fast-glob" "^3.0.4"
     "@lazy-cjk/zh-table-list" "^1.0.84"
     "@novel-segment/postag" "^1.0.26"
     "@novel-segment/stringify" "^1.0.14"
-    "@novel-segment/table-blacklist" "^1.0.12"
-    "@novel-segment/table-core-abstract" "^1.0.15"
-    "@novel-segment/table-dict" "^1.0.15"
-    "@novel-segment/table-stopword" "^1.0.12"
-    "@novel-segment/table-synonym" "^1.0.12"
+    "@novel-segment/table-blacklist" "^1.0.13"
+    "@novel-segment/table-core-abstract" "^1.0.16"
+    "@novel-segment/table-dict" "^1.0.16"
+    "@novel-segment/table-stopword" "^1.0.13"
+    "@novel-segment/table-synonym" "^1.0.13"
     "@novel-segment/types" "^1.0.11"
     array-hyper-unique "^2.1.4"
     bluebird "^3.7.2"
@@ -2285,7 +2285,7 @@ novel-segment@^2.7.105:
     crlf-normalize "^1.0.19"
     deepmerge-plus "^2.1.3"
     regexp-cjk "^3.3.110"
-    segment-dict "^2.3.191"
+    segment-dict "^2.3.192"
     sort-object-keys2 "^3.0.5"
     str-util "^2.3.39"
     ts-enum-util "4.0.2"
@@ -2864,15 +2864,15 @@ safe-buffer@~5.2.0:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-segment-dict@^2.3.191:
-  version "2.3.191"
-  resolved "https://registry.npmjs.org/segment-dict/-/segment-dict-2.3.191.tgz#b716597b35dd8c90d505f67ba8a127e0f2bf8b73"
-  integrity sha512-o11dojens43Ik1a30Y2TJTkzXDzrKMuCy+s0ieA+1um5Iu0SGxxWK5aVHSExGQIw5lNwJKkUv/qPbDXXxFX2tg==
+segment-dict@^2.3.192:
+  version "2.3.192"
+  resolved "https://registry.npmjs.org/segment-dict/-/segment-dict-2.3.192.tgz#406381be5eb356c174d0a3c5218c9e61cd5d4374"
+  integrity sha512-2DeqaKelMLwrq3ob7IRndpSG30iGsX7EFm+lyxyutxY6EIQI5ztDKjad4iVB+Grqt4hQRjTqkXphTmFZ7MupRQ==
   dependencies:
     "@bluelovers/fast-glob" "^3.0.4"
     "@novel-segment/dict-loader-core" "^1.0.28"
     "@novel-segment/loader-stopword" "^1.0.28"
-    "@novel-segment/loaders" "^1.0.46"
+    "@novel-segment/loaders" "^1.0.47"
     "@novel-segment/stream-loader-core" "^1.0.24"
     "@novel-segment/util" "^1.0.73"
     bluebird "^3.7.2"
