@@ -915,7 +915,6 @@
   "Concept 2": "概念 2",
   "Concept 3": "概念 3",
   "Concept 4": "概念 4",
-  "concept art": "concept art (概念艺术)",
   "concept - Can be a concept, such as “a X of Y”, or an historical event such as “The Trojan War”.": "concept - 概念 - 可以是一种概念：例如一个事物的某种特质；或者是一个历史事件，例如 “特洛伊战争“ 。",
   "Concepts": "概念",
   "Concepts List": "概念列表",
@@ -3180,7 +3179,6 @@
   "(O9) Output ckpt Name": "(O9) 输出模型档名",
   "object - Can be a random object, a building or a vehicle.": "object - 物件 - 可以是一个随机的物体，也可以是一个建筑物或一辆车。",
   "(obsolete; set to 0 and use the two settings above instead)": "(已过时; 设定为 0 以使用上述两个选项的设定)",
-  "octane render": "octane render (OC渲染)",
   "official Deforum Discord": "官方 Deforum Discord",
   "Official Deforum Wiki:": "官方 Deforum Wiki：",
   "Offset Noise": "噪声偏移",
@@ -5931,5 +5929,8 @@
   "mediapipe_face_mesh": "mediapipe_face_mesh (写实 脸)",
   "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (写实 服装)",
   "genitalia.pt": "genitalia (写实 生殖器)",
+  "pussyV2.pt": "pussyV2 (2D / 写实 生殖器 女)",
+  "penisV2.pt": "penisV2 (2D / 写实 生殖器 男)",
+  "nipple.pt": "nipple (2D / 写实 乳头)",
   "##settings_sampler-params##uniform": "均匀"
 }
