@@ -583,9 +583,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*", "@types/node@latest":
-  version "20.5.6"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.5.6.tgz#5e9aaa86be03a09decafd61b128d6cec64a5fe40"
-  integrity sha512-Gi5wRGPbbyOTX+4Y2iULQ27oUPrefaB0PxGQJnfyWN3kvEDGM3mIB5M/gQLmitZf7A9FmLeaqxD3L1CXpm3VKQ==
+  version "20.5.7"
+  resolved "https://registry.npmjs.org/@types/node/-/node-20.5.7.tgz#4b8ecac87fbefbc92f431d09c30e176fc0a7c377"
+  integrity sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -2237,10 +2237,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
-novel-segment-cli@^1.1.124:
-  version "1.1.124"
-  resolved "https://registry.npmjs.org/novel-segment-cli/-/novel-segment-cli-1.1.124.tgz#e16e3c415dc549b360399b547d01ddc332d3c890"
-  integrity sha512-sDBLfpKHCvOVgLk/P/Q6mIzHF1aRTXVit3UVC50wAoWVDzNtw/PRs8jSjohs+zRR8CHPibnq2SmhnhR0Wd5Leg==
+novel-segment-cli@^1.1.126:
+  version "1.1.126"
+  resolved "https://registry.npmjs.org/novel-segment-cli/-/novel-segment-cli-1.1.126.tgz#8bf3dd5bf2cd6be53be99c79e05a7990ae286adf"
+  integrity sha512-Dphk6mvqB75IerHouPFPut5UGrglRaMMFd0ij7/7cZH13L/QvXlbjovAXCcgL/dGyid4V4pb7TX/SMTF9Jb9BQ==
   dependencies:
     "@bluelovers/fast-glob" "^3.0.4"
     "@novel-segment/types" "^1.0.11"
@@ -2255,7 +2255,7 @@ novel-segment-cli@^1.1.124:
     iconv-jschardet "^2.0.32"
     lazy-cacache "^3.0.2"
     lodash "^4.17.21"
-    novel-segment "^2.7.106"
+    novel-segment "^2.7.108"
     pkg-up "<4 >=3.1.0"
     prettyuse "^0.0.0"
     ts-type "^3.0.1"
@@ -2263,10 +2263,10 @@ novel-segment-cli@^1.1.124:
     upath2 "^3.1.19"
     yargs "^17"
 
-novel-segment@^2.7.106:
-  version "2.7.106"
-  resolved "https://registry.npmjs.org/novel-segment/-/novel-segment-2.7.106.tgz#a165d220b36f7a92264bad277d73812f723979be"
-  integrity sha512-dMmhU9zcWqQNH44ZARL1Mcsfw2LSKsOglB2X1Jjjrlw9PM/MlBN7GZ1A5qqzanRnSCLHULWE3wHbbpRk7HK0TQ==
+novel-segment@^2.7.108:
+  version "2.7.108"
+  resolved "https://registry.npmjs.org/novel-segment/-/novel-segment-2.7.108.tgz#ce87c1be36c721bd522dbecf8db38d1db4cd1947"
+  integrity sha512-O1WEuAhOr8KotCgX+wAuZkXlxFg/xJXhhtxVD2GhjJ7KnunCm4u2CmjbRhcuc3ABC9as/PAWTasKm7KkNT1Kyw==
   dependencies:
     "@bluelovers/fast-glob" "^3.0.4"
     "@lazy-cjk/zh-table-list" "^1.0.84"
@@ -2285,7 +2285,7 @@ novel-segment@^2.7.106:
     crlf-normalize "^1.0.19"
     deepmerge-plus "^2.1.3"
     regexp-cjk "^3.3.110"
-    segment-dict "^2.3.192"
+    segment-dict "^2.3.194"
     sort-object-keys2 "^3.0.5"
     str-util "^2.3.39"
     ts-enum-util "4.0.2"
@@ -2864,10 +2864,10 @@ safe-buffer@~5.2.0:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-segment-dict@^2.3.192:
-  version "2.3.192"
-  resolved "https://registry.npmjs.org/segment-dict/-/segment-dict-2.3.192.tgz#406381be5eb356c174d0a3c5218c9e61cd5d4374"
-  integrity sha512-2DeqaKelMLwrq3ob7IRndpSG30iGsX7EFm+lyxyutxY6EIQI5ztDKjad4iVB+Grqt4hQRjTqkXphTmFZ7MupRQ==
+segment-dict@^2.3.194:
+  version "2.3.194"
+  resolved "https://registry.npmjs.org/segment-dict/-/segment-dict-2.3.194.tgz#e4ccf688ea9603f5d5c9187399d7e634e5d4e466"
+  integrity sha512-/Pj6Z8mMm4oyzmxseRX58kt7AXOlhSjTp9A8uynnPiejJu7dsXizOi7igHlTWbA7ZDS0VWgKj2n8nv078RtZlQ==
   dependencies:
     "@bluelovers/fast-glob" "^3.0.4"
     "@novel-segment/dict-loader-core" "^1.0.28"
