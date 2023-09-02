@@ -96,6 +96,8 @@
 
   "nipple.pt": "nipple (2D / 寫實 乳頭)",
 
+  "female-breast.pt": "female-breast (寫實 胸部)",
+
   // -------------
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",
