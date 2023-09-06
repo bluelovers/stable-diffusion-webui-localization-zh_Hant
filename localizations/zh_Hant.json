@@ -8770,6 +8770,7 @@
   "70ab5cf3 (Sat Apr 29 21:35:48 2023)": "70ab5cf3 (Sat Apr 29 21:35:48 2023)",
   "stable-diffusion-webui-localization-zh_Hant": "繁體中文（zh_Hant）語言包",
   "zh_Hant": "繁體中文",
+  "zh_Hans": "简体中文",
   "##@.controlnet_control_type_filter_group##Normal": "法线图",
   "##txt2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
   "##img2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
@@ -8796,5 +8797,6 @@
   "##settings_sampler-params##uniform": "均勻",
   "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 针对视频放大处理，模糊程度更高)",
   "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (细节上更倾向于4X+ 模糊程度上也比Anime6B大一点)",
-  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 适用于厚涂插画)"
+  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 适用于厚涂插画)",
+  "sd-webui-lobe-theme": "Lobe theme"
 }
