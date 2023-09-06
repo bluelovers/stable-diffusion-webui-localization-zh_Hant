@@ -57,23 +57,30 @@ export default Promise.all([
 			let value = json[key];
 			let _do = true;
 
-			if (typeof value === 'undefined' || value === null || key === value || typeof value !== 'string' && typeof value !== 'number' || key === 'zh_Hans')
+			if (typeof value === 'undefined' || value === null || key === value || typeof value !== 'string' && typeof value !== 'number')
 			{
 				_do = false;
 			}
 
 			if (_do)
 			{
-				value = processTextSync(value);
-
-				if (key === value)
+				if (key === 'zh_Hans')
 				{
-					_do = false;
+					json_hans[key] = json[key] = value;
 				}
 				else
 				{
-					json[key] = value;
-					json_hans[key] = tw2cn_min(value);
+					value = processTextSync(value);
+
+					if (key === value)
+					{
+						_do = false;
+					}
+					else
+					{
+						json[key] = value;
+						json_hans[key] = tw2cn_min(value);
+					}
 				}
 			}
 
