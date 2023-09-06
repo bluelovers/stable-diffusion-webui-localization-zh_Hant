@@ -6173,5 +6173,6 @@
   "##settings_sampler-params##uniform": "均勻",
   "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 針對影片放大處理，模糊程度更高)",
   "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (細節上更傾向於4X+ 模糊程度上也比Anime6B大一點)",
-  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 適用於厚塗插畫)"
+  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 適用於厚塗插畫)",
+  "sd-webui-lobe-theme": "Lobe theme"
 }
