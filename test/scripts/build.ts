@@ -50,6 +50,11 @@ export default Promise.all([
 
 		console.log(`process zh_Hant.json`);
 
+		const ignoreProcessList = [
+			'zh_Hant',
+			'zh_Hans',
+		];
+
 		const json_hans: typeof json = {};
 
 		for (const key of Object.keys(json))
@@ -64,7 +69,7 @@ export default Promise.all([
 
 			if (_do)
 			{
-				if (key === 'zh_Hans')
+				if (ignoreProcessList.includes(key))
 				{
 					json_hans[key] = json[key] = value;
 				}
