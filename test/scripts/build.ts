@@ -57,7 +57,7 @@ export default Promise.all([
 			let value = json[key];
 			let _do = true;
 
-			if (typeof value === 'undefined' || value === null || key === value || typeof value !== 'string' && typeof value !== 'number')
+			if (typeof value === 'undefined' || value === null || key === value || typeof value !== 'string' && typeof value !== 'number' || key === 'zh_Hans')
 			{
 				_do = false;
 			}
