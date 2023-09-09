@@ -6171,6 +6171,7 @@
   "penisV2.pt": "penisV2 (2D / 写实 生殖器 男)",
   "nipple.pt": "nipple (2D / 写实 乳头)",
   "female-breast.pt": "female-breast (写实 胸部)",
+  "lips_v1.pt": "lips_v1 (2D / 写实 嘴唇)",
   "##settings_sampler-params##uniform": "均匀",
   "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 针对影片放大處理，模糊程度更高)",
   "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (细节上更倾向於4X+ 模糊程度上也比Anime6B大一点)",
