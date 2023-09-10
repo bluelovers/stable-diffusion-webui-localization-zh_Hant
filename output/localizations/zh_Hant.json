@@ -4702,7 +4702,7 @@
   "Style 2": "模版風格 2",
   "Style Name": "樣式名稱",
   "Styles": "樣式",
-  "Styles allow you to add custom text to prompt. Use the {prompt} token in style text, and it will be replaced with user's prompt when applying style. Otherwise, style's text will be added to the end of the prompt.": "預設樣式允許自行新增自訂文本到提示詞中。\n在預設樣式文本中使用 {提示詞} 詞元，在套用預設樣式時，它將被使用者的提示詞所替代。\n不然的話，預設樣式文本會被新增到提示詞末尾。",
+  "Styles allow you to add custom text to prompt. Use the {prompt} token in style text, and it will be replaced with user's prompt when applying style. Otherwise, style's text will be added to the end of the prompt.": "預設樣式允許自行新增自訂文本到提示詞中。\n在預設樣式文本中使用 {prompt} 詞元，在套用預設樣式時，它將被使用者的提示詞所替代。\n不然的話，預設樣式文本會被新增到提示詞末尾。",
   "Styles: refresh": "預設樣式: 刷新",
   "Sub directory depth": "子目錄深度",
   "Sub-folder": "子目錄",
