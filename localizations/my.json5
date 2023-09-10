@@ -62,6 +62,7 @@
   // -------------
   "Some settings have been moved to the settings tab. Find them in the Dynamic Prompts section.": "一些选项已经被移动至设置中，在设置里的 Dynamic Prompt 选项下可以找到",
   "Force convert half to float on interpolation (for some platforms)": "在插值时强制将半精度浮点数转换为全精度 (适用于部分平台)",
+  "Styles allow you to add custom text to prompt. Use the {prompt} token in style text, and it will be replaced with user's prompt when applying style. Otherwise, style's text will be added to the end of the prompt.": "预设样式允许自行添加自定义文本到提示词中。\n在预设样式文本中使用 {prompt} 词元，在应用预设样式时，它将被用户的提示词所替代。\n不然的话，预设样式文本会被添加到提示词末尾。",
 
   // -------------
   "reference_adain+attn": "reference_adain+attn (仅参考输入图 - 自适应实例规范 + 關聯)",
