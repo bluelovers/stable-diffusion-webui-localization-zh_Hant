@@ -365,6 +365,7 @@
   "Alpha matting": "Alpha 遮罩",
   "alpha threshold": "透明度閾值",
   "Alpha threshold": "透明度閾值",
+  "Also add data for WebUI metadata editor": "同步為 WebUI 元數據編輯器新增數據",
   "also delete off-screen images": "允許同時刪除螢幕外的圖像",
   "also enable wierd blocky upscale mode": "同時啟用糟糕的分塊放大模式",
   "Also output single joined audio file (will be named <date>_joined.wav)": "同時輸出一個音訊檔案 (將命名為 <日期>_joined.wav)",
