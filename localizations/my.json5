@@ -105,6 +105,8 @@
 
   "Eyes.pt": "Eyes (2D / 寫實 眼)",
 
+  "animal_ears.pt": "animal_ears (2D 獸耳)",
+
   // -------------
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",

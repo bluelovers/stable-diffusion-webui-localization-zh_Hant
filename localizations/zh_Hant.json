@@ -8974,6 +8974,7 @@
   "female_breast_v1.1-sensitive.pt": "female_breast_v1.1-sensitive (寫實 胸部)",
   "lips_v1.pt": "lips_v1 (2D / 寫實 嘴唇)",
   "Eyes.pt": "Eyes (2D / 寫實 眼)",
+  "animal_ears.pt": "animal_ears (2D 獸耳)",
   "##settings_sampler-params##uniform": "均勻",
   "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 针对视频放大处理，模糊程度更高)",
   "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (细节上更倾向于4X+ 模糊程度上也比Anime6B大一点)",
