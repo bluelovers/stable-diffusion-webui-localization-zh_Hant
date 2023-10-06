@@ -65,6 +65,10 @@
     "background color": "背景顏色",
     "Background Color": "背景顏色"
   },
+  "base model:": {
+    "Base model:": "底模: ",
+    "Base Model:": "底模: "
+  },
   "batch from directory": {
     "Batch from directory": "批量處理目錄",
     "Batch from Directory": "從目錄進行批量處理"
@@ -238,6 +242,10 @@
     "Don't cache latents": "不緩存潛變數",
     "Don't Cache Latents": "不緩存潛變數"
   },
+  "download folder:": {
+    "Download folder:": "下載目錄: ",
+    "Download Folder:": "下載目錄: "
+  },
   "download model": {
     "Download model": "下載模型",
     "Download Model": "下載模型"
@@ -273,6 +281,10 @@
   "filename": {
     "filename": "檔名",
     "Filename": "檔名"
+  },
+  "filter base model:": {
+    "Filter base model:": "底模篩選: ",
+    "Filter Base Model:": "底模篩選: "
   },
   "fps": {
     "fps": "幀率",
@@ -357,6 +369,10 @@
   "input directory": {
     "Input directory": "輸入目錄",
     "Input Directory": "輸入目錄"
+  },
+  "input image": {
+    "Input image": "輸入圖像",
+    "Input Image": "輸入圖像"
   },
   "install": {
     "install": "安裝",
@@ -475,6 +491,10 @@
     "model C": "模型 C",
     "Model C": "模型 C"
   },
+  "model filename:": {
+    "Model filename:": "模型檔名: ",
+    "Model Filename:": "模型檔名: "
+  },
   "model hash": {
     "model hash": "模型雜湊值",
     "Model hash": "模型雜湊值"
@@ -511,6 +531,10 @@
   "negative prompt": {
     "Negative prompt": "反向提示詞",
     "Negative Prompt": "反向提示詞"
+  },
+  "next page": {
+    "Next page": "下一頁",
+    "Next Page": "下一頁"
   },
   "no": {
     "no": "否",
@@ -588,6 +612,10 @@
   "preprocessor resolution": {
     "Preprocessor resolution": "預處理器解析度",
     "Preprocessor Resolution": "預處理器解析度"
+  },
+  "prev page": {
+    "Prev page": "上一頁",
+    "Prev Page": "上一頁"
   },
   "prompt": {
     "prompt": "提示詞",
@@ -669,6 +697,10 @@
     "save as txt": "儲存為 txt",
     "Save as txt": "儲存為 txt"
   },
+  "save images": {
+    "Save images": "儲存圖像",
+    "Save Images": "儲存圖像"
+  },
   "save metadata": {
     "save metadata": "儲存元數據",
     "Save metadata": "儲存元數據",
@@ -685,6 +717,10 @@
   "save style": {
     "Save style": "儲存樣式",
     "Save Style": "儲存樣式"
+  },
+  "save tags": {
+    "Save tags": "儲存標籤",
+    "Save Tags": "儲存標籤"
   },
   "scheduler type": {
     "scheduler type": "調度器類型",
@@ -781,9 +817,17 @@
     "strength": "強度",
     "Strength": "強度"
   },
+  "sub folder:": {
+    "Sub folder:": "子目錄: ",
+    "Sub Folder:": "子目錄: "
+  },
   "system": {
     "system": "系統",
     "System": "系統"
+  },
+  "tab": {
+    "tab": "頁籤",
+    "Tab": "Tab (制表符)"
   },
   "target language": {
     "Target language": "目標語言",
@@ -796,6 +840,10 @@
   "threshold": {
     "threshold": "threshold (閾值)",
     "Threshold": "閾值"
+  },
+  "tile": {
+    "tile": "分塊",
+    "Tile": "Tile (分塊)"
   },
   "tile height": {
     "tile height": "分塊高度",
@@ -816,6 +864,10 @@
   "title": {
     "title": "標題",
     "Title": "職位"
+  },
+  "trained tags (if any):": {
+    "Trained tags (if any):": "訓練標籤 (如有): ",
+    "Trained Tags (if any):": "訓練標籤 (如有): "
   },
   "training": {
     "training": "訓練",
