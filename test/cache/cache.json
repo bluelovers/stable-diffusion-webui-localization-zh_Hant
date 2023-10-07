@@ -186,6 +186,10 @@
     "copy": "複製",
     "Copy": "複製"
   },
+  "create mask": {
+    "Create mask": "建立遮罩",
+    "Create Mask": "建立遮罩"
+  },
   "crop and resize": {
     "Crop and resize": "裁剪",
     "Crop and Resize": "裁剪並調整大小"
