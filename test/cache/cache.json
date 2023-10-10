@@ -1,4 +1,8 @@
 {
+  "abstract": {
+    "abstract": "abstract (抽象藝術)",
+    "Abstract": "Abstract (抽象)"
+  },
   "add": {
     "add": "新增",
     "Add": "加入"
@@ -30,7 +34,7 @@
   },
   "anime": {
     "anime": "anime (動漫)",
-    "Anime": "動漫"
+    "Anime": "Anime (動漫)"
   },
   "api endpoint": {
     "API endpoint": "API 端點",
@@ -64,6 +68,10 @@
   "background color": {
     "background color": "背景顏色",
     "Background Color": "背景顏色"
+  },
+  "base": {
+    "base": "base (基礎)",
+    "Base": "基層"
   },
   "base model:": {
     "Base model:": "底模: ",
@@ -161,6 +169,10 @@
     "codeformer weight": "CodeFormer 強度",
     "CodeFormer weight": "CodeFormer 強度",
     "CodeFormer Weight": "CodeFormer  強度"
+  },
+  "collage": {
+    "collage": "collage (拼貼)",
+    "Collage": "Collage (拼貼藝術)"
   },
   "content type:": {
     "Content type:": "內容類別: ",
@@ -633,6 +645,10 @@
     "Prompt mode": "提示詞模式",
     "Prompt Mode": "提示詞模式"
   },
+  "psychedelic": {
+    "psychedelic": "psychedelic (迷幻藝術)",
+    "Psychedelic": "Psychedelic (迷幻藝術)"
+  },
   "quick": {
     "quick": "快速",
     "Quick": "快速設定"
@@ -652,6 +668,10 @@
   "refresh": {
     "refresh": "重新整理",
     "Refresh": "重新整理"
+  },
+  "renaissance": {
+    "renaissance": "renaissance (文藝復興)",
+    "Renaissance": "Renaissance (文藝復興)"
   },
   "replace preview": {
     "Replace preview": "取代預覽圖像",
@@ -805,6 +825,14 @@
     "Sort by:": "排序方式: ",
     "Sort By:": "排序方式: "
   },
+  "space": {
+    "space": "空間",
+    "Space": "Space (空間藝術)"
+  },
+  "stained glass": {
+    "stained glass": "stained glass (彩色玻璃)",
+    "Stained Glass": "Stained Glass (染色玻璃)"
+  },
   "status": {
     "status": "狀態",
     "Status": "狀態"
@@ -929,6 +957,10 @@
   "vertical": {
     "vertical": "垂直",
     "Vertical": "垂直"
+  },
+  "watercolor": {
+    "watercolor": "watercolor (水彩)",
+    "Watercolor": "Watercolor (水彩)"
   },
   "weights alpha": {
     "weights alpha": "權重 α",
