@@ -677,6 +677,10 @@
     "Replace preview": "取代預覽圖像",
     "replace preview": "取代預覽"
   },
+  "(requires web-ui restart)": {
+    "(Requires Web-UI restart)": "(需重啟 Web-UI)",
+    "(Requires Web-UI Restart)": "(需要重啟 Web-UI)"
+  },
   "reset": {
     "reset": "重設",
     "Reset": "重設"
@@ -777,6 +781,10 @@
   "settings file path can be relative to webui folder or full - absolute": {
     "settings file path can be relative to webui folder OR full - absolute": "設定檔案路徑可以相對於 SD-WebUI 根目錄，也可以是完整的絕對路徑",
     "Settings file Path can be relative to webui folder OR full - absolute": "設定檔案路徑可以相對於 SD-WebUI 根目錄，也可以是完整的絕對路徑"
+  },
+  "show aria2 logs in cmd": {
+    "Show Aria2 logs in CMD": "在 CMD 中顯示 Aria2 日誌",
+    "Show Aria2 Logs in CMD": "在 CMD (控制台) 顯示 Aria2 日誌"
   },
   "shuffle": {
     "shuffle": "shuffle (隨機洗牌)",
