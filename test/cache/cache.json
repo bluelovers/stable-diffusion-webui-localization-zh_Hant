@@ -439,6 +439,10 @@
     "localization": "本地化",
     "Localization": "本地化"
   },
+  "lora model": {
+    "LoRA Model": "LoRA 模型",
+    "Lora Model": "LoRA 模型"
+  },
   "mainly allows using more than 200 steps. otherwise, it's a mirror-like param of 'strength schedule'": {
     "mainly allows using more than 200 steps. otherwise, it's a mirror-like param of 'strength schedule'": "主要用於允許使用大於 200 的迭代步數。不然的話其實只是近似於強度調度計劃的一個參數",
     "mainly allows using more than 200 steps. Otherwise, it's a mirror-like param of 'strength schedule'": "主要為了允許使用超過 200 的迭代步數。否則的話本選項其實約等於另一個叫 ‘強度調度計劃’ 的參數選項"
@@ -510,6 +514,10 @@
   "model filename:": {
     "Model filename:": "模型檔名: ",
     "Model Filename:": "模型檔名: "
+  },
+  "model format": {
+    "Model format": "模型格式",
+    "Model Format": "模型格式"
   },
   "model hash": {
     "model hash": "模型雜湊值",
@@ -908,6 +916,14 @@
   "trained tags (if any):": {
     "Trained tags (if any):": "訓練標籤 (如有): ",
     "Trained Tags (if any):": "訓練標籤 (如有): "
+  },
+  "train embedding": {
+    "Train embedding": "訓練嵌入式模型",
+    "Train Embedding": "訓練嵌入"
+  },
+  "train hypernetwork": {
+    "Train hypernetwork": "訓練超網絡",
+    "Train Hypernetwork": "訓練超網路"
   },
   "training": {
     "training": "訓練",
