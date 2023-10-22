@@ -673,6 +673,10 @@
     "rating": "評分",
     "Rating": "評分"
   },
+  "refiner model": {
+    "Refiner model": "Refiner 模型",
+    "Refiner Model": "Refiner 模型"
+  },
   "refresh": {
     "refresh": "重新整理",
     "Refresh": "重新整理"
