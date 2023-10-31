@@ -582,7 +582,7 @@
     "Number of Samples to Generate": "產生樣本的數量"
   },
   "open new canvas": {
-    "Open new canvas": "打開新畫布",
+    "Open new canvas": "開啟新畫布",
     "Open New Canvas": "打開新畫布"
   },
   "openpose": {
@@ -890,7 +890,7 @@
     "Text files directory (Optional, will load from input dir if not specified)": "文本檔案目錄 (可選, 如不指定將從輸入目錄載入)"
   },
   "threshold": {
-    "threshold": "threshold (閾值)",
+    "threshold": "閾值",
     "Threshold": "閾值"
   },
   "tile": {
