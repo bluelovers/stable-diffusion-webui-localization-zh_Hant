@@ -152,6 +152,10 @@
     "chromatic": "色度",
     "Chromatic": "色度"
   },
+  "civitai browser+": {
+    "Civitai Browser+": "Civitai 瀏覽器+",
+    "CivitAI Browser+": "CivitAI 瀏覽器+"
+  },
   "class prompt": {
     "Class prompt": "類別(Class)正向提示詞",
     "Class Prompt": "類別/正則提示詞"
@@ -849,6 +853,14 @@
     "space": "空間",
     "Space": "Space (空間藝術)"
   },
+  "stage 1": {
+    "stage 1": "步驟 1",
+    "Stage 1": "第一階段"
+  },
+  "stage 2": {
+    "stage 2": "步驟 2",
+    "Stage 2": "第二階段"
+  },
   "stained glass": {
     "stained glass": "stained glass (彩色玻璃)",
     "Stained Glass": "Stained Glass (染色玻璃)"
@@ -1013,6 +1025,10 @@
   "x values": {
     "X values": "X 軸值",
     "X Values": "X 軸值"
+  },
+  "xyz plot": {
+    "XYZ plot": "XYZ 圖",
+    "XYZ Plot": "XYZ 圖"
   },
   "y values": {
     "Y values": "Y 軸值",
