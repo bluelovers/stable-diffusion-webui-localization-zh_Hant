@@ -4745,8 +4745,6 @@
   "Script first": "脚本优先",
   "Script names to apply to ADetailer (separated by comma)": "应用於 After Detailer 的脚本名称 (用逗号分隔)",
   "scripts": "脚本",
-  "scroll": "滚动",
-  "sculpture": "sculpture (雕塑)",
   "sd model (experimental)": "SD 模型 (实验性)",
   "sd_model_hash": "SD模型杂凑值",
   "sd-parseq manifest": "sd-parseq 组态档案",
