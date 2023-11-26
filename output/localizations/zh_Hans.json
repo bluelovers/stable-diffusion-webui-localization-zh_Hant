@@ -6836,10 +6836,13 @@
   "female-breast.pt": "female-breast (写实 胸部)",
   "female_breast_v1.1-sensitive.pt": "female_breast_v1.1-sensitive (写实 胸部)",
   "female_breast_v2.pt": "female_breast_v2 (写实 胸部)",
+  "female_breast_v3.pt": "female_breast_v3 (写实 胸部)",
+  "female_breast_v3.2.pt": "female_breast_v3.2 stable (写实 胸部)",
   "lips_v1.pt": "lips_v1 (2D / 写实 嘴唇)",
   "Eyes.pt": "Eyes (2D / 写实 眼)",
   "animal_ears.pt": "animal_ears (2D 兽耳)",
   "breasts_seg.pt": "breasts_seg (2D 胸部)",
+  "vagina-v2.6.pt": "vagina-v2.6 (写实 生殖器 女)",
   "##settings_sampler-params##uniform": "均匀",
   "sd-webui-lobe-theme": "Lobe theme"
 }
