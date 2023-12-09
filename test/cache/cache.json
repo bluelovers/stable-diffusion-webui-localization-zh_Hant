@@ -338,8 +338,16 @@
     "hires. fix": "高解析度修復",
     "Hires. fix": "高解析度修正（Hires. fix）"
   },
+  "hires negative prompt": {
+    "Hires Negative prompt": "高分修復反向提示詞",
+    "Hires negative prompt": "高解析度反向提示詞"
+  },
+  "hires prompt": {
+    "Hires Prompt": "高分修復正向提示詞",
+    "Hires prompt": "高解析度提示詞"
+  },
   "hires sampling method": {
-    "Hires sampling method": "高分採樣方法",
+    "Hires sampling method": "高解析度取樣方法",
     "Hires Sampling method": "高解析度修復採樣方法"
   },
   "hires upscaler": {
