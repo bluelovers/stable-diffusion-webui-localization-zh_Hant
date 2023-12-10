@@ -133,7 +133,7 @@
   },
   "cfg scale": {
     "cfg scale": "提示詞相關性",
-    "CFG scale": "提示詞引導系數 (CFG Scale)",
+    "CFG scale": "提示詞相關性（CFG）",
     "CFG Scale": "提示詞相關性（CFG）"
   },
   "checkpoint": {
@@ -690,7 +690,7 @@
     "Renaissance": "Renaissance (文藝復興)"
   },
   "replace preview": {
-    "Replace preview": "取代預覽圖像",
+    "Replace preview": "替換預覽",
     "replace preview": "取代預覽"
   },
   "(requires web-ui restart)": {
