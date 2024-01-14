@@ -282,6 +282,10 @@
     "error": "錯誤",
     "Error": "錯誤"
   },
+  "extensions": {
+    "extensions": "擴展",
+    "Extensions": "擴充功能"
+  },
   "extra": {
     "extra": "額外的",
     "Extra": "▼"
