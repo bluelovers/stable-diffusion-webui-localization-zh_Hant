@@ -7072,6 +7072,7 @@
   "breasts_seg.pt": "breasts_seg (2D 胸部)",
   "vagina-v2.6.pt": "vagina-v2.6 (寫實 生殖器 女)",
   "FacesV1.pt": "FacesV1 (2D / 寫實 / 獸迷 臉)",
+  "PitHandDetailer-v1-seg.pt": "PitHandDetailer-v1-seg (2D / 寫實 / 手)",
   "##settings_sampler-params##uniform": "均勻",
   "sd-webui-lobe-theme": "Lobe theme"
 }

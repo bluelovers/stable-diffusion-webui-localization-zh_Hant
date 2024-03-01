@@ -132,6 +132,11 @@
 
   "FacesV1.pt": "FacesV1 (2D / 寫實 / 獸迷 臉)",
 
+  /**
+    * https://civitai.com/models/329458/hand-detailersegmentation-adetailer?modelVersionId=369179
+   */
+  "PitHandDetailer-v1-seg.pt": "PitHandDetailer-v1-seg (2D / 寫實 / 手)",
+
   // -------------
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",
