@@ -90,7 +90,6 @@
   "depth_marigold": "Marigold Depth 高精度深度图",
   "depth_anything": "Depth Anything",
   "PhotoMaker": "PhotoMaker (个性化人像图片)",
-  "PhotoMaker": "IP Adapter FaceID",
 
   // -------------
   "reference_adain+attn": "reference_adain+attn (仅参考输入图 - 自适应实例规范 + 關聯)",
@@ -169,8 +168,6 @@
 
   // -------------
   "sd-webui-lobe-theme": "Lobe theme",
-
-
 
   // -------------
   // -------------
