@@ -6851,6 +6851,7 @@
   "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "检视哪些词是使用多个子词构成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（一个单字但使用两个嵌入向量）。目前这个扩充功能还有点问题，在按下按钮之前需要一点时间来處理。如果过了一段时间还是不行，试试随便加个空格重新整理一下",
   "symbol:color-hex, symbol:color-hex, ...": "文字:颜色程式码, 文字:颜色程式码, ...",
   "e.g. A portrait photo of embedding_name": "範例： A portrait photo of embedding_name",
+  "Revision": "Revision (图像提示词)",
   "[ControlNet] Enabled": "[ControlNet] 启用",
   "[ControlNet] Model": "[ControlNet] 模型",
   "[ControlNet] Guidance Start": "[ControlNet] 引导开始",

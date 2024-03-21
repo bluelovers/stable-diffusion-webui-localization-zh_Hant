@@ -7511,7 +7511,7 @@
   "e.g. A portrait photo of embedding_name": "示例： A portrait photo of embedding_name",
   "ControlNet v1.1.411": "ControlNet v1.1.411",
   "InstructP2P": "InstructP2P",
-  "Revision": "Revision",
+  "Revision": "Revision (图像提示词)",
   "T2I-Adapter": "T2I-Adapter",
   "IP-Adapter": "IP-Adapter",
   "Preset name": "Preset name",
