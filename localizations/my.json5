@@ -91,6 +91,8 @@
   "depth_anything": "Depth Anything",
   "PhotoMaker": "PhotoMaker (个性化人像图片)",
 
+  "Revision": "Revision (图像提示词)",
+
   // -------------
   "reference_adain+attn": "reference_adain+attn (仅参考输入图 - 自适应实例规范 + 關聯)",
   "normal_bae": "normal_bae (Bae 法线贴图提取 新)",
