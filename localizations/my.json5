@@ -155,6 +155,18 @@
     * https://civitai.com/models/329458/hand-detailersegmentation-adetailer?modelVersionId=369179
    */
   "PitHandDetailer-v1-seg.pt": "PitHandDetailer-v1-seg (2D / 寫實 / 手)",
+  "PitHandDetailer-v1b-seg.pt.pt": "PitHandDetailer-v1b-seg.pt (2D / 寫實 / 手)",
+
+  /**
+   * https://civitai.com/models/334668/eye-detailersegmentation-adetailer
+   **/
+  "PitEyeDetailer-v1-seg.pt": "PitEyeDetailer-v1-seg (2D / 寫實 / 單眼)",
+
+  "Eyeful_v1.pt": "Eyeful_v1 (2D / 寫實 / 單眼)",
+
+  "Anzhc Eyes -seg-hd.pt": "Anzhc Eyes -seg-hd (2D / 寫實 / 單眼)",
+
+  "Anzhc Face -seg.pt": "Anzhc Face -seg (2D / 寫實 / 臉)",
 
   // -------------
   "uniform": null,
