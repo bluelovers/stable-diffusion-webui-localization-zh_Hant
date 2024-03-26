@@ -161,6 +161,7 @@
    * https://civitai.com/models/334668/eye-detailersegmentation-adetailer
    **/
   "PitEyeDetailer-v1-seg.pt": "PitEyeDetailer-v1-seg (2D / 寫實 / 單眼)",
+  "PitEyeDetailer-v1b-seg.pt": "PitEyeDetailer-v1b-seg (2D / 寫實 / 單眼)",
 
   "Eyeful_v1.pt": "Eyeful_v1 (2D / 寫實 / 單眼)",
 
