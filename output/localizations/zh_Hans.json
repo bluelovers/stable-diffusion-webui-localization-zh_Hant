@@ -7098,6 +7098,7 @@
   "Eyeful_v1.pt": "Eyeful_v1 (2D / 写实 / 单眼)",
   "Anzhc Eyes -seg-hd.pt": "Anzhc Eyes -seg-hd (2D / 写实 / 单眼)",
   "Anzhc Face -seg.pt": "Anzhc Face -seg (2D / 写实 / 脸)",
+  "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg (眼镜)",
   "##settings_sampler-params##uniform": "均匀",
   "sd-webui-lobe-theme": "Lobe theme"
 }

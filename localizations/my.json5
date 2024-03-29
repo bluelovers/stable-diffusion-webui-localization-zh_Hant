@@ -172,6 +172,8 @@
 
   "Anzhc Face -seg.pt": "Anzhc Face -seg (2D / 寫實 / 臉)",
 
+  "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg (眼鏡)",
+
   // -------------
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",
