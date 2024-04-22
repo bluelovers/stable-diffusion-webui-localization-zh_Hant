@@ -207,6 +207,8 @@
 
   "1x_PixelSharpen_100000": "1x_PixelSharpen_100000 (像素 去模糊)",
 
+  "8x_NMKD-Typescale_175k": "8x_NMKD-Typescale_175k (文字)",
+
   // -------------
   "sd-webui-lobe-theme": "Lobe theme",
 
