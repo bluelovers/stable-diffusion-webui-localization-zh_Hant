@@ -7108,6 +7108,11 @@
   "2xHFA2kShallowESRGAN": "2xHFA2kShallowESRGAN (动画 降躁 锐化)",
   "4xLSDIR": "4xLSDIR (写实 修复)",
   "4xLSDIRplus": "4xLSDIRplus (写实 修复)",
+  "4xFFHQDAT": "4xFFHQDAT (写实 脸 降躁)",
+  "4xFFHQLDAT": "4xFFHQLDAT (写实 脸 降躁 适用於低品质图像)",
+  "4xFaceUpDAT": "4xFaceUpDAT (写实 脸)",
+  "4xFaceUpSharpDAT": "4xFaceUpSharpDAT (写实 脸 降躁 锐化)",
+  "4xFaceUpSharpLDAT": "4xFaceUpSharpLDAT (写实 脸 降躁 锐化 适用於低品质图像)",
   "4x_DWTP_descreenton_H_esrgan": "4x_DWTP_descreenton_H_esrgan (漫画 去除网点)",
   "4x_SmolFace_200k": "4x_SmolFace_200k (像素 转高清)",
   "4x_SmolFace_clean": "4x_SmolFace_clean (像素 转高清)",
@@ -7115,5 +7120,7 @@
   "4x_escale_100000_G": "4x_escale_100000_G (动漫)",
   "1x_PixelSharpen_100000": "1x_PixelSharpen_100000 (像素 去模糊)",
   "8x_NMKD-Typescale_175k": "8x_NMKD-Typescale_175k (文字)",
+  "4xFSDedither_Manga": "4xFSDedither_Manga (像素 漫画)",
+  "4x_NMKD-UltraYandere_300k": "4x_NMKD-UltraYandere_300k (动漫)",
   "sd-webui-lobe-theme": "Lobe theme"
 }

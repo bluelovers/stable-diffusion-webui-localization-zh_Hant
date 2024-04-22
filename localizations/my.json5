@@ -198,6 +198,13 @@
   "4xLSDIR": "4xLSDIR (寫實 修復)",
   "4xLSDIRplus": "4xLSDIRplus (寫實 修復)",
 
+  "4xFFHQDAT": "4xFFHQDAT (寫實 臉 降躁)",
+  "4xFFHQLDAT": "4xFFHQLDAT (寫實 臉 降躁 適用於低品質圖像)",
+
+  "4xFaceUpDAT": "4xFaceUpDAT (寫實 臉)",
+  "4xFaceUpSharpDAT": "4xFaceUpSharpDAT (寫實 臉 降躁 锐化)",
+  "4xFaceUpSharpLDAT": "4xFaceUpSharpLDAT (寫實 臉 降躁 锐化 適用於低品質圖像)",
+
   "4x_DWTP_descreenton_H_esrgan": "4x_DWTP_descreenton_H_esrgan (漫畫 去除網點)",
 
   "4x_SmolFace_200k": "4x_SmolFace_200k (像素 轉高清)",
@@ -210,6 +217,9 @@
   "1x_PixelSharpen_100000": "1x_PixelSharpen_100000 (像素 去模糊)",
 
   "8x_NMKD-Typescale_175k": "8x_NMKD-Typescale_175k (文字)",
+
+  "4xFSDedither_Manga": "4xFSDedither_Manga (像素 漫畫)",
+  "4x_NMKD-UltraYandere_300k": "4x_NMKD-UltraYandere_300k (動漫)",
 
   // -------------
   "sd-webui-lobe-theme": "Lobe theme",
