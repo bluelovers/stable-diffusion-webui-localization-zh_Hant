@@ -179,12 +179,33 @@
   "##settings_sampler-params##uniform": "均勻",
 
   // -------------
-  "ESRGAN_4x": "ESRGAN_4x (寫實)",
+  "ESRGAN_4x": "ESRGAN_4x (寫實 锐化)",
   "R-ESRGAN 4x+": "R-ESRGAN 4x+ (通用 锐度最高，细节更多)",
   "R-ESRGAN 4x+ Anime6B": "R-ESRGAN 4x+ Anime6B (2D 轻微的羽化/模糊处理)",
   "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 针对视频放大处理，模糊程度更高)",
   "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (细节上更倾向于4X+ 模糊程度上也比Anime6B大一点)",
   "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 适用于厚涂插画)",
+
+  "4x_DWTP_DS_DAT2_V3": "4x_DWTP_DS_DAT2_V3 (黑白 漫畫 文字)",
+  "4x_DWTP_DS_dat2_v3_2": "4x_DWTP_DS_dat2_v3_2 (黑白 漫畫 文字)",
+
+  "4x_IllustrationJaNai_V1_DAT2_190k": "4x_IllustrationJaNai_V1_DAT2_190k (彩色 插畫 漫畫封面 修復)",
+  "4x_IllustrationJaNai_V1_ESRGAN_135k": "4x_IllustrationJaNai_V1_ESRGAN_135k (彩色 插畫 漫畫封面 修復)",
+
+  "2xHFA2kSwinIR-S": "2xHFA2kSwinIR-S (動畫 降躁 锐化)",
+  "2xHFA2kShallowESRGAN": "2xHFA2kShallowESRGAN (動畫 降躁 锐化)",
+
+  "4xLSDIR": "4xLSDIR (寫實 修復)",
+  "4xLSDIRplus": "4xLSDIRplus (寫實 修復)",
+
+  "4x_DWTP_descreenton_H_esrgan": "4x_DWTP_descreenton_H_esrgan (漫畫 去除網點)",
+
+  "4x_SmolFace_200k": "4x_SmolFace_200k (像素 轉高清)",
+  "4x_SmolFace_clean": "4x_SmolFace_clean (像素 轉高清)",
+
+  "4x_escale_100000_G": "4x_escale_100000_G (動漫)",
+
+  "1x_PixelSharpen_100000": "1x_PixelSharpen_100000 (像素 去模糊)",
 
   // -------------
   "sd-webui-lobe-theme": "Lobe theme",
