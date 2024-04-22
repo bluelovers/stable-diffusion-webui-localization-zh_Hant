@@ -7111,7 +7111,9 @@
   "4x_DWTP_descreenton_H_esrgan": "4x_DWTP_descreenton_H_esrgan (漫畫 去除網點)",
   "4x_SmolFace_200k": "4x_SmolFace_200k (像素 轉高清)",
   "4x_SmolFace_clean": "4x_SmolFace_clean (像素 轉高清)",
+  "4x_PixelPerfectV4_137000_G": "4x_PixelPerfectV4_137000_G (像素 轉高清)",
   "4x_escale_100000_G": "4x_escale_100000_G (動漫)",
   "1x_PixelSharpen_100000": "1x_PixelSharpen_100000 (像素 去模糊)",
+  "8x_NMKD-Typescale_175k": "8x_NMKD-Typescale_175k (文字)",
   "sd-webui-lobe-theme": "Lobe theme"
 }
