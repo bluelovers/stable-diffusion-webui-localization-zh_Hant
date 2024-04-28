@@ -133,6 +133,12 @@
   "@@/^t2iadapter_zoedepth_(\w+) (\\[\\w+\\])$/": "t2iadapter_zoedepth_$1 $2 (ZoeDepth 结合相对和绝对深度)",
   "depth_zoe": "depth_zoe (ZoeDepth 结合相对和绝对深度)",
 
+  "@@/^outfitToOutfit_v20 (\\[\\w+\\])$/": "outfitToOutfit_v20 $1 (服裝 更改人物服裝)",
+
+  "@@/^ip-adapter_sd15_light (\\[\\w+\\])$/": "IP-Adapter light $1 (提示詞優先)",
+  "@@/^ip-adapter-plus_sd15 (\\[\\w+\\])$/": "IP-Adapter Plus $1 (參考整體風格 例如服裝)",
+  "@@/^ip-adapter-plus-face_sd15 (\\[\\w+\\])$/": "IP-Adapter Face $1 (參考臉與发型)",
+
   // !After Detailer -------------
   "face_yolov8n.pt": "face_yolov8n (2D / 寫實 臉)",
   "face_yolov8n_v2.pt": "face_yolov8n_v2 (2D / 寫實 臉)",
