@@ -11,6 +11,9 @@
   "[wiki]": null,
   "wiki": null,
 
+  "3D rendering": "3D 渲染中",
+
+
   // -------------
   "realism": null,
   "cubism": null,
@@ -70,9 +73,24 @@
   "comics": null,
   "concept": null,
 
-
   // -------------
   "reallybigname": null,
+
+  "[hash:<algorithms>]": null,
+  "Action on exiting caption": null,
+  "Adi Granov": null,
+  "Adolf Kosarek": null,
+  "alpha and beta": null,
+  "B": null,
+  "by AUTOMATIC1111": null,
+  "working": null,
+
+  "Euler": null,
+  "Euler a": null,
+  "extension by": null,
+  "extension by bbc_mc": null,
+  "user": null,
+  "view": null,
 
   // -------------
   "Asymmetric tiling": "非對稱平舖",
@@ -220,6 +238,10 @@
 
   "4xFSDedither_Manga": "4xFSDedither_Manga (像素 漫畫)",
   "4x_NMKD-UltraYandere_300k": "4x_NMKD-UltraYandere_300k (動漫)",
+
+  // -------------
+
+
 
   // -------------
   "sd-webui-lobe-theme": "Lobe theme",

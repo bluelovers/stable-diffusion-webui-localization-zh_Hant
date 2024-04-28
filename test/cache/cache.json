@@ -1,7 +1,27 @@
 {
+  "(do not recalculate conds from prompts if prompts have not changed since previous calculation)": {
+    "(do not recalculate conds from prompts if prompts have not changed since previous calculation)": "(如果提示詞未更改，則不再重新從提示詞計算調整參數)",
+    "(Do not recalculate conds from prompts if prompts have not changed since previous calculation)": "(若提示詞自上次計算後未發生變化, 則不根據提示詞重新調整計算)"
+  },
+  "(requires web-ui restart)": {
+    "(Requires Web-UI restart)": "(需重啟 Web-UI)",
+    "(Requires Web-UI Restart)": "(需要重啟 Web-UI)"
+  },
+  "3d rendering": {
+    "3D rendering": "3D 渲染中",
+    "3D Rendering": "3D 渲染中"
+  },
   "abstract": {
     "abstract": "abstract (抽象藝術)",
     "Abstract": "Abstract (抽象)"
+  },
+  "actual fps": {
+    "actual FPS": "實際幀率（幀每秒）",
+    "Actual FPS": "實際幀率（幀每秒）"
+  },
+  "adaptive change:": {
+    "Adaptive change:": "適應性變換：",
+    "Adaptive Change:": "適應性變換"
   },
   "add": {
     "add": "新增",
@@ -15,6 +35,10 @@
   "advanced options": {
     "Advanced options": "進階選項",
     "Advanced Options": "進階選項"
+  },
+  "aesthetic scorer": {
+    "Aesthetic Scorer": "美學評分器",
+    "Aesthetic scorer": "美學評分器"
   },
   "all": {
     "all": "全部",
@@ -56,6 +80,14 @@
     "Apply settings": "套用設定",
     "Apply Settings": "儲存設定"
   },
+  "artists to study": {
+    "Artists to study": "藝術家圖庫",
+    "Artists To Study": "藝術家圖庫"
+  },
+  "asymmetric tiling": {
+    "Asymmetric Tiling": "非對稱平舖",
+    "Asymmetric tiling": "非對稱平舖"
+  },
   "auto": {
     "auto": "自動",
     "Auto": "自動",
@@ -85,6 +117,10 @@
     "batch process": "批量處理",
     "Batch process": "批量處理",
     "Batch Process": "批次處理"
+  },
+  "batch settings": {
+    "Batch Settings": "批量處理設定",
+    "Batch settings": "批次設定"
   },
   "batch size": {
     "batch size": "單批數量",
@@ -136,6 +172,10 @@
     "CFG scale": "提示詞相關性（CFG）",
     "CFG Scale": "提示詞相關性（CFG）"
   },
+  "check progress": {
+    "Check progress": "檢視進度",
+    "Check Progress": "檢視進度"
+  },
   "checkpoint": {
     "checkpoint": "模型",
     "Checkpoint": "模型權重存檔點"
@@ -143,10 +183,6 @@
   "checkpoint format": {
     "Checkpoint format": "模型權重檢查點格式",
     "Checkpoint Format": "模型格式"
-  },
-  "check progress": {
-    "Check progress": "檢視進度",
-    "Check Progress": "檢視進度"
   },
   "chromatic": {
     "chromatic": "色度",
@@ -168,6 +204,10 @@
     "Clip skip": "Clip 跳過層",
     "Clip Skip": "Clip 跳過層",
     "CLIP Skip": "CLIP 終止層數"
+  },
+  "codeformer": {
+    "CodeFormer": "CodeFormer 更激進",
+    "Codeformer": "CodeFormer 更激進"
   },
   "codeformer weight": {
     "codeformer weight": "CodeFormer 強度",
@@ -226,6 +266,10 @@
     "delete": "刪除",
     "Delete": "刪除"
   },
+  "denoise change:": {
+    "Denoise change:": "降噪變化：",
+    "Denoise Change:": "降噪變化："
+  },
   "destination directory": {
     "Destination directory": "目標目錄",
     "Destination Directory": "目標目錄"
@@ -249,10 +293,6 @@
   "discard": {
     "discard": "丟棄",
     "Discard": "丟棄"
-  },
-  "(do not recalculate conds from prompts if prompts have not changed since previous calculation)": {
-    "(do not recalculate conds from prompts if prompts have not changed since previous calculation)": "(如果提示詞未更改，則不再重新從提示詞計算調整參數)",
-    "(Do not recalculate conds from prompts if prompts have not changed since previous calculation)": "(若提示詞自上次計算後未發生變化, 則不根據提示詞重新調整計算)"
   },
   "don't cache latents": {
     "Don't cache latents": "不緩存潛變數",
@@ -281,6 +321,10 @@
   "error": {
     "error": "錯誤",
     "Error": "錯誤"
+  },
+  "eta noise seed delta": {
+    "Eta noise seed delta": "Eta 噪點種子偏移（ENSD）",
+    "ETA Noise Seed Delta": "Eta 噪點種子偏移量 (ENSD)"
   },
   "extensions": {
     "extensions": "擴展",
@@ -322,6 +366,10 @@
     "gamma": "伽馬值",
     "Gamma": "伽馬值"
   },
+  "general": {
+    "General": "一般的",
+    "general": "大眾級/普通內容（General）"
+  },
   "generate": {
     "Generate": "產生",
     "GENERATE": "生成"
@@ -338,10 +386,6 @@
     "height": "高度",
     "Height": "高度"
   },
-  "hires. fix": {
-    "hires. fix": "高解析度修復",
-    "Hires. fix": "高解析度修正（Hires. fix）"
-  },
   "hires negative prompt": {
     "Hires Negative prompt": "高分修復反向提示詞",
     "Hires negative prompt": "高解析度反向提示詞"
@@ -357,6 +401,10 @@
   "hires upscaler": {
     "hires upscaler": "高解析度修復放大演算法",
     "Hires upscaler": "高解析度放大工具"
+  },
+  "hires. fix": {
+    "hires. fix": "高解析度修復",
+    "Hires. fix": "高解析度修正（Hires. fix）"
   },
   "horizontal": {
     "horizontal": "水平",
@@ -382,17 +430,21 @@
     "Important notes:": "重要資訊:",
     "Important Notes:": "重要事項："
   },
+  "include sub images": {
+    "Include Sub Images": "包括子圖像",
+    "Include sub images": "包含子圖像"
+  },
   "inpaint": {
     "inpaint": "修復",
     "Inpaint": "區域重繪"
   },
-  "inpainting": {
-    "inpainting": "重繪",
-    "Inpainting": "重繪"
-  },
   "inpaint sketch": {
     "inpaint sketch": "修復草圖",
     "Inpaint sketch": "修復素描"
+  },
+  "inpainting": {
+    "inpainting": "重繪",
+    "Inpainting": "重繪"
   },
   "input directory": {
     "Input directory": "輸入目錄",
@@ -475,9 +527,17 @@
     "Mask mode": "遮罩模式",
     "Mask Mode": "遮罩模式"
   },
+  "max caption length (0=unlimited)": {
+    "Max Caption Length (0=unlimited)": "最大描述長度（設 0 為無限制）",
+    "Max Caption length (0=unlimited)": "最大描述長度 (0 為無限制)"
+  },
   "max frames": {
     "max frames": "最大幀數",
     "Max frames": "最大幀數量"
+  },
+  "maximum aesthetic_score": {
+    "Maximum aesthetic_score": "最大美學評分",
+    "maximum aesthetic_score": "按美學評分上限過濾"
   },
   "merge and gen": {
     "Merge and gen": "融合並生成",
@@ -507,17 +567,9 @@
     "model A": "模型 A",
     "Model A": "模型 A"
   },
-  "model_a": {
-    "model_A": "模型 A",
-    "Model_A": "模型A"
-  },
   "model b": {
     "model B": "模型 B",
     "Model B": "模型 B"
-  },
-  "model_b": {
-    "model_B": "模型 B",
-    "Model_B": "模型 B"
   },
   "model c": {
     "model C": "模型 C",
@@ -548,13 +600,21 @@
     "Model path": "模型路徑",
     "Model Path": "模型路徑"
   },
-  "models": {
-    "models": "模型",
-    "Models": "模型"
-  },
   "model type": {
     "Model type": "模型類型",
     "Model Type": "模型種類"
+  },
+  "model_a": {
+    "model_A": "模型 A",
+    "Model_A": "模型A"
+  },
+  "model_b": {
+    "model_B": "模型 B",
+    "Model_B": "模型 B"
+  },
+  "models": {
+    "models": "模型",
+    "Models": "模型"
   },
   "multiplier": {
     "multiplier": "倍率",
@@ -563,6 +623,10 @@
   "name": {
     "name": "名稱",
     "Name": "名稱"
+  },
+  "negative": {
+    "negative": "反向",
+    "Negative": "反向提示詞"
   },
   "negative prompt": {
     "Negative prompt": "反向提示詞",
@@ -584,6 +648,10 @@
     "none": "無",
     "None": "無",
     "NONE": "無"
+  },
+  "normal background threshold": {
+    "Normal Background Threshold": "背景辨識閾值",
+    "Normal background threshold": "背景辨識閾值（Normal background threshold）"
   },
   "note": {
     "note": "注意事項",
@@ -637,6 +705,10 @@
     "PNG info": "PNG 圖像資訊",
     "PNG Info": "圖像資訊"
   },
+  "positive": {
+    "positive": "正向",
+    "Positive": "正向提示詞"
+  },
   "prepend": {
     "prepend": "放前面",
     "Prepend": "新增到開頭"
@@ -664,6 +736,10 @@
   "prompt mode": {
     "Prompt mode": "提示詞模式",
     "Prompt Mode": "提示詞模式"
+  },
+  "prompt travel": {
+    "prompt travel": "提示詞變遷",
+    "Prompt Travel": "提示詞變遷"
   },
   "quick": {
     "quick": "快速",
@@ -693,13 +769,13 @@
     "renaissance": "renaissance (文藝復興)",
     "Renaissance": "Renaissance (文藝復興)"
   },
+  "replace": {
+    "Replace": "取代",
+    "replace": "取代"
+  },
   "replace preview": {
     "Replace preview": "替換預覽",
     "replace preview": "取代預覽"
-  },
-  "(requires web-ui restart)": {
-    "(Requires Web-UI restart)": "(需重啟 Web-UI)",
-    "(Requires Web-UI Restart)": "(需要重啟 Web-UI)"
   },
   "reset": {
     "reset": "重設",
@@ -724,6 +800,10 @@
   "run": {
     "run": "執行",
     "Run": "執行"
+  },
+  "sample steps": {
+    "Sample Steps": "樣本步數",
+    "Sample steps": "樣本迭代步數"
   },
   "sampler": {
     "sampler": "取樣器",
@@ -782,9 +862,17 @@
     "search": "檢索",
     "Search": "搜尋"
   },
+  "search results": {
+    "Search results": "搜尋結果",
+    "Search Results": "搜尋結果"
+  },
   "seed": {
     "seed": "種子",
     "Seed": "隨機種子"
+  },
+  "seed travel": {
+    "seed travel": "種子變遷",
+    "Seed travel": "種子變遷"
   },
   "selected": {
     "selected": "選中的",
@@ -881,6 +969,10 @@
     "Steps": "疊代步數",
     "steps": "疊代步數"
   },
+  "steps animation": {
+    "Steps Animation": "步驟動畫",
+    "Steps animation": "預覽動畫化 (Steps animation)"
+  },
   "strength": {
     "strength": "強度",
     "Strength": "強度"
@@ -888,6 +980,10 @@
   "sub folder:": {
     "Sub folder:": "子目錄: ",
     "Sub Folder:": "子目錄: "
+  },
+  "subseed": {
+    "SubSeed": "第二種子",
+    "subseed": "差異隨機種子"
   },
   "system": {
     "system": "系統",
@@ -905,6 +1001,10 @@
     "Text files directory (optional, will load from input dir if not specified)": "文本檔案目錄 (可選, 如不指定將從輸入目錄載入)",
     "Text files directory (Optional, will load from input dir if not specified)": "文本檔案目錄 (可選, 如不指定將從輸入目錄載入)"
   },
+  "text2prompt": {
+    "text2prompt": "文生提示詞",
+    "Text2Prompt": "文生提示詞"
+  },
   "threshold": {
     "threshold": "閾值",
     "Threshold": "閾值"
@@ -915,11 +1015,17 @@
   },
   "tile height": {
     "tile height": "分塊高度",
-    "Tile height": "圖塊高度"
+    "Tile height": "圖塊高度",
+    "Tile Height": "分塊高度"
+  },
+  "tile overlap": {
+    "Tile overlap": "圖塊重疊的畫素",
+    "Tile Overlap": "分塊重疊"
   },
   "tile width": {
     "tile width": "分塊寬度",
-    "Tile width": "圖塊寬度"
+    "Tile width": "圖塊寬度",
+    "Tile Width": "分塊寬度"
   },
   "tiling": {
     "Tiling": "可平鋪",
@@ -933,9 +1039,13 @@
     "title": "標題",
     "Title": "職位"
   },
-  "trained tags (if any):": {
-    "Trained tags (if any):": "訓練標籤 (如有): ",
-    "Trained Tags (if any):": "訓練標籤 (如有): "
+  "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's clip dictionary and instead 'compu' and 'ter' are used (1 word but 2 embedding vectors). currently buggy and needs a moment to process before pressing the button. if it doesn't work after a moment, try adding a random space to refresh it.": {
+    "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（一個單字但使用兩個嵌入向量）。目前這個擴充功能還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一段時間還是不行，試試隨便加個空格重新整理一下",
+    "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 Embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（1 個單詞但使用 2 個 Embedding 向量）。目前這個擴展還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一會還是不行，試試隨便加個空格刷新一下"
+  },
+  "tokenizer": {
+    "tokenizer": "標記解析器",
+    "Tokenizer": "標記解析器"
   },
   "train embedding": {
     "Train embedding": "訓練嵌入式模型",
@@ -945,9 +1055,17 @@
     "Train hypernetwork": "訓練超網絡",
     "Train Hypernetwork": "訓練超網路"
   },
+  "trained tags (if any):": {
+    "Trained tags (if any):": "訓練標籤 (如有): ",
+    "Trained Tags (if any):": "訓練標籤 (如有): "
+  },
   "training": {
     "training": "訓練",
     "Training": "訓練"
+  },
+  "training steps": {
+    "Training steps": "訓練迭代步數",
+    "Training Steps": "訓練迭代步數"
   },
   "translate": {
     "translate": "翻譯",
@@ -960,6 +1078,10 @@
   "txt2img": {
     "txt2img": "文生圖",
     "TXT2IMG": "文生圖"
+  },
+  "ultimate sd upscale": {
+    "Ultimate SD Upscale": "終極 SD 放大",
+    "Ultimate SD upscale": "終極 SD 放大"
   },
   "unipc order": {
     "UniPC order": "UniPC 低階步數",
@@ -974,6 +1096,14 @@
     "update": "更新",
     "Update": "更新"
   },
+  "upscale method": {
+    "Upscale method": "放大方法",
+    "Upscale Method": "放大演算法"
+  },
+  "upscale ratio": {
+    "Upscale ratio": "放大比率",
+    "Upscale Ratio": "放大比例"
+  },
   "upscaler 1": {
     "upscaler 1": "放大演算法 1",
     "Upscaler 1": "放大演算法 1"
@@ -981,6 +1111,10 @@
   "upscaler 2": {
     "upscaler 2": "放大演算法 2",
     "Upscaler 2": "放大演算法 2"
+  },
+  "use mask": {
+    "Use mask": "啟用遮罩",
+    "Use Mask": "使用遮罩"
   },
   "user interface": {
     "User interface": "使用者介面",
@@ -1037,29 +1171,5 @@
   "y values": {
     "Y values": "Y 軸值",
     "Y Values": "Y 軸值"
-  },
-  "artists to study": {
-    "Artists to study": "藝術家圖庫",
-    "Artists To Study": "藝術家圖庫"
-  },
-  "tokenizer": {
-    "tokenizer": "標記解析器",
-    "Tokenizer": "標記解析器"
-  },
-  "text2prompt": {
-    "text2prompt": "文生提示詞",
-    "Text2Prompt": "文生提示詞"
-  },
-  "seed travel": {
-    "seed travel": "種子變遷",
-    "Seed travel": "種子變遷"
-  },
-  "asymmetric tiling": {
-    "Asymmetric Tiling": "非對稱平舖",
-    "Asymmetric tiling": "非對稱平舖"
-  },
-  "ultimate sd upscale": {
-    "Ultimate SD Upscale": "終極 SD 放大",
-    "Ultimate SD upscale": "終極 SD 放大"
   }
 }
