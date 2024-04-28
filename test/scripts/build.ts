@@ -4,36 +4,50 @@ import { __ROOT, __ROOT_OUTPUT } from '../__root';
 import { initIdeaSegmentText, processTextSync } from '../../src/lib/segment';
 import { tw2cn_min } from '@lazy-cjk/zh-convert/min';
 import { parse } from 'json5'
+import Bluebird from 'bluebird';
+import { sortObjectKeys } from 'sort-object-keys2';
+import { compareCaseInsensitive } from '@bluelovers/string-natural-compare';
 
 function readJSON5(path: string)
 {
 	return readFile(path).then(buf => parse(buf.toString()))
 }
 
-export default Promise.all([
-		readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
-		readJSON(join(__ROOT, 'localizations', 'zh-Hans.json')),
-		readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
-		readJSON5(join(__ROOT, 'localizations', 'my.json5')),
-	])
+function omitEngligh<T extends Record<string, string>>(tw: T)
+{
+	Object.entries(tw)
+		.forEach(([key, value]) =>
+		{
+			if (key === value)
+			{
+				delete tw[key]
+			}
+		})
+	;
+	return tw
+}
+
+export default Bluebird.props({
+		tw: readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
+		cn: readJSON(join(__ROOT, 'localizations', 'zh-Hans.json')),
+	})
+	.then(async (props) => {
+
+		let ls = await Promise.all([
+			{
+				...props.cn,
+			},
+			readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
+			//readJSON(join(__ROOT, 'localizations', 'sd-webui-zh_CN-xhox20240214(testing).json')).then(omitEngligh),
+			omitEngligh(props.cn),
+			omitEngligh(props.tw),
+			readJSON5(join(__ROOT, 'localizations', 'my.json5')),
+		]);
+
+		return ls
+	})
 	.then(ls =>
 	{
-		console.log(`merge localizations`);
-
-		let tw = ls[2];
-
-		Object.entries(tw)
-			.forEach(([key, value]) =>
-			{
-				if (key === value)
-				{
-					delete tw[key]
-				}
-			})
-		;
-
-		ls.unshift(ls[1]);
-
 		return ls.reduce((a, b) => Object.assign(a, b), {}) as Record<string, string>
 	})
 	.then(async (json) =>
@@ -56,6 +70,8 @@ export default Promise.all([
 		];
 
 		const json_hans: typeof json = {};
+
+		json = sortObjectKeys(json, compareCaseInsensitive);
 
 		for (const key of Object.keys(json))
 		{
