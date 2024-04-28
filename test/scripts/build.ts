@@ -42,7 +42,20 @@ export default Bluebird.props({
 			 * @see https://github.com/xhoxye/stable-diffusion-webui-forge/blob/main/localizations
 			 * @see https://nga.178.com/read.php?tid=39308107&rand=884
 			 */
-			readJSON(join(__ROOT, 'localizations', 'sd-webui-zh_CN-xhox20240214(testing).json')).then(omitEngligh),
+			readJSON(join(__ROOT, 'localizations', 'sd-webui-zh_CN-xhox20240214(testing).json'))
+				.then(omitEngligh)
+				.then(data => {
+
+					Object.keys(data).forEach(key => {
+						if (key.length === 1 || key.includes('_') && /^[_a-z]{2,}$/.test(key) && key === key.toLowerCase())
+						{
+							delete data[key]
+						}
+					})
+
+					return data
+				})
+			,
 			omitEngligh(props.cn),
 			omitEngligh(props.tw),
 			readJSON5(join(__ROOT, 'localizations', 'my.json5')),
