@@ -1088,9 +1088,9 @@
     "UniPC Order": "UniPC 取樣順序。"
   },
   "unload model": {
-    "unload model": "移除模型",
-    "Unload model": "移除模型",
-    "Unload Model": "移除模型"
+    "unload model": "卸載模型",
+    "Unload model": "卸載模型",
+    "Unload Model": "卸載模型"
   },
   "update": {
     "update": "更新",
