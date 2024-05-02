@@ -10495,5 +10495,7 @@
   "8x_NMKD-Typescale_175k": "8x_NMKD-Typescale_175k (文字)",
   "4xFSDedither_Manga": "4xFSDedither_Manga (像素 漫畫)",
   "4x_NMKD-UltraYandere_300k": "4x_NMKD-UltraYandere_300k (動漫)",
+  "##@#setting_emphasis##Original": "Original (原始強調實作)",
+  "##@#setting_emphasis##No norm": "No norm (適合 SDXL)",
   "sd-webui-lobe-theme": "Lobe theme"
 }

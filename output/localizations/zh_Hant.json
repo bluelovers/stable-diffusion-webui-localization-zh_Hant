@@ -4,6 +4,8 @@
   "# of in-between frames that will not be directly diffused": "不會被直接擴散的中間幀的 # 數",
   "# of threads to use for hash calculation (increase if using an SSD)": "用於雜湊值計算的線程數（如果使用 SSD 可適量增加）",
   "# Training Epochs": "訓練多少期(Epochs)",
+  "##@#setting_emphasis##No norm": "No norm (適合 SDXL)",
+  "##@#setting_emphasis##Original": "Original (原始強調實作)",
   "##@.controlnet_control_type_filter_group##Normal": "法線圖",
   "##img2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法線圖",
   "##settings_sampler-params##uniform": "均勻",

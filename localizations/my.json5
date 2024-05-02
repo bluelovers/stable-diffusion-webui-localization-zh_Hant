@@ -249,7 +249,8 @@
 
   // -------------
 
-
+  "##@#setting_emphasis##Original": "Original (原始強調實作)",
+  "##@#setting_emphasis##No norm": "No norm (適合 SDXL)",
 
   // -------------
   "sd-webui-lobe-theme": "Lobe theme",
