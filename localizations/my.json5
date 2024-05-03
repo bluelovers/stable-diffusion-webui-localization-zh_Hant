@@ -120,8 +120,6 @@
   "##txt2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
   "##img2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
 
-  "Style Fidelity (only for \"Balanced\" mode)": "风格仿真度 (仅用于 \"平衡\" 模式)",
-
   "@@/^control_v1p_sd15_brightness (\\[\\w+\\])$/": "control_v1p_sd15_brightness $1 (光效 文字)",
   "@@/^control_v1p_sd15_illumination (\\[\\w+\\])$/": "control_v1p_sd15_illumination $1 (光影构图)",
 
@@ -138,6 +136,19 @@
   "@@/^ip-adapter_sd15_light (\\[\\w+\\])$/": "IP-Adapter light $1 (提示詞優先)",
   "@@/^ip-adapter-plus_sd15 (\\[\\w+\\])$/": "IP-Adapter Plus $1 (參考整體風格 例如服裝)",
   "@@/^ip-adapter-plus-face_sd15 (\\[\\w+\\])$/": "IP-Adapter Face $1 (參考臉與发型)",
+
+  // -------------
+
+  "Style Fidelity (only for \"Balanced\" mode)": "风格仿真度 (仅用于 \"平衡\" 模式)",
+  "Style Fidelity": "风格仿真度",
+
+  "Gamma Correction": "伽馬校正 (预处理时检测的图像亮度)",
+
+  "IP-Adapter": "IP-Adapter (图像提示适配器)",
+
+  "MLSD Distance Threshold": "MLSD 距離閾值 (长度)",
+  "MLSD Value Threshold": "MLSD 值閾值 (强度)",
+
 
   // !After Detailer -------------
   "face_yolov8n.pt": "face_yolov8n (2D / 寫實 臉)",
