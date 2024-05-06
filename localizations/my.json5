@@ -104,6 +104,9 @@
 
   "Open Url At Client Side": "在客户端侧打开链接",
 
+  "SelfAttentionGuidance Integrated": "SelfAttentionGuidance Integrated 自我注意引导",
+  "StyleAlign Integrated": "StyleAlign Integrated 风格对齐",
+
   // -------------
   "depth_marigold": "Marigold Depth 高精度深度图",
   "depth_anything": "Depth Anything",
