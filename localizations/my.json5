@@ -143,6 +143,13 @@
   // @see https://github.com/Mikubill/sd-webui-controlnet/discussions/2442#discussioncomment-8966771
   "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
   "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
+  "inpaint_global_harmonious": "inpaint_global_harmonious (重绘 - 全局融合算法)",
+  "t2ia_color_grid": "t2ia_color_grid (文本到图像自适应控制 - 色彩像素化)",
+  "t2ia_sketch_pidi": "t2ia_sketch_pidi (文本到图像自适应控制 - 草绘边缘像素差分)",
+  "t2ia_style_clipvision": "t2ia_style_clipvision (文本到图像自适应控制 - 风格迁移)",
+  "softedge_hedsafe": "softedge_hedsafe (软边缘检测 - 保守 HED 算法)",
+  "softedge_pidinet": "softedge_pidinet (软边缘检测 - PiDiNet 算法)",
+  "softedge_pidisafe": "softedge_pidisafe (软边缘检测 - 保守 PiDiNet 算法)",
 
   // -------------
 
