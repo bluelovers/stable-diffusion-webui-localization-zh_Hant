@@ -140,6 +140,10 @@
   "@@/^ip-adapter-plus_sd15 (\\[\\w+\\])$/": "IP-Adapter Plus $1 (參考整體風格 例如服裝)",
   "@@/^ip-adapter-plus-face_sd15 (\\[\\w+\\])$/": "IP-Adapter Face $1 (參考臉與发型)",
 
+  // @see https://github.com/Mikubill/sd-webui-controlnet/discussions/2442#discussioncomment-8966771
+  "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
+  "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
+
   // -------------
 
   "Style Fidelity (only for \"Balanced\" mode)": "风格仿真度 (仅用于 \"平衡\" 模式)",

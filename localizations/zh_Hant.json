@@ -10435,6 +10435,8 @@
   "@@/^ip-adapter_sd15_light (\\[\\w+\\])$/": "IP-Adapter light $1 (提示詞優先)",
   "@@/^ip-adapter-plus_sd15 (\\[\\w+\\])$/": "IP-Adapter Plus $1 (參考整體風格 例如服裝)",
   "@@/^ip-adapter-plus-face_sd15 (\\[\\w+\\])$/": "IP-Adapter Face $1 (參考臉與发型)",
+  "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
+  "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
   "Style Fidelity": "风格仿真度",
   "Gamma Correction": "伽馬校正 (预处理时检测的图像亮度)",
   "face_yolov8n.pt": "face_yolov8n (2D / 寫實 臉)",
