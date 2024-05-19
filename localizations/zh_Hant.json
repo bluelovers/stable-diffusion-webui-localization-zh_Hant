@@ -10420,6 +10420,8 @@
   "stable-diffusion-webui-localization-zh_Hant": "繁體中文（zh_Hant）語言包",
   "zh_Hant": "zh_Hant (繁體中文)",
   "zh_Hans": "zh_Hans (简体中文)",
+  "sd-webui-pnginfo-beautify": "PNGINFO Beautify 美化",
+  "PNGINFO Beautify": "PNGINFO Beautify 美化",
   "depth_marigold": "Marigold Depth 高精度深度图",
   "depth_anything": "Depth Anything",
   "##@.controlnet_control_type_filter_group##Normal": "法线图",
