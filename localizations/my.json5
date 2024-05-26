@@ -143,6 +143,12 @@
   "@@/^ip-adapter-plus_sd15 (\\[\\w+\\])$/": "IP-Adapter Plus $1 (參考整體風格 例如服裝)",
   "@@/^ip-adapter-plus-face_sd15 (\\[\\w+\\])$/": "IP-Adapter Face $1 (參考臉與发型)",
 
+  "@@/^control_v1p_sd15_qrcode (\\[\\w+\\])$/": "control_v1p_sd15_qrcode $1 (QR Code)",
+
+  "@@/^control_v1p_sd15_qrcode_monster (\\[\\w+\\])$/": "control_v1p_sd15_qrcode_monster $1 (Controlnet QR Code Monster v1 For SD-1.5)",
+  "@@/^control_v1p_sd15_qrcode_monster_v2 (\\[\\w+\\])$/": "control_v1p_sd15_qrcode_monster_v2 $1 (Controlnet QR Code Monster v2 For SD-1.5)",
+  "@@/^controlnetQRCodeMonster_v2Ckpt (\\[\\w+\\])$/": "controlnetQRCodeMonster_v2Ckpt $1 (Controlnet QR Code Monster v2 For SD-1.5 ckpt)",
+
   // @see https://github.com/Mikubill/sd-webui-controlnet/discussions/2442#discussioncomment-8966771
   "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
   "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
@@ -168,65 +174,66 @@
 
 
   // !After Detailer -------------
-  "face_yolov8n.pt": "face_yolov8n (2D / 寫實 臉)",
-  "face_yolov8n_v2.pt": "face_yolov8n_v2 (2D / 寫實 臉)",
-  "face_yolov8s.pt": "face_yolov8s (2D / 寫實 臉)",
-  "face_yolov8m.pt": "face_yolov8m (2D / 寫實 臉)",
-  "hand_yolov8n.pt": "hand_yolov8n (2D / 寫實 手)",
-  "hand_yolov8s.pt": "hand_yolov8s (2D / 寫實 手)",
-  "person_yolov8n-seg.pt": "person_yolov8n-seg (2D / 寫實 全身)",
-  "person_yolov8s-seg.pt": "person_yolov8s-seg (2D / 寫實 全身)",
+  "face_yolov8n.pt": "face_yolov8n.pt (2D / 寫實 臉)",
+  "face_yolov8n_v2.pt": "face_yolov8n_v2.pt (2D / 寫實 臉)",
+  "face_yolov8s.pt": "face_yolov8s.pt (2D / 寫實 臉)",
+  "face_yolov8m.pt": "face_yolov8m.pt (2D / 寫實 臉)",
+  "hand_yolov8n.pt": "hand_yolov8n.pt (2D / 寫實 手)",
+  "hand_yolov8s.pt": "hand_yolov8s.pt (2D / 寫實 手)",
+  "person_yolov8n-seg.pt": "person_yolov8n-seg.pt (2D / 寫實 全身)",
+  "person_yolov8s-seg.pt": "person_yolov8s-seg.pt (2D / 寫實 全身)",
   "mediapipe_face_full": "mediapipe_face_full (寫實 臉)",
   "mediapipe_face_short": "mediapipe_face_short (寫實 臉)",
   "mediapipe_face_mesh": "mediapipe_face_mesh (寫實 臉)",
-  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg (寫實 服裝)",
-  "genitalia.pt": "genitalia (寫實 生殖器)",
+  "mediapipe_face_mesh_eyes_only": "mediapipe_face_mesh_eyes_only (寫實 眼)",
+  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg.pt (寫實 服裝)",
+  "genitalia.pt": "genitalia.pt (寫實 生殖器)",
 
-  "pussyV2.pt": "pussyV2 (2D / 寫實 生殖器 女)",
-  "penisV2.pt": "penisV2 (2D / 寫實 生殖器 男)",
+  "pussyV2.pt": "pussyV2.pt (2D / 寫實 生殖器 女)",
+  "penisV2.pt": "penisV2.pt (2D / 寫實 生殖器 男)",
 
-  "nipple.pt": "nipple (2D / 寫實 乳頭)",
+  "nipple.pt": "nipple.pt (2D / 寫實 乳頭)",
 
-  "female-breast.pt": "female-breast (寫實 胸部)",
+  "female-breast.pt": "female-breast.pt (寫實 胸部)",
 
-  "female_breast_v1.1-sensitive.pt": "female_breast_v1.1-sensitive (寫實 胸部)",
-  "female_breast_v2.pt": "female_breast_v2 (寫實 胸部 不含衣服)",
-  "female_breast_v3.pt": "female_breast_v3 (寫實 胸部 不含衣服)",
-  "female_breast_v3.2.pt": "female_breast_v3.2 stable (寫實 胸部 不含衣服)",
-  "female_breast_v4.2.pt": "female_breast_v4.2 (寫實 胸部 奇幻 不含衣服)",
+  "female_breast_v1.1-sensitive.pt": "female_breast_v1.1-sensitive.pt (寫實 胸部)",
+  "female_breast_v2.pt": "female_breast_v2.pt (寫實 胸部 不含衣服)",
+  "female_breast_v3.pt": "female_breast_v3.pt (寫實 胸部 不含衣服)",
+  "female_breast_v3.2.pt": "female_breast_v3.2.pt stable (寫實 胸部 不含衣服)",
+  "female_breast_v4.2.pt": "female_breast_v4.2.pt (寫實 胸部 奇幻 不含衣服)",
 
-  "lips_v1.pt": "lips_v1 (2D / 寫實 嘴唇)",
+  "lips_v1.pt": "lips_v1.pt (2D / 寫實 嘴唇)",
 
-  "Eyes.pt": "Eyes (2D / 寫實 眼)",
+  "Eyes.pt": "Eyes.pt (2D / 寫實 眼)",
 
-  "animal_ears.pt": "animal_ears (2D 獸耳)",
+  "animal_ears.pt": "animal_ears.pt (2D 獸耳)",
 
-  "breasts_seg.pt": "breasts_seg (2D 胸部 包含部分衣服)",
+  "breasts_seg.pt": "breasts_seg.pt (2D 胸部 包含部分衣服)",
 
-  "vagina-v2.6.pt": "vagina-v2.6 (寫實 生殖器 女)",
-  "vagina-v3.2.pt": "vagina-v3.2 (寫實 生殖器 女 奇幻)",
+  "vagina-v2.6.pt": "vagina-v2.6.pt (寫實 生殖器 女)",
+  "vagina-v3.2.pt": "vagina-v3.2.pt (寫實 生殖器 女 奇幻)",
 
-  "FacesV1.pt": "FacesV1 (2D / 寫實 / 獸迷 臉)",
+  "FacesV1.pt": "FacesV1.pt (2D / 寫實 / 獸迷 臉)",
 
   /**
     * https://civitai.com/models/329458/hand-detailersegmentation-adetailer?modelVersionId=369179
    */
-  "PitHandDetailer-v1-seg.pt": "PitHandDetailer-v1-seg (2D / 寫實 / 手)",
+  "PitHandDetailer-v1-seg.pt": "PitHandDetailer-v1-seg.pt (2D / 寫實 / 手)",
   "PitHandDetailer-v1b-seg.pt.pt": "PitHandDetailer-v1b-seg.pt (2D / 寫實 / 手)",
 
   /**
    * https://civitai.com/models/334668/eye-detailersegmentation-adetailer
    **/
-  "PitEyeDetailer-v1-seg.pt": "PitEyeDetailer-v1-seg (2D / 寫實 / 單眼)",
-  "PitEyeDetailer-v1b-seg.pt": "PitEyeDetailer-v1b-seg (2D / 寫實 / 單眼)",
+  "PitEyeDetailer-v1-seg.pt": "PitEyeDetailer-v1-seg.pt (2D / 寫實 / 單眼)",
+  "PitEyeDetailer-v1b-seg.pt": "PitEyeDetailer-v1b-seg.pt (2D / 寫實 / 單眼)",
 
-  "Eyeful_v1.pt": "Eyeful_v1 (2D / 寫實 / 單眼)",
+  "Eyeful_v1.pt": "Eyeful_v1.pt (2D / 寫實 / 單眼)",
 
-  "Anzhc Eyes -seg-hd.pt": "Anzhc Eyes -seg-hd (2D / 寫實 / 單眼)",
+  "Anzhc Eyes -seg-hd.pt": "Anzhc Eyes -seg-hd.pt (2D / 寫實 / 單眼)",
 
-  "Anzhc Face -seg.pt": "Anzhc Face -seg (2D / 寫實 / 臉)",
+  "Anzhc Face -seg.pt": "Anzhc Face -seg.pt (2D / 寫實 / 臉)",
 
-  "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg (眼鏡)",
+  "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg.pt (眼鏡)",
 
   // -------------
   "uniform": null,
