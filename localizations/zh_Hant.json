@@ -7072,7 +7072,7 @@
   "Adds a spreadsheet-style editor for saved styles, with support for filtering, search and replace, and subdividing styles into multiple files": "Adds a spreadsheet-style editor for saved styles, with support for filtering, search and replace, and subdividing styles into multiple files",
   "Clip I/O": "Clip I/O",
   "The extension allows you to investigate embeddings/conditioning and feed conditioning to Stable Diffusion.": "The extension allows you to investigate embeddings/conditioning and feed conditioning to Stable Diffusion.",
-  "Inpaint Anything": "Inpaint Anything",
+  "Inpaint Anything": "全能重绘",
   "The Inpaint Anything extension performs SD inpainting, cleaner, ControlNet inpaint, and sending a mask to img2img, using a mask selected from the segmentation output of Segment Anything.": "The Inpaint Anything extension performs SD inpainting, cleaner, ControlNet inpaint, and sending a mask to img2img, using a mask selected from the segmentation output of Segment Anything.",
   "QR Code Generator": "QR Code Generator",
   "Create QR Codes for ControlNet.": "Create QR Codes for ControlNet.",
@@ -9695,7 +9695,7 @@
   "sd-webui-llul": "sd-webui-llul",
   "https://github.com/hnmr293/sd-webui-llul.git": "https://github.com/hnmr293/sd-webui-llul.git",
   "Localization dirs": "本地化路徑",
-  "sd-webui-bilingual-localization": "sd-webui-bilingual-localization",
+  "sd-webui-bilingual-localization": "Bilingual Localization 雙語翻譯對照",
   "https://github.com/journey-ad/sd-webui-bilingual-localization.git": "https://github.com/journey-ad/sd-webui-bilingual-localization.git",
   "Most frequent tags in captions": "訓練用描述最常用的標記",
   "Repeats": "重複",
@@ -10510,5 +10510,6 @@
   "##@#setting_emphasis##No norm": "No norm (適合 SDXL)",
   "ML-Danbooru Caformer dec-5-97527": "ML-Danbooru Caformer dec-5-97527 (詳細 緩慢 推薦)",
   "WD14 ConvNeXTV2 v1": "WD14 ConvNeXTV2 v1 (稍微詳細 快速 推薦)",
-  "sd-webui-lobe-theme": "Lobe theme"
+  "sd-webui-lobe-theme": "Lobe theme",
+  "sd-webui-inpaint-anything": "Inpaint Anything 全能重绘"
 }
