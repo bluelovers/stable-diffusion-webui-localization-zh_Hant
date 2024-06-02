@@ -296,6 +296,9 @@
   "sd-webui-lobe-theme": "Lobe theme",
   "sd-webui-agent-scheduler": "Agent Scheduler 任務排程代理",
   "Agent Scheduler": "任務排程代理",
+  "sd-webui-inpaint-anything": "Inpaint Anything 全能重绘",
+  "Inpaint Anything": "全能重绘",
+  "sd-webui-bilingual-localization": "Bilingual Localization 雙語翻譯對照",
 
   // -------------
   // -------------
