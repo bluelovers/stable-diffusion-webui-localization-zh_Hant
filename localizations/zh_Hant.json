@@ -10422,6 +10422,7 @@
   "zh_Hans": "zh_Hans (简体中文)",
   "sd-webui-pnginfo-beautify": "PNGINFO Beautify 美化",
   "PNGINFO Beautify": "PNGINFO Beautify 美化",
+  "Refactored from journey-ad Bilingual translation, rewritten in TypeScript for improved bug fixes and performance enhancements.": "重構自 journey-ad 的 Bilingual Localization，以 TypeScript 重構，改善錯誤修正以及效能提升。",
   "depth_marigold": "Marigold Depth 高精度深度图",
   "depth_anything": "Depth Anything",
   "##@.controlnet_control_type_filter_group##Normal": "法线图",
