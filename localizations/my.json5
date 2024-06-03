@@ -8,6 +8,8 @@
   "sd-webui-pnginfo-beautify": "PNGINFO Beautify 美化",
   "PNGINFO Beautify": "PNGINFO Beautify 美化",
 
+  "Refactored from journey-ad Bilingual translation, rewritten in TypeScript for improved bug fixes and performance enhancements.": "重構自 journey-ad 的 Bilingual Localization，以 TypeScript 重構，改善錯誤修正以及效能提升。",
+
   // -------------
   "Far clip": "遠處裁面",
 
