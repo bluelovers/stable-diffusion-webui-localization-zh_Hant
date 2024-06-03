@@ -5441,6 +5441,7 @@
   "Redo generation": "重做生成",
   "Redraw options:": "重繪選項：",
   "Ref image (for conviently locate regions)": "參考圖（用於方便定位區域）",
+  "Refactored from journey-ad Bilingual translation, rewritten in TypeScript for improved bug fixes and performance enhancements.": "重構自 journey-ad 的 Bilingual Localization，以 TypeScript 重構，改善錯誤修正以及效能提升。",
   "Reference": "Reference (參考)",
   "Reference Control (enabled with image below)": "通過參考圖像控制 (僅當下方有輸入圖時啟用)",
   "Reference Control Mode": "參考控制模式",
