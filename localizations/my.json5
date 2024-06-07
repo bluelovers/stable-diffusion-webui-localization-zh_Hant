@@ -303,6 +303,11 @@
   "sd-webui-bilingual-localization": "Bilingual Localization 雙語翻譯對照",
 
   // -------------
+  "Path to directory containing annotator model directories (overrides corresponding command line flag)": "包含預處理器模型的路徑（取代命令行設置）",
+  "Model cache size": "模型緩存大小",
+  "Multi-ControlNet: ControlNet unit number": "多重 ControlNet: ControlNet 單元數量",
+
+  // -------------
   // -------------
 
 }
