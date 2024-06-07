@@ -105,6 +105,10 @@
     "base": "base (基礎)",
     "Base": "基層"
   },
+  "base model": {
+    "Base model": "基礎模型",
+    "Base Model": "基礎模型"
+  },
   "base model:": {
     "Base model:": "底模: ",
     "Base Model:": "底模: "
