@@ -1491,7 +1491,7 @@
   "CLIP tensors checker": "Clip tensors 檢測",
   "CLIP: maximum number of lines in text file": "CLIP: 文本檔案的最大行數",
   "CLIP: maximum number of lines in text file (0 = No limit)": "CLIP：文本檔案中的最大行數（0 為無限制）",
-  "CLIP: skip inquire categories": "CLIP：跳過詢問類別",
+  "CLIP: skip inquire categories": "CLIP: 忽略查詢類別",
   "CLIP: skip inquire categories: refresh": "CLIP: 跳過查詢類別: 刷新",
   "clip_threshold": "裁剪閾值",
   "clipseg": "CLIP 分割",
