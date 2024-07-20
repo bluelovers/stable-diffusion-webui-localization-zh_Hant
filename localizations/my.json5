@@ -307,6 +307,8 @@
   "Model cache size": "模型緩存大小",
   "Multi-ControlNet: ControlNet unit number": "多重 ControlNet: ControlNet 單元數量",
 
+  "CLIP: skip inquire categories": "CLIP: 忽略查詢類別",
+
   // -------------
   // -------------
 
