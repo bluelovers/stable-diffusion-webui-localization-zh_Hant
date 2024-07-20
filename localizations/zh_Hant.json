@@ -936,7 +936,7 @@
   "CLIP skip schedule": "CLIP 终止层数调度计划",
   "CLIP tensors checker": "Clip tensors 检测",
   "CLIP: maximum number of lines in text file": "CLIP: 文本文件的最大行数",
-  "CLIP: skip inquire categories": "CLIP：跳過詢問類別",
+  "CLIP: skip inquire categories": "CLIP: 忽略查詢類別",
   "CLIP: skip inquire categories: refresh": "CLIP: 跳过查询类别: 刷新",
   "CLiP model": "CLiP 模型",
   "CRF": "固定码率因子 (CRF)",
