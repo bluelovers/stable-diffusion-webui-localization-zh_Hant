@@ -237,6 +237,9 @@
 
   "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg.pt (眼鏡)",
 
+  "unwanted-3x.pt": "unwanted-3x.pt (Text / Speech bubbles / Watermarks | Anime / Furry)",
+  "belly-segV3.pt": "belly-segV3.pt Pregnant Belly (Realistic, furry, anime)",
+
   // -------------
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",
