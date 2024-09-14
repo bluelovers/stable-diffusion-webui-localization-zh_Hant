@@ -10520,6 +10520,8 @@
   "Anzhc Eyes -seg-hd.pt": "Anzhc Eyes -seg-hd.pt (2D / 寫實 / 單眼)",
   "Anzhc Face -seg.pt": "Anzhc Face -seg.pt (2D / 寫實 / 臉)",
   "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg.pt (眼鏡)",
+  "unwanted-3x.pt": "unwanted-3x.pt (Text / Speech bubbles / Watermarks | Anime / Furry)",
+  "belly-segV3.pt": "belly-segV3.pt Pregnant Belly (Realistic, furry, anime)",
   "##settings_sampler-params##uniform": "均勻",
   "4x_DWTP_DS_DAT2_V3": "4x_DWTP_DS_DAT2_V3 (黑白 漫畫 文字)",
   "4x_DWTP_DS_dat2_v3_2": "4x_DWTP_DS_dat2_v3_2 (黑白 漫畫 文字)",
