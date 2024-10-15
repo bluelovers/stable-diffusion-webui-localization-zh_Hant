@@ -240,6 +240,15 @@
   "unwanted-3x.pt": "unwanted-3x.pt (Text / Speech bubbles / Watermarks | Anime / Furry)",
   "belly-segV3.pt": "belly-segV3.pt Pregnant Belly (Realistic, furry, anime)",
 
+  "robot face v1a.pt": "robot face v1a.pt (Dragon, robot, android face)",
+
+  "tattoo_s_yolov8.pt": "tattoo_s_yolov8.pt (Tattoo)",
+  "trampstamp-bbox.pt": "trampstamp-bbox.pt (Tattoo - Lower Back)",
+
+  // https://civitai.com/models/726468/anime-bra-bikini-yolo-model-adetailer
+  "anime_bra_strapless_v11.pt": "anime_bra_strapless_v11.pt (2D 胸罩 無肩帶)",
+  "anime_bra_v11.pt": "anime_bra_v11.pt (2D 胸罩 有肩帶)",
+
   // -------------
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",
