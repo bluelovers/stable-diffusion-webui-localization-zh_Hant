@@ -418,6 +418,7 @@
   "@@/^ip-adapter-plus-face_sd15 (\\[\\w+\\])$/": "IP-Adapter Face $1 (参考脸与髮型)",
   "@@/^ip-adapter-plus_sd15 (\\[\\w+\\])$/": "IP-Adapter Plus $1 (参考整体风格 例如服装)",
   "@@/^ip-adapter_sd15_light (\\[\\w+\\])$/": "IP-Adapter light $1 (提示词优先)",
+  "@@/^loosecontrolUseTheBoxDepth_v10 (\\[\\w+\\])$/": "loosecontrolUseTheBoxDepth_v10 (使用 depth map 控制主体位置)",
   "@@/^outfitToOutfit_v20 (\\[\\w+\\])$/": "outfitToOutfit_v20 $1 (服装 更改人物服装)",
   "@@/^photomaker-v1 (\\[\\w+\\])$/": "photomaker-v1 $1 (PhotoMaker 个性化人像图像)",
   "@@/^t2iadapter_zoedepth_(w+) (\\[\\w+\\])$/": "t2iadapter_zoedepth_$1 $2 (ZoeDepth 结合相对和绝对深度)",
