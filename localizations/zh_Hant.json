@@ -10485,6 +10485,7 @@
   "@@/^control_v1p_sd15_qrcode_monster (\\[\\w+\\])$/": "control_v1p_sd15_qrcode_monster $1 (Controlnet QR Code Monster v1 For SD-1.5)",
   "@@/^control_v1p_sd15_qrcode_monster_v2 (\\[\\w+\\])$/": "control_v1p_sd15_qrcode_monster_v2 $1 (Controlnet QR Code Monster v2 For SD-1.5)",
   "@@/^controlnetQRCodeMonster_v2Ckpt (\\[\\w+\\])$/": "controlnetQRCodeMonster_v2Ckpt $1 (Controlnet QR Code Monster v2 For SD-1.5 ckpt)",
+  "@@/^loosecontrolUseTheBoxDepth_v10 (\\[\\w+\\])$/": "loosecontrolUseTheBoxDepth_v10 (使用 depth map 控制主體位置)",
   "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
   "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
   "Style Fidelity": "风格仿真度",
