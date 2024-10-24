@@ -151,6 +151,9 @@
   "@@/^control_v1p_sd15_qrcode_monster_v2 (\\[\\w+\\])$/": "control_v1p_sd15_qrcode_monster_v2 $1 (Controlnet QR Code Monster v2 For SD-1.5)",
   "@@/^controlnetQRCodeMonster_v2Ckpt (\\[\\w+\\])$/": "controlnetQRCodeMonster_v2Ckpt $1 (Controlnet QR Code Monster v2 For SD-1.5 ckpt)",
 
+  // https://civitai.com/models/232042/loosecontrol-use-the-box-depth-map-to-control-the-protagonist-position
+  "@@/^loosecontrolUseTheBoxDepth_v10 (\\[\\w+\\])$/": "loosecontrolUseTheBoxDepth_v10 (使用 depth map 控制主體位置)",
+
   // @see https://github.com/Mikubill/sd-webui-controlnet/discussions/2442#discussioncomment-8966771
   "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
   "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
