@@ -73,8 +73,8 @@
     "append": "放後面"
   },
   "apply horizontal flip": {
-    "Apply Horizontal Flip": "套用水平翻轉",
-    "Apply horizontal Flip": "套用水平翻轉"
+    "Apply Horizontal Flip": "套用水準翻轉",
+    "Apply horizontal Flip": "套用水準翻轉"
   },
   "apply settings": {
     "Apply Settings": "儲存設定",
@@ -114,16 +114,16 @@
     "Base model:": "底模: "
   },
   "batch from directory": {
-    "Batch from Directory": "從目錄進行批量處理",
-    "Batch from directory": "批量處理目錄"
+    "Batch from Directory": "從目錄進行批次處理",
+    "Batch from directory": "批次處理目錄"
   },
   "batch process": {
     "Batch Process": "批次處理",
-    "Batch process": "批量處理",
-    "batch process": "批量處理"
+    "Batch process": "批次處理",
+    "batch process": "批次處理"
   },
   "batch settings": {
-    "Batch Settings": "批量處理設定",
+    "Batch Settings": "批次處理設定",
     "Batch settings": "批次設定"
   },
   "batch size": {
@@ -411,8 +411,8 @@
     "hires. fix": "高解析度修復"
   },
   "horizontal": {
-    "Horizontal": "水平",
-    "horizontal": "水平"
+    "Horizontal": "水準",
+    "horizontal": "水準"
   },
   "huggingface token": {
     "HuggingFace Token": "HuggingFace 標記",
@@ -512,8 +512,8 @@
     "Lora Model": "LoRA 模型"
   },
   "mainly allows using more than 200 steps. otherwise, it's a mirror-like param of 'strength schedule'": {
-    "mainly allows using more than 200 steps. Otherwise, it's a mirror-like param of 'strength schedule'": "主要為了允許使用超過 200 的迭代步數。否則的話本選項其實約等於另一個叫 ‘強度調度計劃’ 的參數選項",
-    "mainly allows using more than 200 steps. otherwise, it's a mirror-like param of 'strength schedule'": "主要用於允許使用大於 200 的迭代步數。不然的話其實只是近似於強度調度計劃的一個參數"
+    "mainly allows using more than 200 steps. Otherwise, it's a mirror-like param of 'strength schedule'": "主要為了允許使用超過 200 的疊代步數。否則的話本選項其實約等於另一個叫 ‘強度調度計劃’ 的參數選項",
+    "mainly allows using more than 200 steps. otherwise, it's a mirror-like param of 'strength schedule'": "主要用於允許使用大於 200 的疊代步數。不然的話其實只是近似於強度調度計劃的一個參數"
   },
   "make gif in addition to the video/s": {
     "make GIF in addition to the video/s": "除影片外額外製作 GIF",
@@ -778,7 +778,7 @@
     "replace": "取代"
   },
   "replace preview": {
-    "Replace preview": "替換預覽",
+    "Replace preview": "取代預覽",
     "replace preview": "取代預覽"
   },
   "reset": {
@@ -807,7 +807,7 @@
   },
   "sample steps": {
     "Sample Steps": "樣本步數",
-    "Sample steps": "樣本迭代步數"
+    "Sample steps": "樣本疊代步數"
   },
   "sampler": {
     "Sampler": "取樣器",
@@ -966,8 +966,8 @@
     "status": "狀態"
   },
   "step": {
-    "Step": "迭代步數",
-    "step": "迭代步數"
+    "Step": "疊代步數",
+    "step": "疊代步數"
   },
   "steps": {
     "Steps": "疊代步數",
@@ -1002,8 +1002,8 @@
     "Target language": "目標語言"
   },
   "text files directory (optional, will load from input dir if not specified)": {
-    "Text files directory (Optional, will load from input dir if not specified)": "文本檔案目錄 (可選, 如不指定將從輸入目錄載入)",
-    "Text files directory (optional, will load from input dir if not specified)": "文本檔案目錄 (可選, 如不指定將從輸入目錄載入)"
+    "Text files directory (Optional, will load from input dir if not specified)": "文字檔目錄 (可選, 如不指定將從輸入目錄載入)",
+    "Text files directory (optional, will load from input dir if not specified)": "文字檔目錄 (可選, 如不指定將從輸入目錄載入)"
   },
   "text2prompt": {
     "text2prompt": "文生提示詞",
@@ -1045,7 +1045,7 @@
   },
   "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's clip dictionary and instead 'compu' and 'ter' are used (1 word but 2 embedding vectors). currently buggy and needs a moment to process before pressing the button. if it doesn't work after a moment, try adding a random space to refresh it.": {
     "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（一個單字但使用兩個嵌入向量）。目前這個擴充功能還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一段時間還是不行，試試隨便加個空格重新整理一下",
-    "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 Embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（1 個單詞但使用 2 個 Embedding 向量）。目前這個擴展還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一會還是不行，試試隨便加個空格刷新一下"
+    "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 Embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（1 個單詞但使用 2 個 Embedding 向量）。目前這個擴展還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一會還是不行，試試隨便加個空格重新整理一下"
   },
   "tokenizer": {
     "tokenizer": "標記解析器",
@@ -1068,8 +1068,8 @@
     "training": "訓練"
   },
   "training steps": {
-    "Training steps": "訓練迭代步數",
-    "Training Steps": "訓練迭代步數"
+    "Training steps": "訓練疊代步數",
+    "Training Steps": "訓練疊代步數"
   },
   "translate": {
     "Translate": "翻譯",
