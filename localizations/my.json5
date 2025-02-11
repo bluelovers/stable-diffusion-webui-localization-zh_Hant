@@ -252,6 +252,11 @@
   "anime_bra_strapless_v11.pt": "anime_bra_strapless_v11.pt (2D 胸罩 無肩帶)",
   "anime_bra_v11.pt": "anime_bra_v11.pt (2D 胸罩 有肩帶)",
 
+  // https://civitai.com/models/1222100/mask-adetailer-face-detailer-for-eyes-eyebrows-and-nose
+  "maskdetailer-seg.pt": "maskdetailer-seg.pt (Mask, Eyes, Eyebrows, Nose)",
+  "assdetailer-seg.pt": "assdetailer-seg.pt (ass, butts, rears, pants, and panties)",
+  
+
   // -------------
   "uniform": null,
   "##settings_sampler-params##uniform": "均勻",
