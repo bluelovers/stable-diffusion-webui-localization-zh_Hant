@@ -10535,6 +10535,8 @@
   "trampstamp-bbox.pt": "trampstamp-bbox.pt (Tattoo - Lower Back)",
   "anime_bra_strapless_v11.pt": "anime_bra_strapless_v11.pt (2D 胸罩 無肩帶)",
   "anime_bra_v11.pt": "anime_bra_v11.pt (2D 胸罩 有肩帶)",
+  "maskdetailer-seg.pt": "maskdetailer-seg.pt (Mask, Eyes, Eyebrows, Nose)",
+  "assdetailer-seg.pt": "assdetailer-seg.pt (ass, butts, rears, pants, and panties)",
   "##settings_sampler-params##uniform": "均勻",
   "4x_DWTP_DS_DAT2_V3": "4x_DWTP_DS_DAT2_V3 (黑白 漫畫 文字)",
   "4x_DWTP_DS_dat2_v3_2": "4x_DWTP_DS_dat2_v3_2 (黑白 漫畫 文字)",
