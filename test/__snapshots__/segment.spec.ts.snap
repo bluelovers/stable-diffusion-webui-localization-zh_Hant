@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should include 執行緒數 - 用於雜湊值計算的線程數（如果使用 SSD 可適量增加） 1`] = `"用於雜湊值計算的執行緒數（如果使用 SSD 可適量增加）"`;
+
+exports[`should include 字元 - 選項只有當搜尋字串有4個或更多字符時 1`] = `"選項只有當搜尋字串有4個或更多字元時"`;
+
+exports[`should include 文字 - (需啟用 "新增 Lora 的雜湊值文本到圖像資訊中" 選項) 1`] = `"(需啟用 "新增 Lora 的雜湊值文字到圖像資訊中" 選項)"`;
+
+exports[`should include 遺失 - 用於抵消採樣過程中丟失細節的額外噪點量 1`] = `"用於抵消採樣過程中遺失細節的額外噪點量"`;
+
+exports[`should not include 文本 - CLIP：文本文件中的最大行數（0 為無限制） 1`] = `"CLIP：文字檔中的最大行數（0 為無限制）"`;
