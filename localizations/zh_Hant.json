@@ -10565,5 +10565,6 @@
   "ML-Danbooru Caformer dec-5-97527": "ML-Danbooru Caformer dec-5-97527 (詳細 緩慢 推薦)",
   "WD14 ConvNeXTV2 v1": "WD14 ConvNeXTV2 v1 (稍微詳細 快速 推薦)",
   "sd-webui-lobe-theme": "Lobe theme",
-  "sd-webui-inpaint-anything": "Inpaint Anything 全能重绘"
+  "sd-webui-inpaint-anything": "Inpaint Anything 全能重绘",
+  "ADetailer dilate erode": "ADetailer 膨脹 侵蝕"
 }

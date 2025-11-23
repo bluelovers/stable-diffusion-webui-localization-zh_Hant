@@ -675,6 +675,7 @@
   "ADetailer CLIP skip 10th": "After Detailer CLIP 终止层数",
   "ADetailer confidence threshold %": "置信阈值 (单位: %)",
   "ADetailer denoising strength": "重绘幅度",
+  "ADetailer dilate erode": "ADetailer 膨胀 侵蚀",
   "ADetailer erosion (-) / dilation (+)": "图像腐蚀 (-) / 图像膨胀 (+)",
   "ADetailer mask blur": "重绘遮罩边缘模糊度",
   "ADetailer model": "After Detailer 模型",
