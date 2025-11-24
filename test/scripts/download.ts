@@ -22,11 +22,13 @@ export default Promise.allSettled([
 
 		if (files.length)
 		{
+			const cwd = join(__ROOT, 'localizations');
+
 			crossSpawnGitSync('git', [
 				'add',
 				...files,
 			], {
-				cwd: join(__ROOT, 'localizations'),
+				cwd,
 				stdio: 'inherit',
 			});
 			crossSpawnGitSync('git', [
@@ -36,7 +38,7 @@ export default Promise.allSettled([
 				'--',
 				...files,
 			], {
-				cwd: join(__ROOT, 'localizations'),
+				cwd,
 				stdio: 'inherit',
 			});
 		}

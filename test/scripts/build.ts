@@ -36,6 +36,7 @@ export default Bluebird.props({
 				return {
 					...data,
 					...data2,
+					...data,
 				}
 			}),
 	})
@@ -46,10 +47,12 @@ export default Bluebird.props({
 				...props.cn,
 			},
 			readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
+			omitEngligh(props.cn),
 			/**
 			 * @see https://github.com/xhoxye/stable-diffusion-webui-forge/blob/main/localizations
 			 * @see https://nga.178.com/read.php?tid=39308107&rand=884
 			 */
+
 			readJSON(join(__ROOT, 'localizations', 'sd-webui-zh_CN-xhox20240214(testing).json'))
 				.then(omitEngligh)
 				.then(data => {
@@ -64,7 +67,7 @@ export default Bluebird.props({
 					return data
 				})
 			,
-			omitEngligh(props.cn),
+			
 			omitEngligh(props.tw),
 			readJSON5(join(__ROOT, 'localizations', 'my.json5')),
 		]);
