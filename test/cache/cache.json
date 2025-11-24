@@ -80,6 +80,10 @@
     "Apply Settings": "儲存設定",
     "Apply settings": "套用設定"
   },
+  "area": {
+    "Area": "區域",
+    "area": "區域重採樣"
+  },
   "artists to study": {
     "Artists to study": "藝術家圖庫",
     "Artists To Study": "藝術家圖庫"
@@ -113,6 +117,10 @@
     "Base Model:": "底模: ",
     "Base model:": "底模: "
   },
+  "basic": {
+    "Basic": "基本設定",
+    "basic": "基本的"
+  },
   "batch from directory": {
     "Batch from Directory": "從目錄進行批次處理",
     "Batch from directory": "批次處理目錄"
@@ -131,12 +139,20 @@
     "Batch size": "每批數量",
     "batch size": "單批數量"
   },
+  "bicubic": {
+    "Bicubic": "雙三次",
+    "bicubic": "雙三次插值"
+  },
+  "bilinear": {
+    "Bilinear": "雙線性",
+    "bilinear": "雙線性插值"
+  },
   "blend": {
     "Blend": "混合",
     "blend": "混合"
   },
   "blur": {
-    "Blur": "模糊",
+    "Blur": "Blur (模糊)",
     "blur": "模糊"
   },
   "border": {
@@ -150,6 +166,10 @@
   "both": {
     "Both": "兩者",
     "both": "兩者"
+  },
+  "bottom": {
+    "bottom": "底部",
+    "Bottom": "底部"
   },
   "branch": {
     "Branch": "分支",
@@ -170,6 +190,10 @@
   "cartoon": {
     "Cartoon": "卡通",
     "cartoon": "cartoon (卡通)"
+  },
+  "center": {
+    "center": "中心",
+    "Center": "中心"
   },
   "cfg scale": {
     "CFG Scale": "提示詞相關性（CFG）",
@@ -217,6 +241,14 @@
     "CodeFormer Weight": "CodeFormer  強度",
     "CodeFormer weight": "CodeFormer 強度",
     "codeformer weight": "CodeFormer 強度"
+  },
+  "configuration": {
+    "configuration": "延伸模組設定",
+    "Configuration": "組態"
+  },
+  "constant": {
+    "Constant": "常數",
+    "constant": "常數（constant）"
   },
   "content type:": {
     "Content Type:": "內容類別: ",
@@ -274,6 +306,10 @@
     "Denoise change:": "降噪變化：",
     "Denoise Change:": "降噪變化："
   },
+  "denoising strength": {
+    "Denoising strength": "重繪幅度",
+    "Denoising Strength": "降噪強度"
+  },
   "destination directory": {
     "Destination Directory": "目標目錄",
     "Destination directory": "目標目錄"
@@ -289,6 +325,10 @@
   "difference": {
     "Difference": "差分",
     "difference": "差異化"
+  },
+  "disable": {
+    "Disable": "停用",
+    "disable": "停用"
   },
   "disabled": {
     "Disabled": "已停用",
@@ -317,6 +357,14 @@
   "edit": {
     "Edit": "編輯",
     "edit": "編輯"
+  },
+  "enable": {
+    "Enable": "啟用",
+    "enable": "啟用"
+  },
+  "enable refiner": {
+    "Enable Refiner": "啟用 Refiner",
+    "Enable refiner": "啟用精煉器"
   },
   "enabled": {
     "Enabled": "啟用",
@@ -354,6 +402,10 @@
     "Filter Base Model:": "底模篩選: ",
     "Filter base model:": "底模篩選: "
   },
+  "font size": {
+    "Font size": "字體大小",
+    "Font Size": "字體大小"
+  },
   "fps": {
     "FPS": "幀率",
     "fps": "幀率"
@@ -382,9 +434,17 @@
     "Generate Video": "產生影片",
     "Generate video": "生成影片"
   },
+  "generation mode": {
+    "Generation mode": "生成模式",
+    "Generation Mode": "生成模式"
+  },
   "gradient accumulation steps": {
     "Gradient Accumulation Steps": "梯度累積疊代步數",
     "Gradient accumulation steps": "梯度累加步數"
+  },
+  "hand": {
+    "Hand": "手",
+    "hand": "手"
   },
   "height": {
     "Height": "高度",
@@ -429,6 +489,10 @@
   "image browser": {
     "Image Browser": "圖庫瀏覽器",
     "Image browser": "圖庫瀏覽器"
+  },
+  "img2img": {
+    "img2img": "圖生圖",
+    "Img2img": "圖生圖"
   },
   "important notes:": {
     "Important Notes:": "重要事項：",
@@ -486,6 +550,10 @@
   "learning rate": {
     "Learning Rate": "學習率",
     "Learning rate": "學習率"
+  },
+  "left": {
+    "left": "左",
+    "Left": "左側"
   },
   "linear": {
     "Linear": "線性（Linear）",
@@ -648,6 +716,10 @@
     "noise multiplier; applies to Euler A and other samplers that have the letter 'a' in them": "噪點倍率; 適用於 Euler a 和其他帶有 ‘a’ 的採樣方法",
     "noise multiplier; applies to Euler a and other samplers that have the letter 'a' in them": "噪點倍率; 應用於 Euler a 和其他帶 a 的採樣方法"
   },
+  "noise strength": {
+    "Noise Strength": "噪點強度",
+    "Noise strength": "噪點強度"
+  },
   "none": {
     "NONE": "無",
     "None": "無",
@@ -709,6 +781,10 @@
     "PNG Info": "圖像資訊",
     "PNG info": "PNG 圖像資訊"
   },
+  "pose": {
+    "Pose": "姿勢",
+    "pose": "姿態"
+  },
   "positive": {
     "positive": "正向",
     "Positive": "正向提示詞"
@@ -748,6 +824,10 @@
   "quick": {
     "Quick": "快速設定",
     "quick": "快速"
+  },
+  "random": {
+    "random": "隨機",
+    "Random": "隨機"
   },
   "range": {
     "Range": "範圍",
@@ -801,6 +881,10 @@
     "Restore Faces": "臉部修復",
     "Restore faces": "臉部修復"
   },
+  "right": {
+    "right": "右",
+    "Right": "右側"
+  },
   "run": {
     "Run": "執行",
     "run": "執行"
@@ -833,6 +917,10 @@
     "Save Images": "儲存圖像",
     "Save images": "儲存圖像"
   },
+  "save mask": {
+    "Save mask": "儲存遮罩",
+    "Save Mask": "儲存到遮罩層"
+  },
   "save metadata": {
     "Save Metadata": "儲存中繼資料",
     "Save metadata": "儲存元數據",
@@ -853,6 +941,10 @@
   "save tags": {
     "Save Tags": "儲存標籤",
     "Save tags": "儲存標籤"
+  },
+  "schedule": {
+    "schedule": "參數表",
+    "Schedule": "時間表"
   },
   "scheduler type": {
     "Scheduler type": "調度器類型",
@@ -877,6 +969,10 @@
   "seed travel": {
     "seed travel": "種子變遷",
     "Seed travel": "種子變遷"
+  },
+  "select model": {
+    "Select model": "選擇模型",
+    "Select Model": "選擇模型"
   },
   "selected": {
     "Selected": "已選取",
@@ -944,6 +1040,10 @@
   "sort by:": {
     "Sort By:": "排序方式: ",
     "Sort by:": "排序方式: "
+  },
+  "source image": {
+    "Source image": "原始圖像",
+    "Source Image": "源圖像"
   },
   "space": {
     "Space": "Space (空間藝術)",
@@ -1051,6 +1151,10 @@
     "tokenizer": "標記解析器",
     "Tokenizer": "標記解析器"
   },
+  "top": {
+    "top": "頂部",
+    "Top": "頂部"
+  },
   "train embedding": {
     "Train Embedding": "訓練嵌入",
     "Train embedding": "訓練嵌入式模型"
@@ -1081,7 +1185,8 @@
   },
   "txt2img": {
     "TXT2IMG": "文生圖",
-    "txt2img": "文生圖"
+    "txt2img": "文生圖",
+    "Txt2img": "文生圖"
   },
   "ultimate sd upscale": {
     "Ultimate SD Upscale": "終極 SD 放大",
@@ -1099,6 +1204,10 @@
   "update": {
     "Update": "更新",
     "update": "更新"
+  },
+  "upload mask": {
+    "Upload mask": "上傳遮罩圖像",
+    "Upload Mask": "上傳遮罩"
   },
   "upscale method": {
     "Upscale method": "放大方法",
@@ -1119,6 +1228,10 @@
   "use mask": {
     "Use mask": "啟用遮罩",
     "Use Mask": "使用遮罩"
+  },
+  "use same vae": {
+    "Use same VAE": "使用相同 VAE",
+    "Use same vae": "使用相同的 VAE"
   },
   "user interface": {
     "User Interface": "使用者介面",
