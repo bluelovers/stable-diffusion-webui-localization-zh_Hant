@@ -12,6 +12,7 @@ Traditional Chinese translation extension for Stable Diffusion web UI by AUTOMAT
 
 - https://github.com/hanamizuki-ai/stable-diffusion-webui-localization-zh_Hans
 - https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
+- https://github.com/hben35096/stable-diffusion-webui-localization-zh_Hans
 
 ## 說明
 
