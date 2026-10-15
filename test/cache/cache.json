@@ -3,9 +3,17 @@
     "(Do not recalculate conds from prompts if prompts have not changed since previous calculation)": "(若提示詞自上次計算後未發生變化, 則不根據提示詞重新調整計算)",
     "(do not recalculate conds from prompts if prompts have not changed since previous calculation)": "(如果提示詞未更改，則不再重新從提示詞計算調整參數)"
   },
+  "(low values = visible seam)": {
+    "(Low values = visible seam)": "(數值越低=接縫越明顯)",
+    "(low values = visible seam)": "（數值過低可能出現接縫）"
+  },
   "(requires web-ui restart)": {
     "(Requires Web-UI Restart)": "(需要重啟 Web-UI)",
     "(Requires Web-UI restart)": "(需重啟 Web-UI)"
+  },
+  "(see": {
+    "(See": "(檢視 ",
+    "(see": "（參閱"
   },
   "3d rendering": {
     "3D rendering": "3D 渲染中",
@@ -31,6 +39,42 @@
     "Add Background Image": "新增背景圖像",
     "Add Background image": "加入背景圖像",
     "Add background image": "新增背景圖像"
+  },
+  "add difference": {
+    "Add difference": "加入差分",
+    "Add Difference": "加入差異"
+  },
+  "adetailer cfg scale": {
+    "ADetailer CFG scale": "ADetailer CFG 引導係數",
+    "ADetailer CFG Scale": "ADetailer CFG 引導係數"
+  },
+  "adetailer checkpoint": {
+    "ADetailer checkpoint": "ADetailer 模型",
+    "ADetailer Checkpoint": "ADetailer 模型"
+  },
+  "adetailer detector": {
+    "ADetailer detector": "ADetailer檢測",
+    "ADetailer Detector": "ADetailer 偵測模型"
+  },
+  "adetailer detector 2nd": {
+    "ADetailer detector 2nd": "ADetailer檢測單元2",
+    "ADetailer Detector 2nd": "ADetailer 偵測模型（單元 2）"
+  },
+  "adetailer noise multiplier": {
+    "Adetailer Noise Multiplier": "ADetailer 雜訊倍數",
+    "ADetailer noise multiplier": "ADetailer 雜訊倍數"
+  },
+  "adetailer sampler": {
+    "ADetailer sampler": "ADetailer 採樣器",
+    "ADetailer Sampler": "ADetailer 採樣器"
+  },
+  "adetailer scheduler": {
+    "ADetailer Scheduler": "ADetailer 排程器",
+    "ADetailer scheduler": "ADetailer 排程器"
+  },
+  "adetailer steps": {
+    "ADetailer steps": "After Detailer 疊代步數",
+    "ADetailer Steps": "ADetailer 疊代步數"
   },
   "advanced options": {
     "Advanced Options": "進階選項",
@@ -81,7 +125,7 @@
     "Apply settings": "套用設定"
   },
   "area": {
-    "Area": "區域",
+    "Area": "面積",
     "area": "區域重採樣"
   },
   "artists to study": {
@@ -105,6 +149,10 @@
     "Background Color": "背景顏色",
     "background color": "背景顏色"
   },
+  "background color for image grids": {
+    "Background color for image grids": "網格圖背景顏色",
+    "Background Color for image grids": "網格圖背景顏色"
+  },
   "base": {
     "Base": "基層",
     "base": "base (基礎)"
@@ -120,6 +168,14 @@
   "basic": {
     "Basic": "基本設定",
     "basic": "基本的"
+  },
+  "batch cond/uncond": {
+    "Batch cond/uncond": "批次套用正向/反向調整",
+    "Batch Cond/Uncond": "批次套用正向/反向調整"
+  },
+  "batch count": {
+    "Batch count": "批次數量",
+    "Batch Count": "批次數量"
   },
   "batch from directory": {
     "Batch from Directory": "從目錄進行批次處理",
@@ -187,6 +243,18 @@
     "Canny": "Canny (硬邊緣)",
     "canny": "canny (硬邊緣檢測)"
   },
+  "card height for extra networks": {
+    "Card height for Extra Networks": "額外網路的卡片高度",
+    "Card Height for Extra Networks": "額外網路卡片高度"
+  },
+  "card text scale": {
+    "Card text scale": "卡片文字大小",
+    "Card Text Scale": "卡片文字縮放比例"
+  },
+  "card width for extra networks": {
+    "Card width for Extra Networks": "延伸模組模型卡片寬度",
+    "Card Width for Extra Networks": "額外網路卡片寬度"
+  },
   "cartoon": {
     "Cartoon": "卡通",
     "cartoon": "cartoon (卡通)"
@@ -196,7 +264,7 @@
     "Center": "中心"
   },
   "cfg scale": {
-    "CFG Scale": "提示詞相關性（CFG）",
+    "CFG Scale": "CFG 引導係數",
     "CFG scale": "提示詞相關性（CFG）",
     "cfg scale": "提示詞相關性"
   },
@@ -262,9 +330,17 @@
     "ControlNet input directory": "ControlNet 的輸入目錄",
     "Controlnet input directory": "Controlnet輸入目錄"
   },
+  "controlnet model": {
+    "ControlNet model": "ControlNet 模型",
+    "ControlNet Model": "ControlNet 模型"
+  },
+  "controlnet weight": {
+    "ControlNet weight": "ControlNet 權重",
+    "ControlNet Weight": "ControlNet 權重"
+  },
   "controls the seed behavior that is used for animation. hover on the options to see more info": {
-    "controls the seed behavior that is used for animation. Hover on the options to see more info": "控制用於製作動畫的隨機數種子行為。懸浮滑鼠指針在不同選項上檢視更多資訊。",
-    "controls the seed behavior that is used for animation. hover on the options to see more info": "控制用於製作動畫的隨機數種子行為。懸浮滑鼠指針在不同選項上檢視更多資訊。"
+    "controls the seed behavior that is used for animation. Hover on the options to see more info": "控制用於製作動畫的隨機數種子行為。懸浮滑鼠指標在不同選項上檢視更多資訊。",
+    "controls the seed behavior that is used for animation. hover on the options to see more info": "控制用於製作動畫的隨機數種子行為。懸浮滑鼠指標在不同選項上檢視更多資訊。"
   },
   "convert": {
     "Convert": "轉換",
@@ -281,6 +357,10 @@
   "crop and resize": {
     "Crop and Resize": "裁剪並調整大小",
     "Crop and resize": "裁剪"
+  },
+  "cross attention optimization": {
+    "Cross attention optimization": "Cross-Attention 最佳化方案",
+    "Cross Attention Optimization": "交叉注意力最佳化"
   },
   "dataset directory": {
     "Dataset Directory": "執行個體圖像數據目錄",
@@ -310,6 +390,10 @@
     "Denoising strength": "重繪幅度",
     "Denoising Strength": "降噪強度"
   },
+  "denoising strength curve": {
+    "Denoising strength curve": "降噪強度曲線",
+    "Denoising Strength Curve": "降噪強度曲線"
+  },
   "destination directory": {
     "Destination Directory": "目標目錄",
     "Destination directory": "目標目錄"
@@ -329,6 +413,10 @@
   "disable": {
     "Disable": "停用",
     "disable": "停用"
+  },
+  "disable postprocessing operations in extras tab": {
+    "Disable postprocessing operations in extras tab": "在 “後期處理” 頁籤中停用的後期處理的功能操作",
+    "Disable Postprocessing operations in Extras tab": "在附加功能頁籤停用後處理作業"
   },
   "disabled": {
     "Disabled": "已停用",
@@ -358,9 +446,17 @@
     "Edit": "編輯",
     "edit": "編輯"
   },
+  "emphasis mode": {
+    "Emphasis mode": "強調模式",
+    "Emphasis Mode": "提示詞強調模式"
+  },
   "enable": {
     "Enable": "啟用",
     "enable": "啟用"
+  },
+  "enable profiling": {
+    "Enable profiling": "啟用性能分析器",
+    "Enable Profiling": "啟用效能分析"
   },
   "enable refiner": {
     "Enable Refiner": "啟用 Refiner",
@@ -380,15 +476,31 @@
   },
   "extensions": {
     "Extensions": "擴充功能",
-    "extensions": "擴展"
+    "extensions": "延伸模組"
   },
   "extra": {
     "Extra": "▼",
     "extra": "額外的"
   },
+  "extra networks separator": {
+    "Extra networks separator": "延伸模組模型分隔文字",
+    "Extra Networks Separator": "額外網路分隔字元"
+  },
+  "extra networks tab order": {
+    "Extra networks tab order": "額外網路標籤順序",
+    "Extra Networks Tab Order": "額外網路頁籤順序"
+  },
   "extras": {
     "Extras": "附加功能",
     "extras": "附加功能"
+  },
+  "face restoration": {
+    "Face restoration": "臉部修復",
+    "Face Restoration": "臉部修復"
+  },
+  "face restoration model": {
+    "Face restoration model": "臉部修復模型",
+    "Face Restoration Model": "臉部修復模型"
   },
   "favorites": {
     "Favorites": "收藏夾",
@@ -402,9 +514,17 @@
     "Filter Base Model:": "底模篩選: ",
     "Filter base model:": "底模篩選: "
   },
+  "final denoising strength": {
+    "Final denoising strength": "最終重繪幅度",
+    "Final Denoising Strength": "最終降噪強度"
+  },
   "font size": {
     "Font size": "字體大小",
     "Font Size": "字體大小"
+  },
+  "for": {
+    "for": "用於",
+    "For": "用於"
   },
   "fps": {
     "FPS": "幀率",
@@ -418,6 +538,10 @@
     "Gallery": "畫廊",
     "gallery": "圖庫"
   },
+  "gallery height": {
+    "Gallery height": "(用於輸出生成圖像的) 畫廊高度",
+    "Gallery Height": "畫廊高度"
+  },
   "gamma": {
     "Gamma": "伽馬值",
     "gamma": "伽馬值"
@@ -428,7 +552,7 @@
   },
   "generate": {
     "GENERATE": "生成",
-    "Generate": "產生"
+    "Generate": "生成"
   },
   "generate video": {
     "Generate Video": "產生影片",
@@ -441,6 +565,14 @@
   "gradient accumulation steps": {
     "Gradient Accumulation Steps": "梯度累積疊代步數",
     "Gradient accumulation steps": "梯度累加步數"
+  },
+  "gradio theme": {
+    "Gradio theme": "Gradio 主題",
+    "Gradio Theme": "Gradio 主題"
+  },
+  "grid margins (px)": {
+    "Grid margins (px)": "網格邊距（px）",
+    "Grid Margins (px)": "網格邊距（像素）"
   },
   "hand": {
     "Hand": "手",
@@ -467,7 +599,7 @@
     "Hires upscaler": "高解析度放大工具"
   },
   "hires. fix": {
-    "Hires. fix": "高解析度修正（Hires. fix）",
+    "Hires. fix": "高解析度修復（Hires. fix）",
     "hires. fix": "高解析度修復"
   },
   "horizontal": {
@@ -494,25 +626,65 @@
     "img2img": "圖生圖",
     "Img2img": "圖生圖"
   },
+  "img2img sampler": {
+    "img2img sampler": "圖生圖的採樣方法",
+    "img2img Sampler": "圖生圖採樣器"
+  },
   "important notes:": {
     "Important Notes:": "重要事項：",
     "Important notes:": "重要資訊:"
+  },
+  "inactive text color for image grids": {
+    "Inactive text color for image grids": "網格圖未啟用文字顏色",
+    "Inactive Text Color for image grids": "網格圖非作用中文字顏色"
+  },
+  "include python stack": {
+    "Include python stack": "包含 Python 堆疊",
+    "Include Python Stack": "包含 Python 呼叫堆疊"
   },
   "include sub images": {
     "Include Sub Images": "包括子圖像",
     "Include sub images": "包含子圖像"
   },
+  "info": {
+    "Info": "資訊",
+    "info": "資訊"
+  },
   "inpaint": {
     "Inpaint": "區域重繪",
     "inpaint": "修復"
+  },
+  "inpaint denoising strength": {
+    "Inpaint denoising strength": "區域重繪幅度",
+    "Inpaint Denoising Strength": "區域重繪幅度"
+  },
+  "inpaint height": {
+    "inpaint height": "重繪高度",
+    "Inpaint Height": "區域重繪高度"
+  },
+  "inpaint mask blur": {
+    "Inpaint mask blur": "重繪遮罩邊緣模糊度",
+    "Inpaint Mask Blur": "區域重繪遮罩模糊"
+  },
+  "inpaint only masked": {
+    "Inpaint only masked": "僅重繪遮罩內容",
+    "Inpaint Only Masked": "僅重繪遮罩區域"
   },
   "inpaint sketch": {
     "Inpaint sketch": "修復素描",
     "inpaint sketch": "修復草圖"
   },
+  "inpaint width": {
+    "inpaint width": "重繪寬度",
+    "Inpaint Width": "區域重繪寬度"
+  },
   "inpainting": {
     "Inpainting": "重繪",
     "inpainting": "重繪"
+  },
+  "inpainting conditioning mask strength": {
+    "Inpainting conditioning mask strength": "區域重繪時圖像調節的遮罩屏蔽強度",
+    "Inpainting Conditioning Mask Strength": "區域重繪條件遮罩強度"
   },
   "input directory": {
     "Input Directory": "輸入目錄",
@@ -532,7 +704,7 @@
   },
   "instance prompt": {
     "Instance Prompt": "執行個體提示詞",
-    "Instance prompt": "提示詞實例"
+    "Instance prompt": "提示詞執行個體"
   },
   "interpolation method": {
     "Interpolation Method": "插值方法",
@@ -559,8 +731,12 @@
     "Linear": "線性（Linear）",
     "linear": "線性（linear）"
   },
+  "live preview method": {
+    "Live preview method": "即時預覽模式",
+    "Live Preview Method": "即時預覽方式"
+  },
   "live previews": {
-    "Live Previews": "實時預覽",
+    "Live Previews": "即時預覽",
     "Live previews": "即時預覽"
   },
   "load": {
@@ -607,6 +783,14 @@
     "Max frames": "最大幀數量",
     "max frames": "最大幀數"
   },
+  "max side length": {
+    "Max side length": "最大邊長",
+    "Max Side Length": "最長邊限制"
+  },
+  "max tabs": {
+    "Max tabs": "最大單元數",
+    "Max Tabs": "最大單元數"
+  },
   "maximum aesthetic_score": {
     "Maximum aesthetic_score": "最大美學評分",
     "maximum aesthetic_score": "按美學評分上限過濾"
@@ -618,6 +802,10 @@
   "merge mode": {
     "Merge Mode": "融合演算法",
     "Merge mode": "合併模式"
+  },
+  "metadata in json format": {
+    "Metadata in JSON format": "JSON 格式元數據",
+    "Metadata in JSON Format": "JSON 格式的中繼資料"
   },
   "minimum aesthetic_score": {
     "Minimum aesthetic_score": "最小美學評分",
@@ -712,6 +900,14 @@
     "No": "否",
     "no": "否"
   },
+  "no interpolation": {
+    "No interpolation": "無插值",
+    "No Interpolation": "不進行插值"
+  },
+  "noise multiplier for img2img": {
+    "Noise multiplier for img2img": "圖生圖的噪聲乘數",
+    "Noise Multiplier for img2img": "圖生圖雜訊倍數"
+  },
   "noise multiplier; applies to euler a and other samplers that have the letter 'a' in them": {
     "noise multiplier; applies to Euler A and other samplers that have the letter 'a' in them": "噪點倍率; 適用於 Euler a 和其他帶有 ‘a’ 的採樣方法",
     "noise multiplier; applies to Euler a and other samplers that have the letter 'a' in them": "噪點倍率; 應用於 Euler a 和其他帶 a 的採樣方法"
@@ -749,6 +945,10 @@
     "OR": "或",
     "or": "或"
   },
+  "original": {
+    "original": "原圖",
+    "Original": "原始模式"
+  },
   "others": {
     "Others": "其他",
     "others": "其他"
@@ -761,6 +961,30 @@
     "Output Directory": "輸出目錄",
     "Output directory": "輸出目錄"
   },
+  "output directory for adetailer images": {
+    "Output directory for adetailer images": "adetailer 圖像的輸出目錄",
+    "Output directory for ADetailer images": "ADetailer 圖像輸出目錄"
+  },
+  "output directory for grids": {
+    "Output directory for grids": "網格圖輸出目錄",
+    "Output Directory for Grids": "網格圖輸出目錄"
+  },
+  "output directory for img2img grids": {
+    "Output directory for img2img grids": "圖生圖宮格的輸出目錄",
+    "Output Directory for img2img Grids": "圖生圖網格圖輸出目錄"
+  },
+  "output directory for img2img images": {
+    "Output directory for img2img images": "圖生圖的輸出目錄",
+    "Output Directory for img2img Images": "圖生圖圖像輸出目錄"
+  },
+  "output directory for txt2img grids": {
+    "Output directory for txt2img grids": "文生圖宮格的輸出目錄",
+    "Output Directory for txt2img Grids": "文生圖網格圖輸出目錄"
+  },
+  "output directory for txt2img images": {
+    "Output directory for txt2img images": "文生圖的輸出目錄",
+    "Output Directory for txt2img Images": "文生圖圖像輸出目錄"
+  },
   "overwrite": {
     "Overwrite": "覆寫",
     "overwrite": "允許覆蓋"
@@ -769,9 +993,14 @@
     "Padding Mode": "填充模式",
     "Padding mode": "填充模式"
   },
+  "paths for saving": {
+    "Paths for saving": "儲存路徑",
+    "Paths for Saving": "儲存路徑"
+  },
   "persistent cond cache": {
     "Persistent cond cache": "持久化調整緩存",
-    "persistent cond cache": "持久化調整緩存"
+    "persistent cond cache": "持久化調整緩存",
+    "Persistent Cond Cache": "持續保留條件緩存"
   },
   "pipeline": {
     "Pipeline": "管線",
@@ -805,13 +1034,33 @@
     "Prev Page": "上一頁",
     "Prev page": "上一頁"
   },
+  "primary model (a)": {
+    "Primary model (A)": "主要模型（A）",
+    "Primary Model (A)": "主要模型（A）"
+  },
+  "primary model (a): refresh": {
+    "Primary model (A): refresh": "模型 A: 重新整理",
+    "Primary Model (A): refresh": "主要模型（A）：重新整理"
+  },
+  "profile memory": {
+    "Profile memory": "分析記憶體用量",
+    "Profile Memory": "分析記憶體用量"
+  },
   "prompt": {
     "Prompt": "提示詞",
     "prompt": "提示詞"
   },
+  "prompt editing": {
+    "Prompt editing": "提示詞編輯",
+    "Prompt Editing": "提示詞編輯"
+  },
   "prompt for face": {
     "Prompt for Face": "臉部提示詞",
     "Prompt for face": "針對臉部的提示詞"
+  },
+  "prompt matrix": {
+    "Prompt matrix": "提示詞矩陣",
+    "Prompt Matrix": "提示詞矩陣"
   },
   "prompt mode": {
     "Prompt Mode": "提示詞模式",
@@ -821,9 +1070,17 @@
     "prompt travel": "提示詞變遷",
     "Prompt Travel": "提示詞變遷"
   },
+  "prompts from file or textbox": {
+    "Prompts from file or textbox": "從文字方塊或檔案載入提示詞",
+    "Prompts from File or Textbox": "從檔案或文字框載入提示詞"
+  },
   "quick": {
     "Quick": "快速設定",
     "quick": "快速"
+  },
+  "quicksettings list": {
+    "Quicksettings list": "快捷設定列表",
+    "Quicksettings List": "快速設定清單"
   },
   "random": {
     "random": "隨機",
@@ -881,6 +1138,10 @@
     "Restore Faces": "臉部修復",
     "Restore faces": "臉部修復"
   },
+  "restore faces after adetailer": {
+    "Restore faces after ADetailer": "在 After Detailer 之後修復臉部",
+    "Restore Faces after ADetailer": "ADetailer 完成後修復臉部"
+  },
   "right": {
     "right": "右",
     "Right": "右側"
@@ -897,9 +1158,17 @@
     "Sampler": "取樣器",
     "sampler": "取樣器"
   },
+  "sampler parameters": {
+    "Sampler parameters": "取樣器參數",
+    "Sampler Parameters": "採樣器參數"
+  },
+  "sampling method": {
+    "Sampling method": "採樣方法",
+    "Sampling Method": "採樣方法"
+  },
   "sampling steps": {
-    "Sampling Steps": "採樣疊代步數",
-    "Sampling steps": "取樣步驟"
+    "Sampling Steps": "採樣步數",
+    "Sampling steps": "採樣步數"
   },
   "saturation": {
     "Saturation": "飽和度",
@@ -942,17 +1211,37 @@
     "Save Tags": "儲存標籤",
     "Save tags": "儲存標籤"
   },
+  "saving images/grids": {
+    "Saving images/grids": "儲存圖像 / 宮格圖",
+    "Saving Images/Grids": "儲存圖像／網格圖"
+  },
+  "scale factor": {
+    "Scale Factor": "放大倍數",
+    "Scale factor": "放大倍數"
+  },
   "schedule": {
     "schedule": "參數表",
     "Schedule": "時間表"
+  },
+  "schedule type": {
+    "Schedule type": "調度類型 (Schedule type)",
+    "Schedule Type": "排程類型"
   },
   "scheduler type": {
     "Scheduler type": "調度器類型",
     "scheduler type": "調度器類型"
   },
   "script": {
-    "Script": "指令碼",
+    "Script": "腳本",
     "script": "指令碼"
+  },
+  "sd unet: refresh": {
+    "SD Unet: refresh": "SD Unet: 重新整理",
+    "SD UNet: refresh": "SD UNet：重新整理"
+  },
+  "sd upscale": {
+    "SD upscale": "使用 SD 放大",
+    "SD Upscale": "SD 圖像放大"
   },
   "search": {
     "Search": "搜尋",
@@ -961,6 +1250,14 @@
   "search results": {
     "Search results": "搜尋結果",
     "Search Results": "搜尋結果"
+  },
+  "secondary model (b)": {
+    "Secondary model (B)": "次要模型（B）",
+    "Secondary Model (B)": "次要模型（B）"
+  },
+  "secondary model (b): refresh": {
+    "Secondary model (B): refresh": "模型 B: 重新整理",
+    "Secondary Model (B): refresh": "次要模型（B）：重新整理"
   },
   "seed": {
     "Seed": "隨機種子",
@@ -980,7 +1277,7 @@
   },
   "send to extras": {
     "Send to Extras": "發送到 後期處理",
-    "Send to extras": ">> 附加功能"
+    "Send to extras": "傳送至附加功能"
   },
   "settings": {
     "Settings": "設定",
@@ -1047,7 +1344,7 @@
   },
   "space": {
     "Space": "Space (空間藝術)",
-    "space": "空間"
+    "space": "空格"
   },
   "stage 1": {
     "Stage 1": "第一階段",
@@ -1060,6 +1357,10 @@
   "stained glass": {
     "Stained Glass": "Stained Glass (染色玻璃)",
     "stained glass": "stained glass (彩色玻璃)"
+  },
+  "startup profile": {
+    "Startup profile": "啟動計時",
+    "Startup Profile": "啟動效能分析"
   },
   "status": {
     "Status": "狀態",
@@ -1101,6 +1402,18 @@
     "Target Language": "目標語言",
     "Target language": "目標語言"
   },
+  "tertiary model (c)": {
+    "Tertiary model (C)": "第三模型（C）",
+    "Tertiary Model (C)": "第三模型（C）"
+  },
+  "tertiary model (c): refresh": {
+    "Tertiary model (C): refresh": "模型 C: 重新整理",
+    "Tertiary Model (C): refresh": "第三模型（C）：重新整理"
+  },
+  "text color for image grids": {
+    "Text color for image grids": "網格圖文字顏色",
+    "Text Color for image grids": "網格圖文字顏色"
+  },
   "text files directory (optional, will load from input dir if not specified)": {
     "Text files directory (Optional, will load from input dir if not specified)": "文字檔目錄 (可選, 如不指定將從輸入目錄載入)",
     "Text files directory (optional, will load from input dir if not specified)": "文字檔目錄 (可選, 如不指定將從輸入目錄載入)"
@@ -1123,8 +1436,8 @@
     "Tile Height": "分塊高度"
   },
   "tile overlap": {
-    "Tile overlap": "圖塊重疊的畫素",
-    "Tile Overlap": "分塊重疊"
+    "Tile overlap": "分塊重疊範圍",
+    "Tile Overlap": "分塊重疊範圍"
   },
   "tile width": {
     "Tile width": "圖塊寬度",
@@ -1145,7 +1458,19 @@
   },
   "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's clip dictionary and instead 'compu' and 'ter' are used (1 word but 2 embedding vectors). currently buggy and needs a moment to process before pressing the button. if it doesn't work after a moment, try adding a random space to refresh it.": {
     "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（一個單字但使用兩個嵌入向量）。目前這個擴充功能還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一段時間還是不行，試試隨便加個空格重新整理一下",
-    "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 Embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（1 個單詞但使用 2 個 Embedding 向量）。目前這個擴展還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一會還是不行，試試隨便加個空格重新整理一下"
+    "to see which words are constructed using multiple sub-words, e.g. 'computer' doesn't exist in stable diffusion's CLIP dictionary and instead 'compu' and 'ter' are used (1 word but 2 Embedding vectors). Currently buggy and needs a moment to process before pressing the button. If it doesn't work after a moment, try adding a random space to refresh it.": "檢視哪些詞是使用多個子詞構成的，例如 Stable Diffusion 的 CLIP 字典中不存在 'computer'，而是使用 'compu' 以及 'ter'（1 個單字但使用 2 個 Embedding 向量）。目前這個延伸模組還有點問題，在按下按鈕之前需要一點時間來處理。如果過了一會還是不行，試試隨便加個空格重新整理一下"
+  },
+  "token merging - max downsample": {
+    "Token Merging - Max downsample": "TOME - 最大降採樣",
+    "Token Merging - Max Downsample": "Token 合併－最大降採樣"
+  },
+  "token merging ratio": {
+    "Token merging ratio": "Token 合併比率",
+    "Token Merging Ratio": "Token 合併比例"
+  },
+  "token merging ratio for img2img": {
+    "Token merging ratio for img2img": "圖生圖的 Token 合併比率",
+    "Token Merging Ratio for img2img": "圖生圖 Token 合併比例"
   },
   "tokenizer": {
     "tokenizer": "標記解析器",
@@ -1161,7 +1486,7 @@
   },
   "train hypernetwork": {
     "Train Hypernetwork": "訓練超網路",
-    "Train hypernetwork": "訓練超網絡"
+    "Train hypernetwork": "訓練超網路"
   },
   "trained tags (if any):": {
     "Trained Tags (if any):": "訓練標籤 (如有): ",
@@ -1187,6 +1512,14 @@
     "TXT2IMG": "文生圖",
     "txt2img": "文生圖",
     "Txt2img": "文生圖"
+  },
+  "ui alternatives": {
+    "UI alternatives": "UI 替代方案",
+    "UI Alternatives": "介面替代選項"
+  },
+  "ui tab order": {
+    "UI tab order": "標籤列元素順序",
+    "UI Tab Order": "介面頁籤順序"
   },
   "ultimate sd upscale": {
     "Ultimate SD Upscale": "終極 SD 放大",
@@ -1233,13 +1566,41 @@
     "Use same VAE": "使用相同 VAE",
     "Use same vae": "使用相同的 VAE"
   },
+  "use separate cfg scale": {
+    "Use separate CFG scale": "使用獨立的提示詞引導係數",
+    "Use separate CFG Scale": "使用獨立 CFG 引導係數"
+  },
+  "use separate checkpoint": {
+    "Use separate checkpoint": "使用獨立模型",
+    "Use separate Checkpoint": "使用獨立模型"
+  },
+  "use separate noise multiplier": {
+    "Use separate noise multiplier": "使用獨立噪點參數",
+    "Use separate Noise Multiplier": "使用獨立雜訊倍數"
+  },
+  "use separate steps": {
+    "Use separate steps": "使用獨立疊代步數",
+    "Use separate Steps": "使用獨立疊代步數"
+  },
+  "use separate width/height": {
+    "Use separate width/height": "使用獨立重繪寬高",
+    "Use separate Width/Height": "使用獨立寬度／高度"
+  },
+  "user agent for requests": {
+    "User agent for requests": "發送請求使用的 User-Agent",
+    "User Agent for Requests": "連線請求使用者代理字串"
+  },
   "user interface": {
     "User Interface": "使用者介面",
     "User interface": "使用者介面"
   },
   "username": {
-    "Username": "用戶名",
-    "username": "用戶名"
+    "Username": "使用者名稱",
+    "username": "使用者名稱"
+  },
+  "using": {
+    "Using": "使用",
+    "using": "使用"
   },
   "version": {
     "Version": "版本",
@@ -1257,6 +1618,10 @@
     "Watercolor": "Watercolor (水彩)",
     "watercolor": "watercolor (水彩)"
   },
+  "weighted sum": {
+    "Weighted sum": "加權和",
+    "Weighted Sum": "加權和"
+  },
   "weights alpha": {
     "Weights alpha": "權重 α",
     "weights alpha": "權重 α"
@@ -1270,8 +1635,8 @@
     "Weights setting": "權重設定"
   },
   "when adding to prompt, refer to lora by": {
-    "When adding to prompt, refer to Lora by": "將擴展模型新增到提示詞時，通過以下格式提及lora",
-    "When adding to prompt, refer to lora by": "在新增到提示詞時，通過以下格式提及lora"
+    "When adding to prompt, refer to Lora by": "加入提示詞時，以此格式參照 LoRA",
+    "When adding to prompt, refer to lora by": "在新增到提示詞時，透過以下格式提及lora"
   },
   "width": {
     "Width": "寬度",
@@ -1280,6 +1645,10 @@
   "x values": {
     "X Values": "X 軸值",
     "X values": "X 軸值"
+  },
+  "x/y/z plot": {
+    "X/Y/Z plot": "X/Y/Z 圖表",
+    "X/Y/Z Plot": "X/Y/Z 圖表"
   },
   "xyz plot": {
     "XYZ Plot": "XYZ 圖",
