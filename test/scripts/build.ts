@@ -28,7 +28,15 @@ function omitEngligh<T extends Record<string, string>>(tw: T)
 }
 
 export default Bluebird.props({
-		tw: readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
+		tw: readJSON(join(__ROOT, 'localizations', 'zh_TW.json'))
+			.then(async (data) => {
+				let data2 = await readJSON(join(__ROOT, 'localizations', 'zh_Hant_DianNaoTou.json'));
+
+				return {
+					...data,
+					...data2,
+				}
+			}),
 		cn: readJSON(join(__ROOT, 'localizations', 'zh-Hans.json'))
 			.then(async (data) => {
 				let data2 = await readJSON(join(__ROOT, 'localizations', 'zh-Hans_hben35096.json'));
@@ -67,7 +75,7 @@ export default Bluebird.props({
 					return data
 				})
 			,
-			
+
 			omitEngligh(props.tw),
 			readJSON5(join(__ROOT, 'localizations', 'my.json5')),
 		]);

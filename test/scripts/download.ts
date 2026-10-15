@@ -13,6 +13,9 @@ export default Promise.allSettled([
 	fetch('https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW/raw/main/localizations/zh_TW.json')
 		.then(res => res.json())
 		.then((json) => _writeReturn(json, 'zh_TW.json')),
+	fetch('https://github.com/DianNaoTou/sd-webui-forge-neo-zh-TW/raw/refs/heads/neo/localizations/zh_Hant.json')
+		.then(res => res.json())
+		.then((json) => _writeReturn(json, 'zh_Hant_DianNaoTou.json')),
 ])
 	.then(async (ls) => {
 		console.dir(ls)
