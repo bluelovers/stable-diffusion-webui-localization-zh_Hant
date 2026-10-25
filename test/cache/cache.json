@@ -23,6 +23,10 @@
     "Abstract": "Abstract (抽象)",
     "abstract": "abstract (抽象藝術)"
   },
+  "activation text": {
+    "Activation text": "啟動文字",
+    "Activation Text": "觸發詞"
+  },
   "actual fps": {
     "actual FPS": "實際幀率（幀每秒）",
     "Actual FPS": "實際幀率（幀每秒）"
@@ -94,7 +98,8 @@
   },
   "alpha threshold": {
     "Alpha threshold": "透明度閾值",
-    "alpha threshold": "透明度閾值"
+    "alpha threshold": "透明度閾值",
+    "Alpha Threshold": "透明度門檻"
   },
   "and": {
     "AND": "與",
@@ -207,6 +212,10 @@
     "Blend": "混合",
     "blend": "混合"
   },
+  "block size": {
+    "Block size": "區塊大小",
+    "Block Size": "區塊大小"
+  },
   "blur": {
     "Blur": "Blur (模糊)",
     "blur": "模糊"
@@ -242,6 +251,10 @@
   "canny": {
     "Canny": "Canny (硬邊緣)",
     "canny": "canny (硬邊緣檢測)"
+  },
+  "caption": {
+    "Caption": "生成標籤",
+    "caption": "描述"
   },
   "card height for extra networks": {
     "Card height for Extra Networks": "額外網路的卡片高度",
@@ -291,6 +304,10 @@
   "class prompt": {
     "Class Prompt": "類別/正則提示詞",
     "Class prompt": "類別(Class)正向提示詞"
+  },
+  "clear all": {
+    "Clear all": "清空全部",
+    "Clear All": "清除全部"
   },
   "clip model": {
     "CLIP Model": "CLIP 模型",
@@ -381,6 +398,10 @@
   "delete": {
     "Delete": "刪除",
     "delete": "刪除"
+  },
+  "delete model": {
+    "Delete Model": "刪除模型",
+    "Delete model": "刪除模型"
   },
   "denoise change:": {
     "Denoise change:": "降噪變化：",
@@ -1018,6 +1039,10 @@
     "positive": "正向",
     "Positive": "正向提示詞"
   },
+  "preferred weight": {
+    "Preferred weight": "首選權重",
+    "Preferred Weight": "偏好權重"
+  },
   "prepend": {
     "Prepend": "新增到開頭",
     "prepend": "放前面"
@@ -1085,6 +1110,10 @@
   "random": {
     "random": "隨機",
     "Random": "隨機"
+  },
+  "random prompt": {
+    "Random prompt": "隨機提示詞",
+    "Random Prompt": "隨機提示詞"
   },
   "range": {
     "Range": "範圍",
@@ -1287,6 +1316,10 @@
     "Settings file Path can be relative to webui folder OR full - absolute": "設定檔案路徑可以相對於 SD-WebUI 根目錄，也可以是完整的絕對路徑",
     "settings file path can be relative to webui folder OR full - absolute": "設定檔案路徑可以相對於 SD-WebUI 根目錄，也可以是完整的絕對路徑"
   },
+  "show all pages": {
+    "Show all pages": "顯示所有頁面",
+    "Show All Pages": "顯示所有頁面"
+  },
   "show aria2 logs in cmd": {
     "Show Aria2 Logs in CMD": "在 CMD (控制台) 顯示 Aria2 日誌",
     "Show Aria2 logs in CMD": "在 CMD 中顯示 Aria2 日誌"
@@ -1311,6 +1344,10 @@
     "Sigma Noise": "Sigma 噪點",
     "Sigma noise": "希格瑪噪點量（Sigma noise）",
     "sigma noise": "希格瑪噪點量（sigma noise）"
+  },
+  "single": {
+    "Single": "單次處理",
+    "single": "單一畫面"
   },
   "single image": {
     "Single Image": "單張圖像",
@@ -1410,6 +1447,10 @@
     "Tertiary model (C): refresh": "模型 C: 重新整理",
     "Tertiary Model (C): refresh": "第三模型（C）：重新整理"
   },
+  "text": {
+    "Text": "文字",
+    "text": "文字"
+  },
   "text color for image grids": {
     "Text color for image grids": "網格圖文字顏色",
     "Text Color for image grids": "網格圖文字顏色"
@@ -1496,6 +1537,10 @@
     "Training": "訓練",
     "training": "訓練"
   },
+  "training dataset tags": {
+    "Training dataset tags": "訓練數據集標記",
+    "Training Dataset Tags": "訓練資料集標籤"
+  },
   "training steps": {
     "Training steps": "訓練疊代步數",
     "Training Steps": "訓練疊代步數"
@@ -1528,6 +1573,10 @@
   "unipc order": {
     "UniPC Order": "UniPC 取樣順序。",
     "UniPC order": "UniPC 低階步數"
+  },
+  "unknown": {
+    "unknown": "未知",
+    "Unknown": "未知"
   },
   "unload model": {
     "Unload Model": "卸載模型",
