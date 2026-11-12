@@ -150,6 +150,10 @@
     "Automatic": "自動",
     "automatic": "自動"
   },
+  "background": {
+    "Background": "背景",
+    "background": "背景"
+  },
   "background color": {
     "Background Color": "背景顏色",
     "background color": "背景顏色"
@@ -547,6 +551,10 @@
     "for": "用於",
     "For": "用於"
   },
+  "foreground": {
+    "Foreground": "前景",
+    "foreground": "前景"
+  },
   "fps": {
     "FPS": "幀率",
     "fps": "幀率"
@@ -602,6 +610,10 @@
   "height": {
     "Height": "高度",
     "height": "高度"
+  },
+  "hires checkpoint": {
+    "Hires checkpoint": "高解析度模型權重存檔點",
+    "Hires Checkpoint": "高解析度修復主模型"
   },
   "hires negative prompt": {
     "Hires Negative prompt": "高分修復反向提示詞",
@@ -1217,7 +1229,7 @@
   },
   "save mask": {
     "Save mask": "儲存遮罩",
-    "Save Mask": "儲存到遮罩層"
+    "Save Mask": "儲存遮罩"
   },
   "save metadata": {
     "Save Metadata": "儲存中繼資料",
@@ -1454,6 +1466,10 @@
   "text color for image grids": {
     "Text color for image grids": "網格圖文字顏色",
     "Text Color for image grids": "網格圖文字顏色"
+  },
+  "text encoder": {
+    "text encoder": "文字編碼器",
+    "Text Encoder": "文字編碼器"
   },
   "text files directory (optional, will load from input dir if not specified)": {
     "Text files directory (Optional, will load from input dir if not specified)": "文字檔目錄 (可選, 如不指定將從輸入目錄載入)",
