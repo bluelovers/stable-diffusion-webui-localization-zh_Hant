@@ -232,3 +232,5 @@ dist/*.umd.*.*s
 
 !/.run/
 !/.storybook/
+
+!/localizations/out

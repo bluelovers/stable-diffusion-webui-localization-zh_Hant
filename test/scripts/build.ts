@@ -1,45 +1,29 @@
-import { outputJSON, readFile, readJSON } from 'fs-extra';
+import { outputJSON, readFile } from 'fs-extra';
 import { join } from 'path';
-import { __ROOT, __ROOT_OUTPUT } from '../__root';
+import { __ROOT, __ROOT_LOCALIZATIONS_DST, __ROOT_LOCALIZATIONS_SRC, __ROOT_LOCALIZATIONS_SRC_OUT, __ROOT_OUTPUT } from '../__root';
 import { initIdeaSegmentText, processTextSync } from '../../src/lib/segment';
 import { tw2cn_min } from '@lazy-cjk/zh-convert/min';
 import { parse } from 'json5'
 import Bluebird from 'bluebird';
 import { sortObjectKeys } from 'sort-object-keys2';
 import { compareCaseInsensitive } from '@bluelovers/string-natural-compare';
-
-function readJSON5(path: string)
-{
-	return readFile(path).then(buf => parse(buf.toString()))
-}
-
-function omitEngligh<T extends Record<string, string>>(tw: T)
-{
-	Object.entries(tw)
-		.forEach(([key, value]) =>
-		{
-			if (key === value)
-			{
-				delete tw[key]
-			}
-		})
-	;
-	return tw
-}
+import { ILocalizationsJsonData, readJSON5 } from '../../src/lib/fs';
+import { readLocalizationsMyAll } from '../../src/lib/glob-localizations';
+import { omitEngligh } from '../../src/lib/json';
 
 export default Bluebird.props({
-		tw: readJSON(join(__ROOT, 'localizations', 'zh_TW.json'))
+		tw: readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh_TW.json'))
 			.then(async (data) => {
-				let data2 = await readJSON(join(__ROOT, 'localizations', 'zh_Hant_DianNaoTou.json'));
+				let data2 = await readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh_Hant_DianNaoTou.json'));
 
 				return {
 					...data,
 					...data2,
 				}
 			}),
-		cn: readJSON(join(__ROOT, 'localizations', 'zh-Hans.json'))
+		cn: readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh-Hans.json'))
 			.then(async (data) => {
-				let data2 = await readJSON(join(__ROOT, 'localizations', 'zh-Hans_hben35096.json'));
+				let data2 = await readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh-Hans_hben35096.json'));
 
 				return {
 					...data,
@@ -54,14 +38,14 @@ export default Bluebird.props({
 			{
 				...props.cn,
 			},
-			readJSON(join(__ROOT, 'localizations', 'zh_TW.json')),
+			readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh_TW.json')),
 			omitEngligh(props.cn),
 			/**
 			 * @see https://github.com/xhoxye/stable-diffusion-webui-forge/blob/main/localizations
 			 * @see https://nga.178.com/read.php?tid=39308107&rand=884
 			 */
 
-			readJSON(join(__ROOT, 'localizations', 'sd-webui-zh_CN-xhox20240214(testing).json'))
+			readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'sd-webui-zh_CN-xhox20240214(testing).json'))
 				.then(omitEngligh)
 				.then(data => {
 
@@ -77,20 +61,20 @@ export default Bluebird.props({
 			,
 
 			omitEngligh(props.tw),
-			readJSON5(join(__ROOT, 'localizations', 'my.json5')),
+			readLocalizationsMyAll(),
 		]);
 
 		return ls
 	})
 	.then(ls =>
 	{
-		return ls.reduce((a, b) => Object.assign(a, b), {}) as Record<string, string>
+		return ls.reduce((a, b) => Object.assign(a, b), {}) as ILocalizationsJsonData
 	})
 	.then(async (json) =>
 	{
 		console.log(`output zh_Hant.json`);
 
-		await outputJSON(join(__ROOT, 'localizations', 'zh_Hant.json'), json, {
+		await outputJSON(join(__ROOT_LOCALIZATIONS_SRC_OUT, 'zh_Hant.json'), json, {
 			spaces: 2,
 		});
 
@@ -150,10 +134,10 @@ export default Bluebird.props({
 		console.log(`build zh_Hant.json`);
 
 		await Promise.all([
-			outputJSON(join(__ROOT_OUTPUT, 'localizations', 'zh_Hant.json'), json, {
+			outputJSON(join(__ROOT_LOCALIZATIONS_DST, 'zh_Hant.json'), json, {
 				spaces: 2,
 			}),
-			outputJSON(join(__ROOT_OUTPUT, 'localizations', 'zh_Hans.json'), json_hans, {
+			outputJSON(join(__ROOT_LOCALIZATIONS_DST, 'zh_Hans.json'), json_hans, {
 				spaces: 2,
 			}),
 		])
