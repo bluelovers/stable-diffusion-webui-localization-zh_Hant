@@ -9,27 +9,20 @@ import { sortObjectKeys } from 'sort-object-keys2';
 import { compareCaseInsensitive } from '@bluelovers/string-natural-compare';
 import { ILocalizationsJsonData, readJSON5 } from '../../src/lib/fs';
 import { readLocalizationsMyAll } from '../../src/lib/glob-localizations';
-import { omitEngligh } from '../../src/lib/json';
+import { merge2, omit_xhox20240214, omitEngligh } from '../../src/lib/json';
 
 export default Bluebird.props({
 		tw: readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh_TW.json'))
 			.then(async (data) => {
 				let data2 = await readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh_Hant_DianNaoTou.json'));
 
-				return {
-					...data,
-					...data2,
-				}
+				return merge2(data, data2);
 			}),
 		cn: readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh-Hans.json'))
 			.then(async (data) => {
 				let data2 = await readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'zh-Hans_hben35096.json'));
 
-				return {
-					...data,
-					...data2,
-					...data,
-				}
+				return merge2(data, data2, true);
 			}),
 	})
 	.then(async (props) => {
@@ -47,17 +40,7 @@ export default Bluebird.props({
 
 			readJSON5(join(__ROOT_LOCALIZATIONS_SRC, 'sd-webui-zh_CN-xhox20240214(testing).json'))
 				.then(omitEngligh)
-				.then(data => {
-
-					Object.keys(data).forEach(key => {
-						if (key.length === 1 || key.includes('_') && /^[_a-z]{2,}$/.test(key) && key === key.toLowerCase())
-						{
-							delete data[key]
-						}
-					})
-
-					return data
-				})
+				.then(omit_xhox20240214)
 			,
 
 			omitEngligh(props.tw),
