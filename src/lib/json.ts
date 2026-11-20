@@ -50,18 +50,18 @@ export function omit_xhox20240214<T extends ILocalizationsJsonData>(data: T)
 
 export function merge2<T extends ILocalizationsJsonData>(data: T, data2: T, remerge?: boolean)
 {
-	data = {
+	let result = {
 		...data,
 		...data2,
 	}
 
 	if (remerge)
 	{
-		data = {
-			...data2,
+		result = {
+			...result,
 			...data,
 		}
 	}
 
-	return data;
+	return result;
 }
