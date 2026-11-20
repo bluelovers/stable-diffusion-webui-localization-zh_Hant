@@ -4,7 +4,9 @@ import { readFile } from 'fs-extra';
 import { relative } from 'upath2';
 import { __ROOT } from '../../test/__root';
 
-export type ILocalizationsJsonData = Record<string, string | null>;
+export type ILocalizationsJsonDataValue = string | null;
+
+export type ILocalizationsJsonData = Record<string, ILocalizationsJsonDataValue>;
 
 export async function readJSON5(path: string)
 {
