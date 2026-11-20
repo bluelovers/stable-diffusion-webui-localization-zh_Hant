@@ -13,43 +13,43 @@ importers:
         version: 2.0.17
       '@git-lazy/spawn':
         specifier: ^2.0.3
-        version: 2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(ts-toolbelt@9.6.0)
+        version: 2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(ts-toolbelt@9.6.0)
       '@lazy-cjk/zh-convert':
-        specifier: ^1.0.58
-        version: 1.0.58(ts-toolbelt@9.6.0)
+        specifier: ^2.0.0
+        version: 2.0.0(ts-toolbelt@9.6.0)
       '@novel-segment/loaders':
         specifier: ^1.0.57
         version: 1.0.57(ts-toolbelt@9.6.0)
       '@novel-segment/sort-dict-table':
         specifier: ^1.0.33
-        version: 1.0.33(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
+        version: 1.0.33(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
       '@novel-segment/sort-synonym':
         specifier: ^1.0.29
-        version: 1.0.29(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
+        version: 1.0.29(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
       '@novel-segment/types':
         specifier: ^1.0.15
         version: 1.0.15
       '@novel-segment/util':
         specifier: ^1.0.81
-        version: 1.0.81(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
+        version: 1.0.81(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
       '@novel-segment/util-compare':
         specifier: ^1.0.30
         version: 1.0.30(ts-toolbelt@9.6.0)
       '@yarn-tool/changelog':
-        specifier: ^3.0.17
-        version: 3.0.17(@bluelovers/conventional-changelog-bluelovers@5.0.27(@types/bluebird@3.5.42)(@types/node@26.6.5)(ts-toolbelt@9.6.0))(debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
+        specifier: ^3.0.31
+        version: 3.0.31(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       bluebird:
         specifier: ^3.7.2
         version: 3.7.2
       cjk-conv:
-        specifier: ^1.2.153
-        version: 1.2.153(ts-toolbelt@9.6.0)
+        specifier: ^2.0.0
+        version: 2.0.0(ts-toolbelt@9.6.0)
       crlf-normalize:
         specifier: ^1.0.26
         version: 1.0.26(ts-toolbelt@9.6.0)
       debug-color2:
         specifier: ^1.3.2
-        version: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+        version: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       fs-extra:
         specifier: ^11.4.1
         version: 11.4.1
@@ -61,16 +61,16 @@ importers:
         version: 2.7.125(ts-toolbelt@9.6.0)
       novel-segment-cli:
         specifier: ^1.1.143
-        version: 1.1.143(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+        version: 1.1.143(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       regexp-cjk-with-plugin-enabled:
-        specifier: ^1.0.26
-        version: 1.0.26(@lazy-cjk/jp-table-voice@1.0.42(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(regexp-parser-event@1.1.50(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
+        specifier: ^2.0.0
+        version: 2.0.0(@lazy-cjk/jp-table-voice@2.0.0(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(regexp-parser-event@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
       sort-object-keys2:
         specifier: ^3.0.10
         version: 3.0.10
       ts-type:
-        specifier: ^3.0.18
-        version: 3.0.18(ts-toolbelt@9.6.0)
+        specifier: ^3.0.19
+        version: 3.0.19(ts-toolbelt@9.6.0)
       tslib:
         specifier: '>=2'
         version: 2.8.1
@@ -83,10 +83,10 @@ importers:
         version: 1.0.14
       '@novel-segment/pretty-diff':
         specifier: ^1.0.30
-        version: 1.0.30(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+        version: 1.0.30(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       '@ts-type/is-array':
-        specifier: ^1.0.20
-        version: 1.0.20(ts-toolbelt@9.6.0)
+        specifier: ^1.0.21
+        version: 1.0.21(ts-toolbelt@9.6.0)
       '@types/bluebird':
         specifier: ^3.5.42
         version: 3.5.42
@@ -97,14 +97,14 @@ importers:
         specifier: ^30.0.0
         version: 30.0.0
       '@types/node':
-        specifier: ^26.6.5
-        version: 26.6.5
+        specifier: ^26.6.6
+        version: 26.6.6
       tsx:
         specifier: ^4.23.15
         version: 4.23.15
       typescript:
-        specifier: ^6.0.3
-        version: 6.0.3
+        specifier: ^7.0.2
+        version: 7.0.2
 
 packages:
 
@@ -355,23 +355,44 @@ packages:
   '@lazy-cjk/jp-table-alias@1.0.50':
     resolution: {integrity: sha512-zHfC6PsWQbKBO99jWH84uscIE1GCYz330f4zzpUXE9oaQdgwGsKHvM5pdzVbUvu/Hl5JaIhTKS8svo7WoxaumA==}
 
+  '@lazy-cjk/jp-table-alias@2.0.0':
+    resolution: {integrity: sha512-r68RJnMvTFizEOdLBzRmcRhmYNxna0iwfivrTaAy1XbpEk2uZv8YUnPOTiTslR/biaIKusGpyYirAsW2CqJamQ==}
+
   '@lazy-cjk/jp-table-comparison@1.0.35':
     resolution: {integrity: sha512-KJruA+Pt5zCb5UHDzGxljvc2Dg0xMVklmG2o5AvgoQoeRRNJ1gZB0dABEe4tXUk+EMVHy/ClkVXO2YRy0qcG9g==}
+
+  '@lazy-cjk/jp-table-comparison@2.0.0':
+    resolution: {integrity: sha512-+15gjjrhA1uMyqrkW3mP0Z34lx0usYbIuX+1iKWynXetp9ged9BwU8T0sNLw5PX5b3eG/VxQ8/A8m4qj3hRrBg==}
 
   '@lazy-cjk/jp-table-convert@1.0.55':
     resolution: {integrity: sha512-R5FUP9dFlo/QQYKkIlQnlBAd17Pqc6YXqwidNOiMvm3OP84/7FdfCufJ6OFHrA274hQazeXCLyC0B3CI24kxtQ==}
 
+  '@lazy-cjk/jp-table-convert@2.0.0':
+    resolution: {integrity: sha512-2dqQVxZj758XQP3/DOqCDuKGScrpWcSsgusXj3m3luPJaun4pHxewNgzr0VOLzqqEpzBmQ7Vw1IqA3KrZGl3/A==}
+
   '@lazy-cjk/jp-table-voice@1.0.42':
     resolution: {integrity: sha512-fev9Al/EnqzVZ1Iny+9inMQcQgXCHUJic9zYXHPuRWGlKACnlLAWpstDnXcnN+q20PCZtK2KQ+544ZSZ2Y2mNQ==}
+
+  '@lazy-cjk/jp-table-voice@2.0.0':
+    resolution: {integrity: sha512-JPfZslF9KRrFVEbcsutRYuogi7rycRU1PEKF86BaXh3VN1NYDVp4VMSOR0GuJF+78EIiZlj3nwMJpy/9iuMEdQ==}
 
   '@lazy-cjk/novel-filename@1.0.60':
     resolution: {integrity: sha512-uQ7HAa8TEHdZGvea0/hkbv5+QMF9gMhd5pdpjerrR/yEANVqfvRMYSX0VYYnxQnwn1fKz19XZJHIxu4mgaBSSw==}
 
+  '@lazy-cjk/novel-filename@2.0.0':
+    resolution: {integrity: sha512-3MpwQnry1RQdHGQe6gueWerayZ669KjHdsxfh68kbRsIAzWVW2kOjS8CH6n0nw1RnOfMSIp2yq7bCi+CwpJEvQ==}
+
   '@lazy-cjk/regexp-range-table@1.0.11':
     resolution: {integrity: sha512-F2M0Afw4BcDaKTjkNkzfF9yoWmoXEAs629Lemj5f9hWQEd0bbJS9eKfVH5JczntDYq0KvImynXVS8V7BC2i60Q==}
 
+  '@lazy-cjk/regexp-range-table@2.0.0':
+    resolution: {integrity: sha512-5SHFXqKtV4WOVgwcXIvyk7feLYO6ciB0imWyQ39tKbc7ZBqC+NNK5cxYL/5Bdha4aRnHmwXyW8G5S9ixTg/wRg==}
+
   '@lazy-cjk/static-build-zh-convert@1.0.61':
     resolution: {integrity: sha512-W7/ig5FpfzuFmQ9EvERWBWglh0XnupRAVUFkgm6BEY75lK2FoNU/FC5+VIN4gntnrcXo7ea6iFZAqDtwvY4a+g==}
+
+  '@lazy-cjk/static-build-zh-convert@2.0.0':
+    resolution: {integrity: sha512-qcTAAh3McIm9JTesnCdO8p25TGgFhTjnL/KDXBgT9ecGCwB9ZE7rMyij72ZTo91om1s51n4e+q3QBZd10FnDyw==}
 
   '@lazy-cjk/str-util-char-code-at@1.0.7':
     resolution: {integrity: sha512-0ttXrZE0VC38qR1zmbZvEogsMasGWwvIJhPyQ0fZxjbl9GHc9O/Rwpv5Wuwf/fQHvO5+FUMLdLrg/wV/LU4w/g==}
@@ -385,23 +406,44 @@ packages:
   '@lazy-cjk/util@1.0.23':
     resolution: {integrity: sha512-icnxQDyA3hQK/ARv0zLpsBTVwHPOGxasVDnig5L9EN4CvaCaf2ytZ2dTYtSHASuygRK4Pzl9U4MlTnjfUzzmiA==}
 
+  '@lazy-cjk/util@2.0.0':
+    resolution: {integrity: sha512-qkBUQoatGOLPf5vt/sTv3iH77HqMcrS2ejWPa0ElhcJS8zaYmwGQ7y/l7nJpuDkYYc9uizLRq4yJWRRl9VrGUw==}
+
   '@lazy-cjk/zh-convert-table@1.0.29':
     resolution: {integrity: sha512-gjUYZgTfwBD/SVvkxot2BaWBwEzF7ItVoYQawWZmgzpqNRXZVCc3j9xKc4zSzir/C9rCVaTxH3aW5NJIWSnhSw==}
+
+  '@lazy-cjk/zh-convert-table@2.0.0':
+    resolution: {integrity: sha512-LTcnSu05YqVNTajbPaG2x5EXTGhAWDGC6SsV7A9g2E8YZl9qsGkXo6LWJxsG6TtdSUMtNzDdrqgWB+VGMLwrgQ==}
 
   '@lazy-cjk/zh-convert@1.0.58':
     resolution: {integrity: sha512-q3mmZLGr8SwKHJUqdK91pW14vF2Byf7Z4ngrG6jpcZ5I9X4R2vEvcHm5W2RNZFLJUkCQRF/ByJKAG3aGe0HgJQ==}
 
+  '@lazy-cjk/zh-convert@2.0.0':
+    resolution: {integrity: sha512-P8kTfpNOtszwN7rfAS8e2qk+63dB4ZAHRdJ32agQob1VPwiTUDFojXvOU+tgfdtqbnrbxSj56HIRrM19zoMWEw==}
+
   '@lazy-cjk/zh-slugify@1.0.96':
     resolution: {integrity: sha512-LxwLZ9YQF81j6OVdHjvAk/rj4C84g0F5kF6JEE1O3NmkiQwGk+no739C2dpnojv50diBqUtFpvy2oLoqVoxvzg==}
+
+  '@lazy-cjk/zh-slugify@2.0.0':
+    resolution: {integrity: sha512-OAFwXk9cLKuMT/umIhj8HHdTMALU27GAoSEVLCZKYJdZ8IDlYDqUZ4N/+yoaU4r2uQCa8yO7IFEMR9kZUXFbXQ==}
 
   '@lazy-cjk/zh-table-alias@1.0.72':
     resolution: {integrity: sha512-ZCKQZMYvVOrs+BKvm3UV6MSCT+HrUQz2uFibni23UeqGIOavcz0+gR5VvipuhqWwTN8XqJgjx5Mu9uRoe7vN8w==}
 
+  '@lazy-cjk/zh-table-alias@2.0.0':
+    resolution: {integrity: sha512-n6opjAakwNzj4ndTj7F3kDfHRu1W3inqYlSgcYNBRUd5dHucGO0Fjrcp4+ahJrheXgG07W8vud2IXH2tc1tjNQ==}
+
   '@lazy-cjk/zh-table-greedy@1.0.97':
     resolution: {integrity: sha512-h+8+FruetQ5QvovlQEtp2/6rBJsbztAVp0VdwP51N43MUVsnNJsgdbcZtqyqpKFoOD8Yt8nwXz/fT/6W1XprjQ==}
 
+  '@lazy-cjk/zh-table-greedy@2.0.0':
+    resolution: {integrity: sha512-5U6z/xgntQMnCiHZ/ciVn5PlYNh3lvMWU0sl4xxwBG+8ldhahbpZuXE1NfeZviEHqCybAkGxBlcfpeADNpyIAg==}
+
   '@lazy-cjk/zh-table-list@1.0.94':
     resolution: {integrity: sha512-4a0EO6OB9pnLttVYJmSDZ0EKccOJLqywKRB70b9N/ZeUkI4tPRfdV+P6fMZpTH9N1DM/d1hm57ZKEeQ2qjExrg==}
+
+  '@lazy-cjk/zh-table-list@2.0.0':
+    resolution: {integrity: sha512-2z711d+Y0vqRRJk8cqqtoZT+R9gLc3UVaW09SCxjHHDQmy3E5Z0y3rR+y58zZz1ZdnER+0DXuzA493mE2xlsyQ==}
 
   '@lazy-cjk/zh2num@1.0.5':
     resolution: {integrity: sha512-JJpyinCTDAmJepytEAMzNA8ivD9JnCVdLbGtcNCFgfYSy7CJlE0KgUcIwI6E3AmBYOn7Ml3teVc24cYOjB9Hhw==}
@@ -421,8 +463,8 @@ packages:
   '@lazy-node/sanitize-filename@1.0.15':
     resolution: {integrity: sha512-aeZmyKLCo04NkJLWGLI4Xe+8AHSLvPnjlLVjaJf6Zl2679SF1H6WoefOf6XRMrnepnP6A3sspnYUY6tYfaQfgQ==}
 
-  '@lazy-node/semver-part@1.0.29':
-    resolution: {integrity: sha512-QUXd4fcGAMhPuduNR1JWXe9oaKpl488dQyOKqXXNzOcaznYYz9223jsgnG49g2UrefXGG4Lshrl7xK0s9G3VTw==}
+  '@lazy-node/semver-part@1.0.34':
+    resolution: {integrity: sha512-l2oTvIRsCisWv0wosI14LGi1ZKP8RfFxs3XFz5cMuLQCAWlpoxEZVhjeGHaUiS2xwTasTqxJA26fyjc+FsGCIA==}
 
   '@lazy-node/types-path@1.0.3':
     resolution: {integrity: sha512-5Bnl5s5jh7o14i0oa7gj+Y0fDLIlri3+KVZmv4gk0OFGuOrOEmWBBCI9ky3Syip5g/yPHZdfa+WO5BVJMUpMdw==}
@@ -540,17 +582,20 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     deprecated: This functionality has been moved to @npmcli/fs
 
-  '@regexp-cjk/escape-unicode-property@1.0.32':
-    resolution: {integrity: sha512-UvLEETCMaOxhmyA8ruYIZHhiL3VNXQbEzJyI5y8Gd/viVp+eiIdV0x6K9Kms2YPCTYHlQ8wzX0mb8n9ha1nmZA==}
+  '@regexp-cjk/escape-unicode-property@2.0.0':
+    resolution: {integrity: sha512-QrO+AwdwrzXuZ38zmCTmnkJdMw5uHOcfcueKUQZvRAGu4ceKcXcTKlxEUsHFEwKiyIEHzkaFIM2i59xrPp3NgA==}
 
-  '@regexp-cjk/regexpu-core-v4@1.0.12':
-    resolution: {integrity: sha512-Ef0cYH9EnBPigvzunOiu52Ob9HyZkzsgUwFOyvhU+5vpT5lP9GUW9f6pbnUJdUS0JSMdhgrgXezkdVGy01QuuA==}
+  '@regexp-cjk/regexpu-core-v4@2.0.0':
+    resolution: {integrity: sha512-f+3IarjIAyE21KF9kMcgFgy3z7KdUnNHbCDVZnnZyghlOy+7N0C67liL+pppsQIxiOaNjZpQM1YIb6PPIGPnDg==}
 
-  '@regexp-cjk/rewrite-flags@1.0.26':
-    resolution: {integrity: sha512-n6IVS97sWQ1HRFxRELvphfi5fPD5mXOwxFY0uN3MQAIndaNpd813q1+JAqvNvKNtnR8WwRsXKdMbJeXyxba9VQ==}
+  '@regexp-cjk/rewrite-flags@2.0.0':
+    resolution: {integrity: sha512-Wx+vMpdbKKQ168ycQSzTbrs5PtYURbIAf4ySsHW4NtKG8XzhF51G86NseBsBqakWc8CPc8gu84nef0rgXIyGaQ==}
 
-  '@regexp-cjk/rewrite-pattern@1.0.37':
-    resolution: {integrity: sha512-ZHJA6VXUM7Srxdxpju1EhEFbOziYPnerVvmGb137kjGPV1HpuJqYqf+Zc1iJaOgPAXBiM5EsvuMN6Z3/Wbdi1A==}
+  '@regexp-cjk/rewrite-pattern@2.0.0':
+    resolution: {integrity: sha512-9cyFxdJLJ5AycH8YLY2zC7lA74QhJ7NqrqCbbw595gtNgK4Xn9u3H5l2covVsJgplfw2glnCxI8XJXoeknVKIQ==}
+
+  '@regexp-cjk/types@2.0.0':
+    resolution: {integrity: sha512-8ZHjNKWQsd+mG9+3sQgTX6taUZs4KnT9gBn0elbzQTGxbF05fHAz7GFaRp6NFn6laHN76zmRZI1AnS9QoaMuxA==}
 
   '@sinclair/typebox@0.34.52':
     resolution: {integrity: sha512-XiMQh7qqVlxZzcVD+kkGMNGMzcTrDMLWI7S4x7z1MkCkbDPrekpZXEUK0eZqZFMuHQg2a2DZOcDIh9o5v3Gonw==}
@@ -563,11 +608,14 @@ packages:
     resolution: {integrity: sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==}
     engines: {node: '>=6'}
 
-  '@ts-type/is-array@1.0.20':
-    resolution: {integrity: sha512-s7t6dIwA+1fbDE7Xmw2U6iGzsqt0N0Kf96Vxgv67RJ/Wurn9yfFWB7MyrSmCR88ZGmzVzWKad4WhsOA2prNO8g==}
+  '@ts-type/is-array@1.0.21':
+    resolution: {integrity: sha512-/Zg+EoLOcd/GDCPBDPJ66gsTa+KzKB6lE1JOU4pRjmK21MFp2Dcxfg2I3U0rylk44IKXmVaifamPhnKtFEc0HQ==}
 
   '@ts-type/package-dts@3.0.14':
     resolution: {integrity: sha512-I+w4Yi/Rh1RI8+dR+xzwoJX89w7+Atz8ciyAoH7x0DlEXw1/iJyFz/py8H1N0qO0mxKETxsi6iJ14mMT8toSxQ==}
+
+  '@ts-type/package-dts@3.0.15':
+    resolution: {integrity: sha512-vVg30eMjHmn1syUwDnALyHsvxKwGYG2X+HtbkYodfik+9fbcUE0zM+CSqMxwUMI7Q7Gsr9i2iROg03Nca7OVtA==}
 
   '@types/bluebird@3.5.42':
     resolution: {integrity: sha512-Jhy+MWRlro6UjVi578V/4ZGNfeCOcNCp0YaFNIUGFKlImowqwb1O/22wDVk3FDGMLqxdpOV3qQHD5fPEH4hK6A==}
@@ -602,8 +650,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@26.6.5':
-    resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
+  '@types/node@26.6.6':
+    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -623,40 +671,159 @@ packages:
   '@types/yargs@17.0.35':
     resolution: {integrity: sha512-qUHkeCyQFxMXg79wQfTtfndEC+N9ZZg76HJftDJp+qH2tV7Gj4OJi7l+PiWwJ+pWtW8GwSmqsDj/oymhrTWXjg==}
 
-  '@yarn-tool/changelog@3.0.17':
-    resolution: {integrity: sha512-W4odJyYjSZqXikoyKrivOTXM4rIp2dH4mHCRjEVuWyzTjNmmnI95Xx0iufp1dWeDmNIXAereZn9orbOM4xMdnw==}
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    resolution: {integrity: sha512-gowzar9MwS/aRWp6f3a4KUqzRjAZjOsmGNCM6LcTgXum+dBfgsBVMN+AgvOCCbguXyick6LJhpBszxMebJ8syA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    resolution: {integrity: sha512-SZ9xZInqApNlNGc9s0W1VSsktYSOe9cFqNOIqmN1Gs8SmkjKZYFt017G4VwPxASInODuAdbTW7sXiFUf893RgA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    resolution: {integrity: sha512-W5NH4y/J0plIIS5b2xvTEkU7JFxyqdMAOgf+Ilhl0vHQXKO5dZoxd+C/jEtq56c4F3wk71RB4BMRQ2XdI+bwYQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    resolution: {integrity: sha512-UMGDx5sTpzNw3WiPebH7l90IWfJggEd+egHt/q6p7/Cm3zqoV7VxkGXt+3DxPIw8CcmvAB0j3sVVfbhX+M4Tpw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    resolution: {integrity: sha512-Qh4eU4/y3yDjnfjjyPYihMj5/ODIlmt+Bzu17OI+fiSRDW57QmU5SiN63exPRNJPKUzcc1INa1NXdrJ+MqHjUQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    resolution: {integrity: sha512-gffT3xPz9sR7j/YJExkyPntrI0P2EP9XbOyWzth2/Gs0RstK+90RBcO0ncXoXy/beYll1SXw846Nf2zdnEz0QQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    resolution: {integrity: sha512-uEHck9i8hoAzXPiYRib1O7miOnz23SxIeVl6F4LXox+qov1K35jHcEW6VHKvZI+pyvl7fZEP4MCU5LYvIq1GuQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    resolution: {integrity: sha512-R4KvAMnE43W5Qeqb0Ly56O3mWMWIAgsMyz36DCaycd5nbg/9kzm0liw3JocfRqyJY0KPmzFjbswozXyW0DnIYA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    resolution: {integrity: sha512-DORx5b3sd/4S7eayxm4FQv+A7CrkUIGRaHiwI8oiHTAI1fAPWhF4J0vAlkC8biAlHSVVwxMQ3tjZ2/DVbnQiiA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    resolution: {integrity: sha512-wf0jqEDOjrPRnKwYRyyJDRo11KMbvMFrU+q4zqKyChODBzvlkbhNQfKvLxQCcwTpdDaXSHZTVuh0JoCrKCUMHQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    resolution: {integrity: sha512-IkwJc3L7yhytWd/ewjyxNDfOmswCm9GWMJT/ue/dU4aZNbwZeYAetq42VyLmsmSjvoX7z74X6ZaYCtzAr0EuGw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    resolution: {integrity: sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-+polYF4MF04aPpO5FTkHran9yUQDSXqy5GiSDKpsll5jy3l3+g9QLhpf39T+ePtefhXLOGrLl0QIjkQP6VnelA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    resolution: {integrity: sha512-8YIT0EHM/3dq10ZOVF/A7pc/YSMtbcecct4rWtexrnSCHOPcpC2KTLXfTCR6vDpnSiY12heNb1GiN/wu+T/FyA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-APT8+ClYnuYm1u9+kgGXoMj2VzWzcymwh2gNSQVySHfkRDGOTVkoWLjCmOQSaO+PoqQ57B0flRp9SA+7GnnkzQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    resolution: {integrity: sha512-yX7s+Q0Dln0Dt9tEzZsAjXXR/+ytBM7AlglaqyeMPxQszJ1JhlJdZ6jLA+IzldHtflX81em7lDao1xXu+aRRkg==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    resolution: {integrity: sha512-dLJDGaLZ1D4HPQn62u1n8mBDkJREwMsAkCdkwd4Ieqw+x3TUyTsqY0YiBCtE6H6OzzgGk3iuZ3vFWRS+E8/d1g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    resolution: {integrity: sha512-Gyl1Vy6OsWesLzmq+EP0Fb7b4Nid5232AvcA2SFcdYreldpNtYFFofPjnt62y9hQy7VTaZp65ICJjuAQRaVcIQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    resolution: {integrity: sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [win32]
+
+  '@yarn-tool/changelog@3.0.31':
+    resolution: {integrity: sha512-CMRFiCaCU7WuvzyCfTH6lwHFux/VEJ952x5Wm6XCHaJIQpgr81N6UL6lclgp/UfSAaldZFJ4pTfSAPUM4YxavA==}
     hasBin: true
-    peerDependencies:
-      '@bluelovers/conventional-changelog-bluelovers': '*'
 
   '@yarn-tool/find-root@2.0.27':
     resolution: {integrity: sha512-OYvv/XwD3xVyzgCQX7R7GUwvC+HPtwg5cJ0hqzFNGXQiBEVZVeAPCbiiLu0tRJAdcIReENXC4xCzAMJa5NKl9Q==}
 
-  '@yarn-tool/fnm-detect@1.0.11':
-    resolution: {integrity: sha512-0kIWXRhhnU6qxVYR5Qbu8jjxTWcYZocd2HRJvRCZKYNTgxVZ5Xa+Lyc+AZcrTr+Po09vP7PsvXP51+pUjhrM9Q==}
+  '@yarn-tool/find-root@2.0.35':
+    resolution: {integrity: sha512-JW7hv2aG8UxZkjZhCv4Ly9HGViENk1PJPjZ5wHCMHwY0k+zxrDAVuQG1UXfDNnGGv+v6k6pdDdRhMpfZw322DQ==}
 
-  '@yarn-tool/get-global-dirs@1.0.9':
-    resolution: {integrity: sha512-BIBQqpbcJDyKhbareqjiRkJQgIhRfyzirvUEpIr53HhRqJwUFCmbfMacDhKe6ZXCu5nJvSlMCBpAJISsfoywRQ==}
+  '@yarn-tool/fnm-detect@1.0.18':
+    resolution: {integrity: sha512-7PHukErwHOde4VWujt2ZOmT851H+c2iGVeKKYa3P4qbLUeH9tUstsaiwkc/kHHsk/fDh8Q8Poar5c6LuCf/qXw==}
 
-  '@yarn-tool/get-paths-by-type@2.0.22':
-    resolution: {integrity: sha512-uiKQyIGFTALn8rdUscuMma3HxW2aATcHr9qekff0hRNlTgI4yfPZrmW/Dsur7tFmXY8aonInso8WvMpjM1BWeA==}
+  '@yarn-tool/get-global-dirs@1.0.13':
+    resolution: {integrity: sha512-wj+bg8Tzxj+P3laEFnAHiyvsl831dIe2Xwj1D/dVFwEI/q2NP8DIC6QwC1DkXosMxV+2rkCUiNiS7d7zEEI/nQ==}
+
+  '@yarn-tool/get-paths-by-type@2.0.29':
+    resolution: {integrity: sha512-j5fDqo9W28Jurl2Bc217tFu8hEHN1ZfT4quOyEM4YRZJfELu7Ur7C6ZFRHWWJnylKIKdnfcYL+GlGwR+Xjlx5Q==}
 
   '@yarn-tool/is-npx@1.0.29':
     resolution: {integrity: sha512-om2NYgAgTgvsdcVASIUJ5PLhPWbXzZnqu4GiAOcnDdqcskmJPFykLkRb6GfJ1/6HAg0wdaew15fDCbs1f7eCDw==}
 
-  '@yarn-tool/require-resolve@4.0.12':
-    resolution: {integrity: sha512-BJmbT9vBzsJEPNvDACmrcZQPSJgfEPqi8mepJhWiVTR08jcRWapb0GzO3ZMNKQeaayAs1ukOhv+zXEwe6kpMpw==}
+  '@yarn-tool/require-resolve@4.0.19':
+    resolution: {integrity: sha512-Y411yyPF5t32LK8liEDrLrOAzdyMdICw4kCH81u9Ysx5IuVBSnaWxwlERWIBXxTIqfkQvlXP6SbzKaeQSI0rcQ==}
 
-  '@yarn-tool/semver-diff@2.0.23':
-    resolution: {integrity: sha512-6SRzvCbQ+rXRe8w7BwnYF8Dqo7b5qKc3B4MHzdC0yn37Tyh/hoBt62VQjXMXwKoXUSeaqgrXcKK17TrrrPNDQg==}
-    peerDependencies:
-      debug-color2: ^1.3.2
+  '@yarn-tool/semver-diff@2.0.30':
+    resolution: {integrity: sha512-+4ZlPxpEliJyisDzGu2yiQf7ahrNbrbqhvN5YZ/f/DCnGxaRYsoNiETHogoeSMjsnmS9gy/ppDsVeMyRErtDbA==}
 
-  '@yarn-tool/table@2.0.24':
-    resolution: {integrity: sha512-PrXg8yk0dt+T2LCwpW9jpIUW3h1n6KhEuLAZmEUhJMAeayefwBQlVDjSqUND3dJlBFNToypGfFW/5y83FLNT6A==}
+  '@yarn-tool/table@2.0.31':
+    resolution: {integrity: sha512-VfPX9bFfrSIf63H87fX87QYuVt2ltsco4IjgxHi54LVu7vZFSST0ST5H6W2os6u+1res64CkNkwkkgiBlpJ94Q==}
 
-  '@yarn-tool/types@1.0.23':
-    resolution: {integrity: sha512-xVPmj50FTRC+8uY2ipvThX3CsnhZFWHHU4ir8ufYDjTYu0n/rzY+84qHbf981l28a3kBQBQuCgd40g4NgvlMTg==}
+  '@yarn-tool/types@1.0.27':
+    resolution: {integrity: sha512-E+4RQqCrMkZZfWzg7DtUsE1/GA3HRLN+flLlIFnOw+RH6/bEgkzQ0dwQ5pahM7dUW6XVIIgH0vfK2OFI8aPZyA==}
 
   '@yarn-tool/update-notifier@1.0.50':
     resolution: {integrity: sha512-RHCEUpmuwImpKCUv7bkTHgaFuvBR2GF2F8Dogteg4cqSuFgOZjK/JfVmPWV9GrQLgoRRUk4pxD4q/BzYK6+fhA==}
@@ -810,6 +977,9 @@ packages:
 
   cjk-conv@1.2.153:
     resolution: {integrity: sha512-SGqgBsIQmvX8UHVfm38SFpjOUgY0CIp2fpIn9tplHzC3OFr2YIoiCsKVUnXt9/PqqqminsvUOpYByuTYd6GRow==}
+
+  cjk-conv@2.0.0:
+    resolution: {integrity: sha512-tqH+e60PLaQyHOKOlgVp9K0rXJgvYLfw5hTXhYoE6x55S38yhr+qhTp4pGoRcPobj0gZNxfQCCrRQ08vD0wKrA==}
 
   class-proxy@2.0.0:
     resolution: {integrity: sha512-BDQfDF/EThTivmMgaEpiwToj20nDzpXoverANmY7aJyTe2z4ss8ZRlFnWFkJqcMli9HvNDzO1+getFeoED/xZg==}
@@ -1005,6 +1175,9 @@ packages:
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
 
+  emoji-regex@11.0.0:
+    resolution: {integrity: sha512-2qQtc7syPcJmvF7BfKxBvwgvhzDth6u3q23+Jr4JOQUcmMGgmj7B4/ePZ2DmOhrrb77S8kMNHq2kilVASysfqA==}
+
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
 
@@ -1071,8 +1244,8 @@ packages:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
 
-  find-pkg-ws@1.0.56:
-    resolution: {integrity: sha512-Mtup06yILJvYRkMa+CmMfG57xB08cmDAxAlG3p3CR9SDej6+BbnwpJDeK1uMU0Davo0c0lhToI2kwMq0KrzqsA==}
+  find-pkg-ws@1.0.60:
+    resolution: {integrity: sha512-TVKm591dFh7BsyM+cHR7t9cZ6/LknbSebd30rKgA9UmBN69i5+fBA6aYn67nTYHcJOiviMVFKdkl1oRGyURv2g==}
 
   find-up@2.1.0:
     resolution: {integrity: sha512-NWzkk0jSJtTt08+FBFMvXoeZnOJD+jTtsRmBYbAIzJdX6l7dLgR7CTubCM5/eDdPUBvLCeVasP1brfVR/9/EZQ==}
@@ -1092,6 +1265,9 @@ packages:
 
   find-yarn-workspace-root2@1.2.57:
     resolution: {integrity: sha512-ty43WPB+XWG5TF37xIwL6iO8I7ZeigOfHNmtbbUNjHX+psaVn5/KzmXU/BqdBukwve5sRO669DKgyLHmpfd9iA==}
+
+  find-yarn-workspace-root2@1.2.61:
+    resolution: {integrity: sha512-Ey/Nhv3tSXk9ib9q5h7hSPgNvFjjvScV9jDW50/QK1H+DJ5uTvuGrHQwQ7KehjfRGddDAIyXrJuwIX2YOvfhTw==}
 
   fs-extra@10.1.0:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
@@ -1825,46 +2001,71 @@ packages:
   regenerate@1.5.0:
     resolution: {integrity: sha512-1s+CxXjJ71i7LNVy8nYwg47XV4y6lAnOEhsMtSKq3WpmPfhl9LuKlTqKIn/3yUpE8lBz+W+TT88Bxyhnr0U4yw==}
 
-  regexp-cjk-plugin-escape-unicode-property@1.0.42:
-    resolution: {integrity: sha512-vi/NzZM6TVY3Nz7sMnKstJ9Ogfrk03qJtPCxDRt7G2blsa/2OEnGKFcyAmzEcM0b00o1+bH+96317G+Pl+lYFw==}
+  regexp-cjk-plugin-escape-unicode-property@2.0.0:
+    resolution: {integrity: sha512-qUPkG3gITH4y1s7F50X1rDmBN9KI3NIyF87wLyHfFrcUE+uKfN+YMyPpxmgy7NPcUMaqDr3gFM4KiKUwK+gXXg==}
     peerDependencies:
       regexp-cjk: '*'
       regexp-parser-event: '*'
 
-  regexp-cjk-plugin-extra@1.0.48:
-    resolution: {integrity: sha512-wAqAXKVzPOct+Jjy5MaeBv98Bc8PoSdt6RE9Pv+2nAJAvm03JVMZvczMde4IaNl+K2cWPE2bVhOjg7+2ad2/2A==}
+  regexp-cjk-plugin-extra@2.0.0:
+    resolution: {integrity: sha512-IH7HfJMJAFKwxLmcMug/iJGabV7/XbsATRVFUYplVLeGRHWlGC4aPZxsD//KlyJLDOluS5MC13dn98BN4gwJuw==}
     peerDependencies:
       '@lazy-cjk/jp-table-voice': '*'
       cjk-conv: '*'
       regexp-cjk: '*'
       regexp-parser-event: '*'
 
-  regexp-cjk-with-plugin-enabled@1.0.26:
-    resolution: {integrity: sha512-8hPPcdHCu0D+O+qUi7HncY7NXbVtlxSwj4eL1B4g92p9evvROlpHs7FDwuQnR0yc3mPP4cJNaJKpaqwsTNvv8g==}
+  regexp-cjk-with-plugin-enabled@2.0.0:
+    resolution: {integrity: sha512-RAEAqTrFSB3P6rNb2WAK/6RGar1nBmmDH7GwUtEyHQMEdfZye4Iuy6Ef/TU9wnwH2iOS8ed1Y/USnLoc2vG7QA==}
 
   regexp-cjk@3.3.120:
     resolution: {integrity: sha512-Uy7/HgXJvFdf5iWnPrdpOqY7CrWPPm+CT3vnme1UqEn0T068unfZE2F75AhNNSpe23sfp4CSmCAznmAwIHFQcg==}
 
+  regexp-cjk@4.0.0:
+    resolution: {integrity: sha512-iXuAuWisSglgc8o4eCGBAkvMwcHpxvljtDVn3IgJBIByIDqUOg2azWyM2nkpgs2fLWiiyl6OLX8Yvvs1gLbbnQ==}
+
   regexp-helper-core@2.0.13:
     resolution: {integrity: sha512-hvCWJLOoydeT3fu1JRwh2eCOLiRw/++hDgpdBQMKc4i0No1I39Td7J/81iJXa+OVSZvn5b7OfyJVtS9zZM9fdw==}
+
+  regexp-helper-core@3.0.0:
+    resolution: {integrity: sha512-F9Musx8w+lT6JWW3y5gh5pNAOA1Yht6u2g+RIhSTcAFUbwtRd296eKpJ6a5FBOfvXb3vucFKHPrs08AT+MCdrw==}
 
   regexp-helper@1.0.46:
     resolution: {integrity: sha512-KDdOqktb2H1tUJnBRHMikTODIQvjnBFhEfgDp0tp1H4m84O9mONNzmad5odnY+iqEqIMsNpEWH2PavtfNZOf+Q==}
 
+  regexp-helper@2.0.0:
+    resolution: {integrity: sha512-NtRsM8SX6CFg1EAX6IKeTmHDSpgUpWtsazcNI3EsPg4QMWSFZHfT4uqSLEYKwp5/ydOQQMhcNmphUej14MNVKQ==}
+
   regexp-parser-event@1.1.50:
     resolution: {integrity: sha512-UFggFTajwvASd64mZsWSxJK+m5/7ItopT548WItRVkW+XuPjLtvNXWTL00XsMgTMg3AvNHvJ1e8BMOAQyzPx7Q==}
+
+  regexp-parser-event@2.0.0:
+    resolution: {integrity: sha512-d8UAVL22NiPKwSyzjNLPYPNw1l66eqyGVjq5kbF1v9koCZaApHiVUctG86Iz1Z1BiNQtT4Uao6pm4q1axAUuZw==}
 
   regexp-parser-literal@1.1.43:
     resolution: {integrity: sha512-fNclf6D55VNcQf3Gv8WBFEjDkO1RqrAVCG8Ep8f73XXA56nH2K3pqPTqk/BACxZHUMVJrAQdh4GqZT6FG4Z6KA==}
 
+  regexp-parser-literal@2.0.0:
+    resolution: {integrity: sha512-WPWM82VnnQhz0WuxBhW6UkCweIdxHKA5AQlcoxwiDfU/RwFdnBXQob+BDuuhgOzySGXU0Ho4di44qihL9V46kA==}
+
   regexp-range@2.0.10:
     resolution: {integrity: sha512-wqC6M1lxixmq6uPh15jvDMs80fOBNhCbdsPgFnniz4vphykqdZfZmDNy+TvTMd/oQ8dTxjhufIQilHgsiRor5Q==}
+
+  regexp-range@3.0.0:
+    resolution: {integrity: sha512-sRP3qAiW9aLxf1LvjyOY6MQLKu9tRlXpTFYIsw9sX4WEjzI9n1+qmbcZNRNWE4TsGd+WcBY5v5R4NpZZyDQOgg==}
 
   regexp-support@1.0.62:
     resolution: {integrity: sha512-K8MEFZMYmEd6CrrA8sNACSdG6Tte2m9bVLsTujf8Y/x4mzYnUdeteM4TOabJfQ10SxnzkVDN6udPzfjJON9S8Q==}
 
+  regexp-support@2.0.0:
+    resolution: {integrity: sha512-zbEW4/pbwrIqHU0MD+gAJRnyFWALI09KkjIEVaXDYRCpGEz96eHVp5H83w2nifNayrQZG/DE2H+AzoswbxoSTg==}
+
   regexpp2@1.3.38:
     resolution: {integrity: sha512-2eJ3JrsMmdDoBbR39QbqAYifbhSnfdpLKZRohRrDrOCYpvsh2am+0NZzBMJJI1Od3eLTn1AHBG4iETPfOJ4FPQ==}
+    engines: {node: '>=4.0.0'}
+
+  regexpp2@2.0.0:
+    resolution: {integrity: sha512-JsX5pbx+auoaVBkK+wtOENStg/K1qlXNnz1TtUnBVuSlaViHgQoJiG6ApVN1iNICWocHDCAyor7xHQhsYmYQtg==}
     engines: {node: '>=4.0.0'}
 
   regexpu-core@4.8.0:
@@ -1944,6 +2145,11 @@ packages:
 
   semver@7.8.5:
     resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  semver@7.8.6:
+    resolution: {integrity: sha512-9lpSSU4Mly3mrtruwLs1eLK6+gzbzqeBFwRNjIjE+9LuDpWdYctrQlQ3ej1Ilgi7gknpsTRnPoLP8DpCHqHIJw==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2108,13 +2314,16 @@ packages:
       '@types/node': '*'
       ts-toolbelt: ^9.6.0
 
-  ts-type@3.0.18:
-    resolution: {integrity: sha512-v0p6SI1Mvo4i1ROuTV3eXBDdKN6upvvOHYiQQ6rwkBcvrrHC5whtrlPHZCbJVYngHA5YailfYtDmJkQA8mvNQg==}
+  ts-type@3.0.19:
+    resolution: {integrity: sha512-TiOULsPS+p6WCE4PFXVh9A5/OfgpsWbFpIOfaalGxLOMtlTANp6hmAn3dT46ppWnpBVxz8PcJshg6JqZABpETQ==}
     peerDependencies:
       ts-toolbelt: ^9.6.0
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+  tslib@2.9.1:
+    resolution: {integrity: sha512-a4Ux9VKuIMHsOS7ENbEq6hK2ZGYIT27Rtl0E4eD9KqwxhKiQeMZE/9xb3IdYwWaSOyIBQLExhQgXDTYoiCxnWA==}
 
   tsx@4.23.15:
     resolution: {integrity: sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==}
@@ -2150,9 +2359,9 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@6.0.3:
-    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
-    engines: {node: '>=14.17'}
+  typescript@7.0.2:
+    resolution: {integrity: sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==}
+    engines: {node: '>=16.20.0'}
     hasBin: true
 
   uglify-js@3.19.3:
@@ -2233,8 +2442,8 @@ packages:
   wordwrap@1.0.0:
     resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
 
-  workspaces-config@2.0.13:
-    resolution: {integrity: sha512-97xizM1whPcF0XexzZwrk/pCIwOGPGcdz4R+OLbhSZ+buyeHAblYG7QtRVPJqTDhjiV2+dmEl3tCfgj02UaQIw==}
+  workspaces-config@2.0.18:
+    resolution: {integrity: sha512-cl8kk9NIY/2Wj31/Cbuow+0SY82CRfjeLWExr7obEqyWUND6VSY8rDWCc+e7FkJRraDpV8Tpdo1QtUNe57yKOw==}
 
   wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
@@ -2246,8 +2455,8 @@ packages:
   write-file-atomic@3.0.3:
     resolution: {integrity: sha512-AvHcyZ5JnSfq3ioSyjrBkH9yW4m7Ayk8/9My/DD9onKeu/94fwrMocemO2QAJFAlnnDN+ZDS+ZjAR5ua1/PV/Q==}
 
-  ws-pkg-list@3.0.13:
-    resolution: {integrity: sha512-9rRUWE5iIxyBFqOfLu6+BQ1Vy93FYmGRhRCD2SSW7mKvFAdr1WbIVNXRflyXDkzIqq1oyziVTlol2Ppb6IChdg==}
+  ws-pkg-list@3.0.23:
+    resolution: {integrity: sha512-xIObuUdxRkKUutuUrckBd8NOtMeTm1Jy3NWz+dDfDBqGsVCcZnAiLIqXrT24jk0evMrzn9tNJwob6lmJ9D61+g==}
 
   xdg-basedir@4.0.0:
     resolution: {integrity: sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==}
@@ -2297,12 +2506,12 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@bluelovers/conventional-changelog-bluelovers@5.0.27(@types/bluebird@3.5.42)(@types/node@26.6.5)(ts-toolbelt@9.6.0)':
+  '@bluelovers/conventional-changelog-bluelovers@5.0.27(@types/bluebird@3.5.42)(@types/node@26.6.6)(ts-toolbelt@9.6.0)':
     dependencies:
       compare-func: 2.0.0
       emoji-regex: 10.6.0
       q: 1.5.1
-      ts-type: 2.1.10(@types/bluebird@3.5.42)(@types/node@26.6.5)(ts-toolbelt@9.6.0)
+      ts-type: 2.1.10(@types/bluebird@3.5.42)(@types/node@26.6.6)(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - '@types/bluebird'
       - '@types/node'
@@ -2412,10 +2621,10 @@ snapshots:
 
   '@gar/promisify@1.1.3': {}
 
-  '@git-lazy/debug@2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.5)(supports-color@7.2.0)(ts-toolbelt@9.6.0)':
+  '@git-lazy/debug@2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.6)(supports-color@7.2.0)(ts-toolbelt@9.6.0)':
     dependencies:
       debug: 4.4.3(supports-color@7.2.0)
-      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@types/bluebird'
@@ -2423,9 +2632,9 @@ snapshots:
       - supports-color
       - ts-toolbelt
 
-  '@git-lazy/spawn@2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(ts-toolbelt@9.6.0)':
+  '@git-lazy/spawn@2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(ts-toolbelt@9.6.0)':
     dependencies:
-      '@git-lazy/debug': 2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.5)(supports-color@7.2.0)(ts-toolbelt@9.6.0)
+      '@git-lazy/debug': 2.0.3(@types/bluebird@3.5.42)(@types/node@26.6.6)(supports-color@7.2.0)(ts-toolbelt@9.6.0)
       '@lazy-glob/sort-tree': 1.0.13(ts-toolbelt@9.6.0)
       '@lazy-spawn/stringify': 2.0.3(ts-toolbelt@9.6.0)
       '@lazy-spawn/strip-ansi': 2.0.3
@@ -2433,7 +2642,7 @@ snapshots:
       bluebird: 3.7.2
       crlf-normalize: 1.0.26(ts-toolbelt@9.6.0)
       cross-spawn-extra: 3.0.3
-      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       promise-tap-then-catch: 1.0.6
       tslib: 2.8.1
     transitivePeerDependencies:
@@ -2455,7 +2664,7 @@ snapshots:
 
   '@jest/pattern@30.5.0':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       jest-regex-util: 30.5.0
 
   '@jest/schemas@30.5.0':
@@ -2468,7 +2677,7 @@ snapshots:
       '@jest/schemas': 30.5.0
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       '@types/yargs': 17.0.35
       chalk: 4.1.2
 
@@ -2491,7 +2700,7 @@ snapshots:
     dependencies:
       big.js: 7.0.1
       lodash: 4.18.1
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
@@ -2504,7 +2713,23 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  '@lazy-cjk/jp-table-alias@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-cjk/jp-table-convert': 2.0.0(ts-toolbelt@9.6.0)
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   '@lazy-cjk/jp-table-comparison@1.0.35(ts-toolbelt@9.6.0)':
+    dependencies:
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+      zero-width: 1.0.35
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@lazy-cjk/jp-table-comparison@2.0.0(ts-toolbelt@9.6.0)':
     dependencies:
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
       tslib: 2.8.1
@@ -2521,10 +2746,27 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  '@lazy-cjk/jp-table-convert@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-cjk/jp-table-comparison': 2.0.0(ts-toolbelt@9.6.0)
+      regexp-helper: 2.0.0(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+      uni-string: 2.0.10
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   '@lazy-cjk/jp-table-voice@1.0.42(ts-toolbelt@9.6.0)':
     dependencies:
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@lazy-cjk/jp-table-voice@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
@@ -2537,9 +2779,23 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  '@lazy-cjk/novel-filename@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-cjk/jp-table-convert': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-convert': 2.0.0(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   '@lazy-cjk/regexp-range-table@1.0.11': {}
 
+  '@lazy-cjk/regexp-range-table@2.0.0': {}
+
   '@lazy-cjk/static-build-zh-convert@1.0.61':
+    dependencies:
+      tslib: 2.8.1
+
+  '@lazy-cjk/static-build-zh-convert@2.0.0':
     dependencies:
       tslib: 2.8.1
 
@@ -2554,7 +2810,16 @@ snapshots:
       tslib: 2.8.1
       uni-string: 2.0.10
 
+  '@lazy-cjk/util@2.0.0':
+    dependencies:
+      tslib: 2.8.1
+      uni-string: 2.0.10
+
   '@lazy-cjk/zh-convert-table@1.0.29':
+    dependencies:
+      tslib: 2.8.1
+
+  '@lazy-cjk/zh-convert-table@2.0.0':
     dependencies:
       tslib: 2.8.1
 
@@ -2568,10 +2833,28 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  '@lazy-cjk/zh-convert@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-cjk/static-build-zh-convert': 2.0.0
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      regexp-helper: 2.0.0(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+      uni-string: 2.0.10
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   '@lazy-cjk/zh-slugify@1.0.96(ts-toolbelt@9.6.0)':
     dependencies:
       '@lazy-cjk/zh-table-greedy': 1.0.97(ts-toolbelt@9.6.0)
       '@lazy-cjk/zh-table-list': 1.0.94(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@lazy-cjk/zh-slugify@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-cjk/zh-table-greedy': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-table-list': 2.0.0(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
@@ -2582,12 +2865,31 @@ snapshots:
       '@lazy-cjk/zh-convert': 1.0.58(ts-toolbelt@9.6.0)
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
       deepmerge-plus: 4.0.1(ts-toolbelt@9.6.0)
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@lazy-cjk/zh-table-alias@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-cjk/jp-table-alias': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-convert': 2.0.0(ts-toolbelt@9.6.0)
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      deepmerge-plus: 4.0.1(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
 
   '@lazy-cjk/zh-table-greedy@1.0.97(ts-toolbelt@9.6.0)':
+    dependencies:
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+      uni-string: 2.0.10
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@lazy-cjk/zh-table-greedy@2.0.0(ts-toolbelt@9.6.0)':
     dependencies:
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
       tslib: 2.8.1
@@ -2602,6 +2904,19 @@ snapshots:
       '@lazy-cjk/zh-convert': 1.0.58(ts-toolbelt@9.6.0)
       '@lazy-cjk/zh-table-alias': 1.0.72(ts-toolbelt@9.6.0)
       '@lazy-cjk/zh-table-greedy': 1.0.97(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+      uni-string: 2.0.10
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@lazy-cjk/zh-table-list@2.0.0(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-cjk/jp-table-alias': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/jp-table-convert': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-convert': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-table-alias': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-table-greedy': 2.0.0(ts-toolbelt@9.6.0)
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
       tslib: 2.8.1
       uni-string: 2.0.10
     transitivePeerDependencies:
@@ -2646,15 +2961,15 @@ snapshots:
       tslib: 2.8.1
       zero-width: 1.0.35
 
-  '@lazy-node/semver-part@1.0.29':
+  '@lazy-node/semver-part@1.0.34':
     dependencies:
-      semver: 7.8.5
+      semver: 7.8.6
       tslib: 2.8.1
 
   '@lazy-node/types-path@1.0.3(ts-toolbelt@9.6.0)':
     dependencies:
-      '@types/node': 26.6.5
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      '@types/node': 26.6.6
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
@@ -2666,7 +2981,7 @@ snapshots:
   '@lazy-spawn/stringify@2.0.3(ts-toolbelt@9.6.0)':
     dependencies:
       '@lazy-spawn/strip-ansi': 2.0.3
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -2759,31 +3074,31 @@ snapshots:
   '@novel-segment/postag@1.0.32(ts-toolbelt@9.6.0)':
     dependencies:
       ts-enum-util: 4.1.0
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
 
-  '@novel-segment/pretty-diff@1.0.30(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)':
+  '@novel-segment/pretty-diff@1.0.30(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)':
     dependencies:
       '@lazy-cjk/zh-convert': 1.0.58(ts-toolbelt@9.6.0)
       '@novel-segment/stringify': 1.0.20(ts-toolbelt@9.6.0)
       '@novel-segment/types': 1.0.15
       crlf-normalize: 1.0.26(ts-toolbelt@9.6.0)
-      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       diff: 9.0.0
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - '@types/bluebird'
       - '@types/node'
       - debug
       - ts-toolbelt
 
-  '@novel-segment/sort-dict-table@1.0.33(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)':
+  '@novel-segment/sort-dict-table@1.0.33(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)':
     dependencies:
       '@novel-segment/loader-line': 1.0.37(ts-toolbelt@9.6.0)
       '@novel-segment/loaders': 1.0.57(ts-toolbelt@9.6.0)
-      '@novel-segment/util': 1.0.81(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
+      '@novel-segment/util': 1.0.81(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
       '@novel-segment/util-compare': 1.0.30(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - array-hyper-unique
@@ -2791,11 +3106,11 @@ snapshots:
       - ts-toolbelt
       - uni-string
 
-  '@novel-segment/sort-synonym@1.0.29(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)':
+  '@novel-segment/sort-synonym@1.0.29(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)':
     dependencies:
       '@novel-segment/loader-line': 1.0.37(ts-toolbelt@9.6.0)
       '@novel-segment/types': 1.0.15
-      '@novel-segment/util': 1.0.81(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
+      '@novel-segment/util': 1.0.81(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
       '@novel-segment/util-compare': 1.0.30(ts-toolbelt@9.6.0)
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
@@ -2813,7 +3128,7 @@ snapshots:
   '@novel-segment/stringify@1.0.20(ts-toolbelt@9.6.0)':
     dependencies:
       '@novel-segment/types': 1.0.15
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -2822,7 +3137,7 @@ snapshots:
       '@novel-segment/table-core-abstract': 1.0.27(ts-toolbelt@9.6.0)
       '@novel-segment/table-line': 1.0.26(ts-toolbelt@9.6.0)
       '@novel-segment/types': 1.0.15
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -2831,7 +3146,7 @@ snapshots:
       '@novel-segment/loaders': 1.0.57(ts-toolbelt@9.6.0)
       '@novel-segment/types': 1.0.15
       lodash: 4.18.1
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -2857,7 +3172,7 @@ snapshots:
       '@novel-segment/table-core-abstract': 1.0.27(ts-toolbelt@9.6.0)
       '@novel-segment/table-line': 1.0.26(ts-toolbelt@9.6.0)
       '@novel-segment/types': 1.0.15
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -2865,7 +3180,7 @@ snapshots:
     dependencies:
       '@novel-segment/table-core-abstract': 1.0.27(ts-toolbelt@9.6.0)
       '@novel-segment/types': 1.0.15
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -2901,6 +3216,19 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  '@novel-segment/util@1.0.81(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)':
+    dependencies:
+      '@bluelovers/string-natural-compare': 2.0.17
+      '@lazy-cjk/fullhalf': 1.0.4
+      '@lazy-cjk/zh-slugify': 1.0.96(ts-toolbelt@9.6.0)
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      cjk-conv: 2.0.0(ts-toolbelt@9.6.0)
+      regexp-helper: 1.0.46
+      tslib: 2.8.1
+      uni-string: 2.0.10
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   '@npmcli/fs@2.1.2':
     dependencies:
       '@gar/promisify': 1.1.3
@@ -2911,25 +3239,29 @@ snapshots:
       mkdirp: 1.0.4
       rimraf: 3.0.2
 
-  '@regexp-cjk/escape-unicode-property@1.0.32':
+  '@regexp-cjk/escape-unicode-property@2.0.0':
     dependencies:
-      '@regexp-cjk/rewrite-pattern': 1.0.37
+      '@regexp-cjk/rewrite-pattern': 2.0.0
       lodash: 4.18.1
       tslib: 2.8.1
 
-  '@regexp-cjk/regexpu-core-v4@1.0.12':
+  '@regexp-cjk/regexpu-core-v4@2.0.0':
     dependencies:
       regexpu-core: 4.8.0
 
-  '@regexp-cjk/rewrite-flags@1.0.26':
+  '@regexp-cjk/rewrite-flags@2.0.0':
     dependencies:
       tslib: 2.8.1
 
-  '@regexp-cjk/rewrite-pattern@1.0.37':
+  '@regexp-cjk/rewrite-pattern@2.0.0':
     dependencies:
-      '@regexp-cjk/regexpu-core-v4': 1.0.12
-      '@regexp-cjk/rewrite-flags': 1.0.26
+      '@regexp-cjk/regexpu-core-v4': 2.0.0
+      '@regexp-cjk/rewrite-flags': 2.0.0
       lodash: 4.18.1
+      tslib: 2.8.1
+
+  '@regexp-cjk/types@2.0.0':
+    dependencies:
       tslib: 2.8.1
 
   '@sinclair/typebox@0.34.52': {}
@@ -2940,17 +3272,25 @@ snapshots:
     dependencies:
       defer-to-connect: 1.1.3
 
-  '@ts-type/is-array@1.0.20(ts-toolbelt@9.6.0)':
+  '@ts-type/is-array@1.0.21(ts-toolbelt@9.6.0)':
     dependencies:
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
   '@ts-type/package-dts@3.0.14(ts-toolbelt@9.6.0)':
     dependencies:
       '@types/semver': 7.8.0
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@ts-type/package-dts@3.0.15(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@types/semver': 7.8.0
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
+      tslib: 2.9.1
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -2958,12 +3298,12 @@ snapshots:
 
   '@types/cross-spawn@6.0.6':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -2982,17 +3322,17 @@ snapshots:
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/luxon@3.7.6': {}
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@26.6.5':
+  '@types/node@26.6.6':
     dependencies:
       undici-types: 8.9.0
 
@@ -3000,7 +3340,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
 
   '@types/semver@7.8.0': {}
 
@@ -3012,24 +3352,86 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@yarn-tool/changelog@3.0.17(@bluelovers/conventional-changelog-bluelovers@5.0.27(@types/bluebird@3.5.42)(@types/node@26.6.5)(ts-toolbelt@9.6.0))(debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)':
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    optional: true
+
+  '@yarn-tool/changelog@3.0.31(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)':
     dependencies:
-      '@bluelovers/conventional-changelog-bluelovers': 5.0.27(@types/bluebird@3.5.42)(@types/node@26.6.5)(ts-toolbelt@9.6.0)
+      '@bluelovers/conventional-changelog-bluelovers': 5.0.27(@types/bluebird@3.5.42)(@types/node@26.6.6)(ts-toolbelt@9.6.0)
       '@lerna/conventional-commits': 6.4.1
-      '@yarn-tool/find-root': 2.0.27(ts-toolbelt@9.6.0)
-      '@yarn-tool/require-resolve': 4.0.12(ts-toolbelt@9.6.0)
-      '@yarn-tool/semver-diff': 2.0.23(debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
-      '@yarn-tool/table': 2.0.24(debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
-      '@yarn-tool/types': 1.0.23
+      '@yarn-tool/find-root': 2.0.35(ts-toolbelt@9.6.0)
+      '@yarn-tool/require-resolve': 4.0.19(ts-toolbelt@9.6.0)
+      '@yarn-tool/semver-diff': 2.0.30(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      '@yarn-tool/table': 2.0.31(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      '@yarn-tool/types': 1.0.27
       lodash: 4.18.1
       path-is-same: 1.0.29(ts-toolbelt@9.6.0)
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
       upath2: 3.1.25(ts-toolbelt@9.6.0)
-      ws-pkg-list: 3.0.13(ts-toolbelt@9.6.0)
+      ws-pkg-list: 3.0.23(ts-toolbelt@9.6.0)
       yargs: 17.7.3
     transitivePeerDependencies:
-      - debug-color2
+      - '@types/bluebird'
+      - '@types/node'
+      - debug
       - ts-toolbelt
 
   '@yarn-tool/find-root@2.0.27(ts-toolbelt@9.6.0)':
@@ -3044,66 +3446,83 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
-  '@yarn-tool/fnm-detect@1.0.11(ts-toolbelt@9.6.0)':
+  '@yarn-tool/find-root@2.0.35(ts-toolbelt@9.6.0)':
     dependencies:
-      fs-extra: 11.4.1
-      sort-object-keys2: 3.0.10
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
-      tslib: 2.8.1
-      upath2: 3.1.25(ts-toolbelt@9.6.0)
-    transitivePeerDependencies:
-      - ts-toolbelt
-
-  '@yarn-tool/get-global-dirs@1.0.9':
-    dependencies:
-      ini: 7.0.0
-      tslib: 2.8.1
-
-  '@yarn-tool/get-paths-by-type@2.0.22(ts-toolbelt@9.6.0)':
-    dependencies:
-      '@yarn-tool/fnm-detect': 1.0.11(ts-toolbelt@9.6.0)
-      '@yarn-tool/get-global-dirs': 1.0.9
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - ts-toolbelt
-
-  '@yarn-tool/is-npx@1.0.29(ts-toolbelt@9.6.0)':
-    dependencies:
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - ts-toolbelt
-
-  '@yarn-tool/require-resolve@4.0.12(ts-toolbelt@9.6.0)':
-    dependencies:
-      '@ts-type/package-dts': 3.0.14(ts-toolbelt@9.6.0)
-      '@yarn-tool/get-paths-by-type': 2.0.22(ts-toolbelt@9.6.0)
+      '@ts-type/package-dts': 3.0.15(ts-toolbelt@9.6.0)
+      err-code: 3.0.1
+      find-yarn-workspace-root2: 1.2.61(ts-toolbelt@9.6.0)
+      path-is-same: 1.0.29(ts-toolbelt@9.6.0)
       pkg-dir: 5.0.0
       tslib: 2.8.1
       upath2: 3.1.25(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
-  '@yarn-tool/semver-diff@2.0.23(debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)':
+  '@yarn-tool/fnm-detect@1.0.18(ts-toolbelt@9.6.0)':
     dependencies:
-      '@lazy-node/semver-part': 1.0.29
-      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      fs-extra: 11.4.1
+      sort-object-keys2: 3.0.10
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+      upath2: 3.1.25(ts-toolbelt@9.6.0)
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@yarn-tool/get-global-dirs@1.0.13':
+    dependencies:
+      ini: 7.0.0
+      tslib: 2.8.1
+
+  '@yarn-tool/get-paths-by-type@2.0.29(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@yarn-tool/fnm-detect': 1.0.18(ts-toolbelt@9.6.0)
+      '@yarn-tool/get-global-dirs': 1.0.13
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
 
-  '@yarn-tool/table@2.0.24(debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)':
+  '@yarn-tool/is-npx@1.0.29(ts-toolbelt@9.6.0)':
     dependencies:
-      '@ts-type/package-dts': 3.0.14(ts-toolbelt@9.6.0)
-      '@yarn-tool/semver-diff': 2.0.23(debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@yarn-tool/require-resolve@4.0.19(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@ts-type/package-dts': 3.0.15(ts-toolbelt@9.6.0)
+      '@yarn-tool/get-paths-by-type': 2.0.29(ts-toolbelt@9.6.0)
+      pkg-dir: 5.0.0
+      tslib: 2.8.1
+      upath2: 3.1.25(ts-toolbelt@9.6.0)
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  '@yarn-tool/semver-diff@2.0.30(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@lazy-node/semver-part': 1.0.34
+      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - '@types/bluebird'
+      - '@types/node'
+      - debug
+      - ts-toolbelt
+
+  '@yarn-tool/table@2.0.31(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)':
+    dependencies:
+      '@ts-type/package-dts': 3.0.15(ts-toolbelt@9.6.0)
+      '@yarn-tool/semver-diff': 2.0.30(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       cli-table3: 0.6.5
       tslib: 2.8.1
     transitivePeerDependencies:
-      - debug-color2
+      - '@types/bluebird'
+      - '@types/node'
+      - debug
       - ts-toolbelt
 
-  '@yarn-tool/types@1.0.23':
+  '@yarn-tool/types@1.0.27':
     dependencies:
       tslib: 2.8.1
 
@@ -3159,7 +3578,7 @@ snapshots:
     dependencies:
       deep-eql: 4.0.0
       lodash: 4.18.1
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -3322,6 +3741,26 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  cjk-conv@2.0.0(ts-toolbelt@9.6.0):
+    dependencies:
+      '@lazy-cjk/jp-table-alias': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/jp-table-comparison': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/jp-table-convert': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/jp-table-voice': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/novel-filename': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/util': 2.0.0
+      '@lazy-cjk/zh-convert': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-convert-table': 2.0.0
+      '@lazy-cjk/zh-slugify': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-table-alias': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-table-greedy': 2.0.0(ts-toolbelt@9.6.0)
+      '@lazy-cjk/zh-table-list': 2.0.0(ts-toolbelt@9.6.0)
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+      uni-string: 2.0.10
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   class-proxy@2.0.0: {}
 
   clean-stack@2.2.0: {}
@@ -3456,7 +3895,7 @@ snapshots:
 
   crlf-normalize@1.0.26(ts-toolbelt@9.6.0):
     dependencies:
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -3464,7 +3903,7 @@ snapshots:
     dependencies:
       '@types/bluebird': 3.5.42
       '@types/cross-spawn': 6.0.6
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       bluebird: 3.7.2
       callable-instance2: 1.0.0
       cross-spawn: 7.0.6
@@ -3489,14 +3928,14 @@ snapshots:
 
   dateformat@3.0.3: {}
 
-  debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
+  debug-color2@1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
     dependencies:
       '@types/luxon': 3.7.6
       chalk: 2.4.2
       debug: 4.4.3(supports-color@7.2.0)
       env-bool: 2.0.3
       luxon: 3.7.2
-      ts-type: 2.1.10(@types/bluebird@3.5.42)(@types/node@26.6.5)(ts-toolbelt@9.6.0)
+      ts-type: 2.1.10(@types/bluebird@3.5.42)(@types/node@26.6.6)(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@types/bluebird'
@@ -3529,7 +3968,7 @@ snapshots:
   deepmerge-plus@4.0.1(ts-toolbelt@9.6.0):
     dependencies:
       is-mergeable-object: 1.1.1
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
@@ -3562,6 +4001,8 @@ snapshots:
   duplexer3@0.1.5: {}
 
   emoji-regex@10.6.0: {}
+
+  emoji-regex@11.0.0: {}
 
   emoji-regex@8.0.0: {}
 
@@ -3653,9 +4094,9 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  find-pkg-ws@1.0.56(ts-toolbelt@9.6.0):
+  find-pkg-ws@1.0.60(ts-toolbelt@9.6.0):
     dependencies:
-      find-yarn-workspace-root2: 1.2.57(ts-toolbelt@9.6.0)
+      find-yarn-workspace-root2: 1.2.61(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
@@ -3686,6 +4127,15 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  find-yarn-workspace-root2@1.2.61(ts-toolbelt@9.6.0):
+    dependencies:
+      micromatch: 4.0.8
+      pkg-dir: 5.0.0
+      tslib: 2.8.1
+      upath2: 3.1.25(ts-toolbelt@9.6.0)
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   fs-extra@10.1.0:
     dependencies:
       graceful-fs: 4.2.11
@@ -3705,14 +4155,14 @@ snapshots:
       jsonfile: 6.2.1
       universalify: 2.0.1
 
-  fs-iconv@3.1.21(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
+  fs-iconv@3.1.21(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
     dependencies:
       '@lazy-node/sanitize-filename': 1.0.15
       bluebird: 3.7.2
       fs-extra: 11.4.1
-      iconv-jschardet: 2.0.36(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      iconv-jschardet: 2.0.36(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       lodash: 4.18.1
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@types/bluebird'
@@ -3889,9 +4339,9 @@ snapshots:
 
   http-cache-semantics@4.3.0: {}
 
-  iconv-jschardet@2.0.36(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
+  iconv-jschardet@2.0.36(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
     dependencies:
-      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       env-bool: 2.0.3
       iconv-lite: 0.6.3
       jschardet: 3.1.4
@@ -4007,7 +4457,7 @@ snapshots:
     dependencies:
       '@jest/expect-utils': 30.5.2
       '@jest/types': 30.5.1
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       jest-util: 30.5.1
 
   jest-regex-util@30.5.0: {}
@@ -4015,7 +4465,7 @@ snapshots:
   jest-util@30.5.1:
     dependencies:
       '@jest/types': 30.5.1
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       chalk: 4.1.2
       ci-info: 4.4.0
       graceful-fs: 4.2.11
@@ -4055,12 +4505,12 @@ snapshots:
     dependencies:
       package-json: 6.5.0
 
-  lazy-cacache@3.0.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
+  lazy-cacache@3.0.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
     dependencies:
       bluebird: 3.7.2
       cacache: 16.1.3(bluebird@3.7.2)
       cache-path: 3.0.14(ts-toolbelt@9.6.0)
-      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       delete-empty: 3.0.0
       fs-extra: 10.1.0
       ssri: 9.0.1
@@ -4216,7 +4666,7 @@ snapshots:
 
   normalize-url@4.5.1: {}
 
-  novel-segment-cli@1.1.143(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
+  novel-segment-cli@1.1.143(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0):
     dependencies:
       '@bluelovers/fast-glob': 3.0.4
       '@lazy-cjk/zh-convert': 1.0.58(ts-toolbelt@9.6.0)
@@ -4226,16 +4676,16 @@ snapshots:
       bluebird: 3.7.2
       cache-path: 4.0.14(ts-toolbelt@9.6.0)
       crlf-normalize: 1.0.26(ts-toolbelt@9.6.0)
-      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      debug-color2: 1.3.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       fs-extra: 11.4.1
-      fs-iconv: 3.1.21(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
-      iconv-jschardet: 2.0.36(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
-      lazy-cacache: 3.0.2(@types/bluebird@3.5.42)(@types/node@26.6.5)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      fs-iconv: 3.1.21(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      iconv-jschardet: 2.0.36(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
+      lazy-cacache: 3.0.2(@types/bluebird@3.5.42)(@types/node@26.6.6)(debug@4.4.3(supports-color@7.2.0))(ts-toolbelt@9.6.0)
       lodash: 4.18.1
       novel-segment: 2.7.125(ts-toolbelt@9.6.0)
       pkg-up: 3.1.0
       prettyuse: 0.0.0
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
       upath2: 3.1.25(ts-toolbelt@9.6.0)
       yargs: 17.7.3
@@ -4267,7 +4717,7 @@ snapshots:
       segment-dict: 2.3.214(array-hyper-unique@2.1.10(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)(uni-string@2.0.10)
       sort-object-keys2: 3.0.10
       ts-enum-util: 4.1.0
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
       uni-string: 2.0.10
     transitivePeerDependencies:
@@ -4502,32 +4952,34 @@ snapshots:
 
   regenerate@1.5.0: {}
 
-  regexp-cjk-plugin-escape-unicode-property@1.0.42(regexp-cjk@3.3.120(ts-toolbelt@9.6.0))(regexp-parser-event@1.1.50(ts-toolbelt@9.6.0)):
+  regexp-cjk-plugin-escape-unicode-property@2.0.0(regexp-cjk@4.0.0(ts-toolbelt@9.6.0))(regexp-parser-event@2.0.0(ts-toolbelt@9.6.0)):
     dependencies:
-      '@regexp-cjk/escape-unicode-property': 1.0.32
-      regexp-cjk: 3.3.120(ts-toolbelt@9.6.0)
-      regexp-parser-event: 1.1.50(ts-toolbelt@9.6.0)
+      '@regexp-cjk/escape-unicode-property': 2.0.0
+      '@regexp-cjk/rewrite-pattern': 2.0.0
+      regexp-cjk: 4.0.0(ts-toolbelt@9.6.0)
+      regexp-parser-event: 2.0.0(ts-toolbelt@9.6.0)
+      regexpp2: 2.0.0
       tslib: 2.8.1
 
-  regexp-cjk-plugin-extra@1.0.48(@lazy-cjk/jp-table-voice@1.0.42(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(regexp-cjk@3.3.120(ts-toolbelt@9.6.0))(regexp-parser-event@1.1.50(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0):
+  regexp-cjk-plugin-extra@2.0.0(@lazy-cjk/jp-table-voice@2.0.0(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(regexp-cjk@4.0.0(ts-toolbelt@9.6.0))(regexp-parser-event@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0):
     dependencies:
       '@lazy-cjk/fullhalf': 1.0.4
-      '@lazy-cjk/jp-table-voice': 1.0.42(ts-toolbelt@9.6.0)
+      '@lazy-cjk/jp-table-voice': 2.0.0(ts-toolbelt@9.6.0)
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
-      cjk-conv: 1.2.153(ts-toolbelt@9.6.0)
+      cjk-conv: 2.0.0(ts-toolbelt@9.6.0)
       lodash: 4.18.1
-      regexp-cjk: 3.3.120(ts-toolbelt@9.6.0)
-      regexp-parser-event: 1.1.50(ts-toolbelt@9.6.0)
+      regexp-cjk: 4.0.0(ts-toolbelt@9.6.0)
+      regexp-parser-event: 2.0.0(ts-toolbelt@9.6.0)
       tslib: 2.8.1
       uni-string: 2.0.10
     transitivePeerDependencies:
       - ts-toolbelt
 
-  regexp-cjk-with-plugin-enabled@1.0.26(@lazy-cjk/jp-table-voice@1.0.42(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(regexp-parser-event@1.1.50(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0):
+  regexp-cjk-with-plugin-enabled@2.0.0(@lazy-cjk/jp-table-voice@2.0.0(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(regexp-parser-event@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0):
     dependencies:
-      regexp-cjk: 3.3.120(ts-toolbelt@9.6.0)
-      regexp-cjk-plugin-escape-unicode-property: 1.0.42(regexp-cjk@3.3.120(ts-toolbelt@9.6.0))(regexp-parser-event@1.1.50(ts-toolbelt@9.6.0))
-      regexp-cjk-plugin-extra: 1.0.48(@lazy-cjk/jp-table-voice@1.0.42(ts-toolbelt@9.6.0))(cjk-conv@1.2.153(ts-toolbelt@9.6.0))(regexp-cjk@3.3.120(ts-toolbelt@9.6.0))(regexp-parser-event@1.1.50(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
+      regexp-cjk: 4.0.0(ts-toolbelt@9.6.0)
+      regexp-cjk-plugin-escape-unicode-property: 2.0.0(regexp-cjk@4.0.0(ts-toolbelt@9.6.0))(regexp-parser-event@2.0.0(ts-toolbelt@9.6.0))
+      regexp-cjk-plugin-extra: 2.0.0(@lazy-cjk/jp-table-voice@2.0.0(ts-toolbelt@9.6.0))(cjk-conv@2.0.0(ts-toolbelt@9.6.0))(regexp-cjk@4.0.0(ts-toolbelt@9.6.0))(regexp-parser-event@2.0.0(ts-toolbelt@9.6.0))(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@lazy-cjk/jp-table-voice'
@@ -4548,7 +5000,22 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  regexp-cjk@4.0.0(ts-toolbelt@9.6.0):
+    dependencies:
+      '@lazy-cjk/zh-table-list': 2.0.0(ts-toolbelt@9.6.0)
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      lodash: 4.18.1
+      regexp-helper: 2.0.0(ts-toolbelt@9.6.0)
+      regexp-parser-event: 2.0.0(ts-toolbelt@9.6.0)
+      regexp-parser-literal: 2.0.0(ts-toolbelt@9.6.0)
+      regexp-range: 3.0.0(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   regexp-helper-core@2.0.13: {}
+
+  regexp-helper-core@3.0.0: {}
 
   regexp-helper@1.0.46:
     dependencies:
@@ -4556,12 +5023,30 @@ snapshots:
       regexp-support: 1.0.62
       tslib: 2.8.1
 
+  regexp-helper@2.0.0(ts-toolbelt@9.6.0):
+    dependencies:
+      regexp-helper-core: 3.0.0
+      regexp-support: 2.0.0(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   regexp-parser-event@1.1.50(ts-toolbelt@9.6.0):
     dependencies:
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
       regexp-parser-literal: 1.1.43(ts-toolbelt@9.6.0)
       regexpp2: 1.3.38
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  regexp-parser-event@2.0.0(ts-toolbelt@9.6.0):
+    dependencies:
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      regexp-parser-literal: 2.0.0(ts-toolbelt@9.6.0)
+      regexpp2: 2.0.0
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
@@ -4576,10 +5061,28 @@ snapshots:
     transitivePeerDependencies:
       - ts-toolbelt
 
+  regexp-parser-literal@2.0.0(ts-toolbelt@9.6.0):
+    dependencies:
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      emoji-regex: 11.0.0
+      regexpp2: 2.0.0
+      tslib: 2.8.1
+      uni-string: 2.0.10
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   regexp-range@2.0.10(ts-toolbelt@9.6.0):
     dependencies:
       '@bluelovers/fill-range': 7.0.2
       '@lazy-cjk/regexp-range-table': 1.0.11
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  regexp-range@3.0.0(ts-toolbelt@9.6.0):
+    dependencies:
+      '@bluelovers/fill-range': 7.0.2
+      '@lazy-cjk/regexp-range-table': 2.0.0
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
@@ -4589,7 +5092,20 @@ snapshots:
       sort-object-keys2: 3.0.10
       tslib: 2.8.1
 
+  regexp-support@2.0.0(ts-toolbelt@9.6.0):
+    dependencies:
+      '@regexp-cjk/types': 2.0.0
+      array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
+      sort-object-keys2: 3.0.10
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - ts-toolbelt
+
   regexpp2@1.3.38:
+    dependencies:
+      tslib: 2.8.1
+
+  regexpp2@2.0.0:
     dependencies:
       tslib: 2.8.1
 
@@ -4682,6 +5198,8 @@ snapshots:
 
   semver@7.8.5: {}
 
+  semver@7.8.6: {}
+
   set-blocking@2.0.0: {}
 
   shebang-command@2.0.0:
@@ -4745,7 +5263,7 @@ snapshots:
       '@lazy-cjk/str-util-trim': 1.0.7
       '@lazy-cjk/zh2num': 1.0.5(ts-toolbelt@9.6.0)
       chinese-parseint2: 2.0.12
-      cjk-conv: 1.2.153(ts-toolbelt@9.6.0)
+      cjk-conv: 2.0.0(ts-toolbelt@9.6.0)
       deepmerge: 4.3.1
       is-fullwidth-code-point: 3.0.0
       strip-ansi: 6.0.1
@@ -4840,22 +5358,24 @@ snapshots:
 
   ts-toolbelt@9.6.0: {}
 
-  ts-type@2.1.10(@types/bluebird@3.5.42)(@types/node@26.6.5)(ts-toolbelt@9.6.0):
+  ts-type@2.1.10(@types/bluebird@3.5.42)(@types/node@26.6.6)(ts-toolbelt@9.6.0):
     dependencies:
       '@types/bluebird': 3.5.42
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       ts-toolbelt: 9.6.0
       tslib: 2.8.1
       typedarray-dts: 1.0.0
 
-  ts-type@3.0.18(ts-toolbelt@9.6.0):
+  ts-type@3.0.19(ts-toolbelt@9.6.0):
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       ts-toolbelt: 9.6.0
       tslib: 2.8.1
       typedarray-dts: 1.0.0
 
   tslib@2.8.1: {}
+
+  tslib@2.9.1: {}
 
   tsx@4.23.15:
     dependencies:
@@ -4881,7 +5401,28 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@6.0.3: {}
+  typescript@7.0.2:
+    optionalDependencies:
+      '@typescript/typescript-aix-ppc64': 7.0.2
+      '@typescript/typescript-darwin-arm64': 7.0.2
+      '@typescript/typescript-darwin-x64': 7.0.2
+      '@typescript/typescript-freebsd-arm64': 7.0.2
+      '@typescript/typescript-freebsd-x64': 7.0.2
+      '@typescript/typescript-linux-arm': 7.0.2
+      '@typescript/typescript-linux-arm64': 7.0.2
+      '@typescript/typescript-linux-loong64': 7.0.2
+      '@typescript/typescript-linux-mips64el': 7.0.2
+      '@typescript/typescript-linux-ppc64': 7.0.2
+      '@typescript/typescript-linux-riscv64': 7.0.2
+      '@typescript/typescript-linux-s390x': 7.0.2
+      '@typescript/typescript-linux-x64': 7.0.2
+      '@typescript/typescript-netbsd-arm64': 7.0.2
+      '@typescript/typescript-netbsd-x64': 7.0.2
+      '@typescript/typescript-openbsd-arm64': 7.0.2
+      '@typescript/typescript-openbsd-x64': 7.0.2
+      '@typescript/typescript-sunos-x64': 7.0.2
+      '@typescript/typescript-win32-arm64': 7.0.2
+      '@typescript/typescript-win32-x64': 7.0.2
 
   uglify-js@3.19.3:
     optional: true
@@ -4921,7 +5462,7 @@ snapshots:
   upath2@3.1.25(ts-toolbelt@9.6.0):
     dependencies:
       '@lazy-node/types-path': 1.0.3(ts-toolbelt@9.6.0)
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       path-is-network-drive: 1.0.24
       path-strip-sep: 1.0.21
       tslib: 2.8.1
@@ -4974,9 +5515,9 @@ snapshots:
 
   wordwrap@1.0.0: {}
 
-  workspaces-config@2.0.13(ts-toolbelt@9.6.0):
+  workspaces-config@2.0.18(ts-toolbelt@9.6.0):
     dependencies:
-      find-pkg-ws: 1.0.56(ts-toolbelt@9.6.0)
+      find-pkg-ws: 1.0.60(ts-toolbelt@9.6.0)
       fs-extra: 11.4.1
       tslib: 2.8.1
     transitivePeerDependencies:
@@ -4997,19 +5538,19 @@ snapshots:
       signal-exit: 3.0.7
       typedarray-to-buffer: 3.1.5
 
-  ws-pkg-list@3.0.13(ts-toolbelt@9.6.0):
+  ws-pkg-list@3.0.23(ts-toolbelt@9.6.0):
     dependencies:
       '@bluelovers/fast-glob': 3.0.4
-      '@ts-type/package-dts': 3.0.14(ts-toolbelt@9.6.0)
-      '@yarn-tool/find-root': 2.0.27(ts-toolbelt@9.6.0)
+      '@ts-type/package-dts': 3.0.15(ts-toolbelt@9.6.0)
+      '@yarn-tool/find-root': 2.0.35(ts-toolbelt@9.6.0)
       array-hyper-unique: 2.1.10(ts-toolbelt@9.6.0)
-      find-yarn-workspace-root2: 1.2.57(ts-toolbelt@9.6.0)
+      find-yarn-workspace-root2: 1.2.61(ts-toolbelt@9.6.0)
       fs-extra: 11.4.1
       micromatch: 4.0.8
-      ts-type: 3.0.18(ts-toolbelt@9.6.0)
+      ts-type: 3.0.19(ts-toolbelt@9.6.0)
       tslib: 2.8.1
       upath2: 3.1.25(ts-toolbelt@9.6.0)
-      workspaces-config: 2.0.13(ts-toolbelt@9.6.0)
+      workspaces-config: 2.0.18(ts-toolbelt@9.6.0)
     transitivePeerDependencies:
       - ts-toolbelt
 
