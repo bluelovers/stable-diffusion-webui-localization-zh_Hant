@@ -1,0 +1,34 @@
+{
+	"@@/^control_v1p_sd15_brightness(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_brightness $1 (光效 文字)",
+  "@@/^control_v1p_sd15_illumination(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_illumination $1 (光影构图)",
+
+  "@@/^ip-adapter-faceid-plusv2_sd15(?: (\\[\\w+\\]))?$/": "ip-adapter-faceid-plusv2_sd15 $1 (IP-Adapter-FaceID)",
+  "@@/^ip-adapter-faceid-portrait-v11_sd15(?: (\\[\\w+\\]))?$/": "ip-adapter-faceid-portrait-v11_sd15 $1 (IP-Adapter-FaceID Portrait 肖像照)",
+
+  "@@/^photomaker-v1(?: (\\[\\w+\\]))?$/": "photomaker-v1 $1 (PhotoMaker 个性化人像图片)",
+
+  "@@/^t2iadapter_zoedepth_(\\w+)(?: (\\[\\w+\\]))?$/": "t2iadapter_zoedepth_$1 $2 (ZoeDepth 结合相对和绝对深度)",
+
+	"@@/^outfitToOutfit_v20(?: (\\[\\w+\\]))?$/": "outfitToOutfit_v20 $1 (服裝 更改人物服裝)",
+
+  "@@/^ip-adapter_sd15_light(?: (\\[\\w+\\]))?$/": "IP-Adapter light $1 (提示詞優先)",
+  "@@/^ip-adapter-plus_sd15(?: (\\[\\w+\\]))?$/": "IP-Adapter Plus $1 (參考整體風格 例如服裝)",
+  "@@/^ip-adapter-plus-face_sd15(?: (\\[\\w+\\]))?$/": "IP-Adapter Face $1 (參考臉與发型)",
+
+  "@@/^control_v1p_sd15_qrcode(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_qrcode $1 (QR Code)",
+
+  "@@/^control_v1p_sd15_qrcode_monster(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_qrcode_monster $1 (Controlnet QR Code Monster v1 For SD-1.5)",
+  "@@/^control_v1p_sd15_qrcode_monster_v2(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_qrcode_monster_v2 $1 (Controlnet QR Code Monster v2 For SD-1.5)",
+  "@@/^controlnetQRCodeMonster_v2Ckpt(?: (\\[\\w+\\]))?$/": "controlnetQRCodeMonster_v2Ckpt $1 (Controlnet QR Code Monster v2 For SD-1.5 ckpt)",
+
+  // https://civitai.com/models/232042/loosecontrol-use-the-box-depth-map-to-control-the-protagonist-position
+  "@@/^loosecontrolUseTheBoxDepth_v10(?: (\\[\\w+\\]))?$/": "loosecontrolUseTheBoxDepth_v10 (使用 depth map 控制主體位置)",
+
+  // @see https://github.com/Mikubill/sd-webui-controlnet/discussions/2442#discussioncomment-8966771
+  "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
+  "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
+
+	// -------------
+
+	// -------------
+}

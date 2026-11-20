@@ -1,0 +1,84 @@
+{
+	// !After Detailer -------------
+
+  "face_yolov8n.pt": "face_yolov8n.pt (2D / 寫實 臉)",
+  "face_yolov8n_v2.pt": "face_yolov8n_v2.pt (2D / 寫實 臉)",
+  "face_yolov8s.pt": "face_yolov8s.pt (2D / 寫實 臉)",
+  "face_yolov8m.pt": "face_yolov8m.pt (2D / 寫實 臉)",
+  "hand_yolov8n.pt": "hand_yolov8n.pt (2D / 寫實 手)",
+  "hand_yolov8s.pt": "hand_yolov8s.pt (2D / 寫實 手)",
+  "person_yolov8n-seg.pt": "person_yolov8n-seg.pt (2D / 寫實 全身)",
+  "person_yolov8s-seg.pt": "person_yolov8s-seg.pt (2D / 寫實 全身)",
+  "mediapipe_face_full": "mediapipe_face_full (寫實 臉)",
+  "mediapipe_face_short": "mediapipe_face_short (寫實 臉)",
+  "mediapipe_face_mesh": "mediapipe_face_mesh (寫實 臉)",
+  "mediapipe_face_mesh_eyes_only": "mediapipe_face_mesh_eyes_only (寫實 眼)",
+  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg.pt (寫實 服裝)",
+  "genitalia.pt": "genitalia.pt (寫實 生殖器)",
+
+  "pussyV2.pt": "pussyV2.pt (2D / 寫實 生殖器 女)",
+  "penisV2.pt": "penisV2.pt (2D / 寫實 生殖器 男)",
+
+  "nipple.pt": "nipple.pt (2D / 寫實 乳頭)",
+
+  "female-breast.pt": "female-breast.pt (寫實 胸部)",
+
+  "female_breast_v1.1-sensitive.pt": "female_breast_v1.1-sensitive.pt (寫實 胸部)",
+  "female_breast_v2.pt": "female_breast_v2.pt (寫實 胸部 不含衣服)",
+  "female_breast_v3.pt": "female_breast_v3.pt (寫實 胸部 不含衣服)",
+  "female_breast_v3.2.pt": "female_breast_v3.2.pt stable (寫實 胸部 不含衣服)",
+  "female_breast_v4.2.pt": "female_breast_v4.2.pt (寫實 胸部 奇幻 不含衣服)",
+
+  "lips_v1.pt": "lips_v1.pt (2D / 寫實 嘴唇)",
+
+  "Eyes.pt": "Eyes.pt (2D / 寫實 眼)",
+
+  "animal_ears.pt": "animal_ears.pt (2D 獸耳)",
+
+  "breasts_seg.pt": "breasts_seg.pt (2D 胸部 包含部分衣服)",
+
+  "vagina-v2.6.pt": "vagina-v2.6.pt (寫實 生殖器 女)",
+  "vagina-v3.2.pt": "vagina-v3.2.pt (寫實 生殖器 女 奇幻)",
+
+  "FacesV1.pt": "FacesV1.pt (2D / 寫實 / 獸迷 臉)",
+
+  /**
+    * https://civitai.com/models/329458/hand-detailersegmentation-adetailer?modelVersionId=369179
+   */
+  "PitHandDetailer-v1-seg.pt": "PitHandDetailer-v1-seg.pt (2D / 寫實 / 手)",
+  "PitHandDetailer-v1b-seg.pt.pt": "PitHandDetailer-v1b-seg.pt (2D / 寫實 / 手)",
+
+  /**
+   * https://civitai.com/models/334668/eye-detailersegmentation-adetailer
+   **/
+  "PitEyeDetailer-v1-seg.pt": "PitEyeDetailer-v1-seg.pt (2D / 寫實 / 單眼)",
+  "PitEyeDetailer-v1b-seg.pt": "PitEyeDetailer-v1b-seg.pt (2D / 寫實 / 單眼)",
+
+  "Eyeful_v1.pt": "Eyeful_v1.pt (2D / 寫實 / 單眼)",
+
+  "Anzhc Eyes -seg-hd.pt": "Anzhc Eyes -seg-hd.pt (2D / 寫實 / 單眼)",
+
+  "Anzhc Face -seg.pt": "Anzhc Face -seg.pt (2D / 寫實 / 臉)",
+
+  "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg.pt (眼鏡)",
+
+  "unwanted-3x.pt": "unwanted-3x.pt (Text / Speech bubbles / Watermarks | Anime / Furry)",
+  "belly-segV3.pt": "belly-segV3.pt Pregnant Belly (Realistic, furry, anime)",
+
+  "robot face v1a.pt": "robot face v1a.pt (Dragon, robot, android face)",
+
+  "tattoo_s_yolov8.pt": "tattoo_s_yolov8.pt (Tattoo)",
+  "trampstamp-bbox.pt": "trampstamp-bbox.pt (Tattoo - Lower Back)",
+
+  // https://civitai.com/models/726468/anime-bra-bikini-yolo-model-adetailer
+  "anime_bra_strapless_v11.pt": "anime_bra_strapless_v11.pt (2D 胸罩 無肩帶)",
+  "anime_bra_v11.pt": "anime_bra_v11.pt (2D 胸罩 有肩帶)",
+
+  // https://civitai.com/models/1222100/mask-adetailer-face-detailer-for-eyes-eyebrows-and-nose
+  "maskdetailer-seg.pt": "maskdetailer-seg.pt (Mask, Eyes, Eyebrows, Nose)",
+  "assdetailer-seg.pt": "assdetailer-seg.pt (ass, butts, rears, pants, and panties)",
+
+	// -------------
+
+	// -------------
+}

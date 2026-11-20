@@ -1,0 +1,22 @@
+{
+	"sd-webui-pnginfo-beautify": "PNGINFO Beautify 美化",
+  "PNGINFO Beautify": "PNGINFO Beautify 美化",
+
+  "Refactored from journey-ad Bilingual translation, rewritten in TypeScript for improved bug fixes and performance enhancements.": "重構自 journey-ad 的 Bilingual Localization，以 TypeScript 重構，改善錯誤修正以及效能提升。",
+
+	// -------------
+
+  "sd-webui-lobe-theme": "Lobe theme",
+
+  "sd-webui-agent-scheduler": "Agent Scheduler 任務排程代理",
+  "Agent Scheduler": "任務排程代理",
+
+  "sd-webui-inpaint-anything": "Inpaint Anything 全能重绘",
+  "Inpaint Anything": "全能重绘",
+
+  "sd-webui-bilingual-localization": "Bilingual Localization 雙語翻譯對照",
+
+	// -------------
+
+	// -------------
+}

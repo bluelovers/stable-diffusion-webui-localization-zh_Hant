@@ -5,97 +5,10 @@
   "zh_Hant": "zh_Hant (繁體中文)",
   "zh_Hans": "zh_Hans (简体中文)",
 
-  "sd-webui-pnginfo-beautify": "PNGINFO Beautify 美化",
-  "PNGINFO Beautify": "PNGINFO Beautify 美化",
-
-  "Refactored from journey-ad Bilingual translation, rewritten in TypeScript for improved bug fixes and performance enhancements.": "重構自 journey-ad 的 Bilingual Localization，以 TypeScript 重構，改善錯誤修正以及效能提升。",
-
   // -------------
   "Far clip": "遠處裁面",
 
-  "[wiki]": null,
-  "wiki": null,
-
   "3D rendering": "3D 渲染中",
-
-
-  // -------------
-  "realism": null,
-  "cubism": null,
-  "expressionism": null,
-  "figurativism": null,
-  "magical realism": null,
-  "nature": null,
-  "primitivism": null,
-  "portrait": null,
-  "landscape": null,
-  "architecture": null,
-  "cityscape": null,
-  "colorful": null,
-  "pop art": null,
-  "popular": null,
-  "light": null,
-  "high contrast": null,
-  "humanoid": null,
-  "fantasy": null,
-  "fashion": null,
-  "fauvism": null,
-  "gore": null,
-  "graffiti": null,
-  "horror": null,
-  "impressionism": null,
-  "installation": null,
-  "luminism": null,
-  "manga": null,
-  "melanin": null,
-  "messy": null,
-  "monochromatic": null,
-  "nudity": null,
-  "object": null,
-  "painting": null,
-  "photograph": null,
-  "photography": null,
-  "surrealism": null,
-  "vibrant": null,
-  "digital": null,
-  "digital art": null,
-  "sci-fi": null,
-  "detailed": null,
-  "octane render": null,
-  "concept art": null,
-
-  "scroll": null,
-  "sculpture": null,
-
-  "psychedelic": null,
-  "Psychedelic": null,
-  "Psychedelic Art": null,
-
-  "clean": null,
-  "collage": null,
-  "Collage": null,
-  "Comic Book": null,
-  "comics": null,
-  "concept": null,
-
-  // -------------
-  "reallybigname": null,
-
-  "[hash:<algorithms>]": null,
-  "Action on exiting caption": null,
-  "Adi Granov": null,
-  "Adolf Kosarek": null,
-  "alpha and beta": null,
-  "B": null,
-  "by AUTOMATIC1111": null,
-  "working": null,
-
-  "Euler": null,
-  "Euler a": null,
-  "extension by": null,
-  "extension by bbc_mc": null,
-  "user": null,
-  "view": null,
 
   // -------------
   "Asymmetric tiling": "非對稱平舖",
@@ -128,35 +41,9 @@
   "##txt2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
   "##img2img_controlnet_ControlNet_controlnet_type_filter_radio##Normal": "法线图",
 
-  "@@/^control_v1p_sd15_brightness(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_brightness $1 (光效 文字)",
-  "@@/^control_v1p_sd15_illumination(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_illumination $1 (光影构图)",
-
-  "@@/^ip-adapter-faceid-plusv2_sd15(?: (\\[\\w+\\]))?$/": "ip-adapter-faceid-plusv2_sd15 $1 (IP-Adapter-FaceID)",
-  "@@/^ip-adapter-faceid-portrait-v11_sd15(?: (\\[\\w+\\]))?$/": "ip-adapter-faceid-portrait-v11_sd15 $1 (IP-Adapter-FaceID Portrait 肖像照)",
-
-  "@@/^photomaker-v1(?: (\\[\\w+\\]))?$/": "photomaker-v1 $1 (PhotoMaker 个性化人像图片)",
-
-  "@@/^t2iadapter_zoedepth_(\\w+)(?: (\\[\\w+\\]))?$/": "t2iadapter_zoedepth_$1 $2 (ZoeDepth 结合相对和绝对深度)",
   "depth_zoe": "depth_zoe (ZoeDepth 结合相对和绝对深度)",
 
-  "@@/^outfitToOutfit_v20(?: (\\[\\w+\\]))?$/": "outfitToOutfit_v20 $1 (服裝 更改人物服裝)",
 
-  "@@/^ip-adapter_sd15_light(?: (\\[\\w+\\]))?$/": "IP-Adapter light $1 (提示詞優先)",
-  "@@/^ip-adapter-plus_sd15(?: (\\[\\w+\\]))?$/": "IP-Adapter Plus $1 (參考整體風格 例如服裝)",
-  "@@/^ip-adapter-plus-face_sd15(?: (\\[\\w+\\]))?$/": "IP-Adapter Face $1 (參考臉與发型)",
-
-  "@@/^control_v1p_sd15_qrcode(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_qrcode $1 (QR Code)",
-
-  "@@/^control_v1p_sd15_qrcode_monster(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_qrcode_monster $1 (Controlnet QR Code Monster v1 For SD-1.5)",
-  "@@/^control_v1p_sd15_qrcode_monster_v2(?: (\\[\\w+\\]))?$/": "control_v1p_sd15_qrcode_monster_v2 $1 (Controlnet QR Code Monster v2 For SD-1.5)",
-  "@@/^controlnetQRCodeMonster_v2Ckpt(?: (\\[\\w+\\]))?$/": "controlnetQRCodeMonster_v2Ckpt $1 (Controlnet QR Code Monster v2 For SD-1.5 ckpt)",
-
-  // https://civitai.com/models/232042/loosecontrol-use-the-box-depth-map-to-control-the-protagonist-position
-  "@@/^loosecontrolUseTheBoxDepth_v10(?: (\\[\\w+\\]))?$/": "loosecontrolUseTheBoxDepth_v10 (使用 depth map 控制主體位置)",
-
-  // @see https://github.com/Mikubill/sd-webui-controlnet/discussions/2442#discussioncomment-8966771
-  "ip-adapter_face_id_plus": "ip-adapter_face_id_plus (InsightFace+CLIP-H IP-Adapter)",
-  "ip-adapter-auto": "ip-adapter-auto (IP-Adapter 自動判斷)",
   "inpaint_global_harmonious": "inpaint_global_harmonious (重绘 - 全局融合算法)",
   "t2ia_color_grid": "t2ia_color_grid (文本到图像自适应控制 - 色彩像素化)",
   "t2ia_sketch_pidi": "t2ia_sketch_pidi (文本到图像自适应控制 - 草绘边缘像素差分)",
@@ -177,132 +64,9 @@
   "MLSD Distance Threshold": "MLSD 距離閾值 (长度)",
   "MLSD Value Threshold": "MLSD 值閾值 (强度)",
 
-
-  // !After Detailer -------------
-  "face_yolov8n.pt": "face_yolov8n.pt (2D / 寫實 臉)",
-  "face_yolov8n_v2.pt": "face_yolov8n_v2.pt (2D / 寫實 臉)",
-  "face_yolov8s.pt": "face_yolov8s.pt (2D / 寫實 臉)",
-  "face_yolov8m.pt": "face_yolov8m.pt (2D / 寫實 臉)",
-  "hand_yolov8n.pt": "hand_yolov8n.pt (2D / 寫實 手)",
-  "hand_yolov8s.pt": "hand_yolov8s.pt (2D / 寫實 手)",
-  "person_yolov8n-seg.pt": "person_yolov8n-seg.pt (2D / 寫實 全身)",
-  "person_yolov8s-seg.pt": "person_yolov8s-seg.pt (2D / 寫實 全身)",
-  "mediapipe_face_full": "mediapipe_face_full (寫實 臉)",
-  "mediapipe_face_short": "mediapipe_face_short (寫實 臉)",
-  "mediapipe_face_mesh": "mediapipe_face_mesh (寫實 臉)",
-  "mediapipe_face_mesh_eyes_only": "mediapipe_face_mesh_eyes_only (寫實 眼)",
-  "deepfashion2_yolov8s-seg.pt": "deepfashion2_yolov8s-seg.pt (寫實 服裝)",
-  "genitalia.pt": "genitalia.pt (寫實 生殖器)",
-
-  "pussyV2.pt": "pussyV2.pt (2D / 寫實 生殖器 女)",
-  "penisV2.pt": "penisV2.pt (2D / 寫實 生殖器 男)",
-
-  "nipple.pt": "nipple.pt (2D / 寫實 乳頭)",
-
-  "female-breast.pt": "female-breast.pt (寫實 胸部)",
-
-  "female_breast_v1.1-sensitive.pt": "female_breast_v1.1-sensitive.pt (寫實 胸部)",
-  "female_breast_v2.pt": "female_breast_v2.pt (寫實 胸部 不含衣服)",
-  "female_breast_v3.pt": "female_breast_v3.pt (寫實 胸部 不含衣服)",
-  "female_breast_v3.2.pt": "female_breast_v3.2.pt stable (寫實 胸部 不含衣服)",
-  "female_breast_v4.2.pt": "female_breast_v4.2.pt (寫實 胸部 奇幻 不含衣服)",
-
-  "lips_v1.pt": "lips_v1.pt (2D / 寫實 嘴唇)",
-
-  "Eyes.pt": "Eyes.pt (2D / 寫實 眼)",
-
-  "animal_ears.pt": "animal_ears.pt (2D 獸耳)",
-
-  "breasts_seg.pt": "breasts_seg.pt (2D 胸部 包含部分衣服)",
-
-  "vagina-v2.6.pt": "vagina-v2.6.pt (寫實 生殖器 女)",
-  "vagina-v3.2.pt": "vagina-v3.2.pt (寫實 生殖器 女 奇幻)",
-
-  "FacesV1.pt": "FacesV1.pt (2D / 寫實 / 獸迷 臉)",
-
-  /**
-    * https://civitai.com/models/329458/hand-detailersegmentation-adetailer?modelVersionId=369179
-   */
-  "PitHandDetailer-v1-seg.pt": "PitHandDetailer-v1-seg.pt (2D / 寫實 / 手)",
-  "PitHandDetailer-v1b-seg.pt.pt": "PitHandDetailer-v1b-seg.pt (2D / 寫實 / 手)",
-
-  /**
-   * https://civitai.com/models/334668/eye-detailersegmentation-adetailer
-   **/
-  "PitEyeDetailer-v1-seg.pt": "PitEyeDetailer-v1-seg.pt (2D / 寫實 / 單眼)",
-  "PitEyeDetailer-v1b-seg.pt": "PitEyeDetailer-v1b-seg.pt (2D / 寫實 / 單眼)",
-
-  "Eyeful_v1.pt": "Eyeful_v1.pt (2D / 寫實 / 單眼)",
-
-  "Anzhc Eyes -seg-hd.pt": "Anzhc Eyes -seg-hd.pt (2D / 寫實 / 單眼)",
-
-  "Anzhc Face -seg.pt": "Anzhc Face -seg.pt (2D / 寫實 / 臉)",
-
-  "PitGlassesDetailer-v1-seg.pt": "PitGlassesDetailer-v1-seg.pt (眼鏡)",
-
-  "unwanted-3x.pt": "unwanted-3x.pt (Text / Speech bubbles / Watermarks | Anime / Furry)",
-  "belly-segV3.pt": "belly-segV3.pt Pregnant Belly (Realistic, furry, anime)",
-
-  "robot face v1a.pt": "robot face v1a.pt (Dragon, robot, android face)",
-
-  "tattoo_s_yolov8.pt": "tattoo_s_yolov8.pt (Tattoo)",
-  "trampstamp-bbox.pt": "trampstamp-bbox.pt (Tattoo - Lower Back)",
-
-  // https://civitai.com/models/726468/anime-bra-bikini-yolo-model-adetailer
-  "anime_bra_strapless_v11.pt": "anime_bra_strapless_v11.pt (2D 胸罩 無肩帶)",
-  "anime_bra_v11.pt": "anime_bra_v11.pt (2D 胸罩 有肩帶)",
-
-  // https://civitai.com/models/1222100/mask-adetailer-face-detailer-for-eyes-eyebrows-and-nose
-  "maskdetailer-seg.pt": "maskdetailer-seg.pt (Mask, Eyes, Eyebrows, Nose)",
-  "assdetailer-seg.pt": "assdetailer-seg.pt (ass, butts, rears, pants, and panties)",
-
-
   // -------------
-  "uniform": null,
+
   "##settings_sampler-params##uniform": "均勻",
-
-  // -------------
-  "ESRGAN_4x": "ESRGAN_4x (寫實 锐化)",
-  "R-ESRGAN 4x+": "R-ESRGAN 4x+ (通用 锐度最高，细节更多)",
-  "R-ESRGAN 4x+ Anime6B": "R-ESRGAN 4x+ Anime6B (2D 轻微的羽化/模糊处理)",
-  "R-ESRGAN AnimeVideo": "R-ESRGAN AnimeVideo (2D 针对视频放大处理，模糊程度更高)",
-  "R-ESRGAN General 4xV3": "R-ESRGAN General 4xV3 (细节上更倾向于4X+ 模糊程度上也比Anime6B大一点)",
-  "R-ESRGAN General WDN 4xV3": "R-ESRGAN General WDN 4xV3 (2D 适用于厚涂插画)",
-
-  "4x_DWTP_DS_DAT2_V3": "4x_DWTP_DS_DAT2_V3 (黑白 漫畫 文字)",
-  "4x_DWTP_DS_dat2_v3_2": "4x_DWTP_DS_dat2_v3_2 (黑白 漫畫 文字)",
-
-  "4x_IllustrationJaNai_V1_DAT2_190k": "4x_IllustrationJaNai_V1_DAT2_190k (彩色 插畫 漫畫封面 修復)",
-  "4x_IllustrationJaNai_V1_ESRGAN_135k": "4x_IllustrationJaNai_V1_ESRGAN_135k (彩色 插畫 漫畫封面 修復)",
-
-  "2xHFA2kSwinIR-S": "2xHFA2kSwinIR-S (動畫 降躁 锐化)",
-  "2xHFA2kShallowESRGAN": "2xHFA2kShallowESRGAN (動畫 降躁 锐化)",
-
-  "4xLSDIR": "4xLSDIR (寫實 修復)",
-  "4xLSDIRplus": "4xLSDIRplus (寫實 修復)",
-
-  "4xFFHQDAT": "4xFFHQDAT (寫實 臉 降躁)",
-  "4xFFHQLDAT": "4xFFHQLDAT (寫實 臉 降躁 適用於低品質圖像)",
-
-  "4xFaceUpDAT": "4xFaceUpDAT (寫實 臉)",
-  "4xFaceUpSharpDAT": "4xFaceUpSharpDAT (寫實 臉 降躁 锐化)",
-  "4xFaceUpSharpLDAT": "4xFaceUpSharpLDAT (寫實 臉 降躁 锐化 適用於低品質圖像)",
-
-  "4x_DWTP_descreenton_H_esrgan": "4x_DWTP_descreenton_H_esrgan (漫畫 去除網點)",
-
-  "4x_SmolFace_200k": "4x_SmolFace_200k (像素 轉高清)",
-  "4x_SmolFace_clean": "4x_SmolFace_clean (像素 轉高清)",
-
-  "4x_PixelPerfectV4_137000_G": "4x_PixelPerfectV4_137000_G (像素 轉高清)",
-
-  "4x_escale_100000_G": "4x_escale_100000_G (動漫)",
-
-  "1x_PixelSharpen_100000": "1x_PixelSharpen_100000 (像素 去模糊)",
-
-  "8x_NMKD-Typescale_175k": "8x_NMKD-Typescale_175k (文字)",
-
-  "4xFSDedither_Manga": "4xFSDedither_Manga (像素 漫畫)",
-  "4x_NMKD-UltraYandere_300k": "4x_NMKD-UltraYandere_300k (動漫)",
 
   // -------------
 
@@ -313,14 +77,6 @@
 
   "ML-Danbooru Caformer dec-5-97527": "ML-Danbooru Caformer dec-5-97527 (詳細 緩慢 推薦)",
   "WD14 ConvNeXTV2 v1": "WD14 ConvNeXTV2 v1 (稍微詳細 快速 推薦)",
-
-  // -------------
-  "sd-webui-lobe-theme": "Lobe theme",
-  "sd-webui-agent-scheduler": "Agent Scheduler 任務排程代理",
-  "Agent Scheduler": "任務排程代理",
-  "sd-webui-inpaint-anything": "Inpaint Anything 全能重绘",
-  "Inpaint Anything": "全能重绘",
-  "sd-webui-bilingual-localization": "Bilingual Localization 雙語翻譯對照",
 
   // -------------
 
@@ -334,6 +90,7 @@
   "CLIP: skip inquire categories": "CLIP: 忽略查詢類別",
 
   // -------------
+
   // -------------
 
 }
